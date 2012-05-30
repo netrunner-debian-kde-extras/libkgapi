@@ -1,0 +1,4 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --dbg-package=libkgapi0-dbg --with kde --parallel
