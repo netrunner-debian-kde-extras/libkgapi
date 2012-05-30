@@ -1,0 +1,42 @@
+LibKGAPI
+========================
+
+LibKGAPI (previously called LibKGoogle) is a C++ library that implements APIs for
+various Google services.
+
+Currently supported APIs:
+  - Calendar API v3 (https://developers.google.com/google-apps/calendar)
+  - Contacts API v3 (https://developers.google.com/google-apps/contacts/v3/)
+  - Tasks API v1 (https://developers.google.com/google-apps/tasks)
+
+
+Dependencies:
+-------------
+  - KDE Libraries >= 4.7.0
+  - KDEPIM Libraries >= 4.6 (version >= 4.4 supported with -DUSE_KCAL=TRUE switch, see below)
+  - QJSON
+  - Boost (when using -DUSE_KCAL=TRUE switch)
+
+
+Compiling:
+----------
+
+  mkdir build
+  cd build
+  cmake ../ -DCMAKE_INSTALL_PREFIX=/usr
+  make
+  # As root:
+  make install
+
+BUGS:
+-----
+Submit bugs and feature requests to KDE bugzilla, product libkgapi:
+
+https://bugs.kde.org/enter_bug.cgi?product=libkgapi
+
+
+Backwards compatibility with KDEPIM 4.4:
+----------------------------------------
+If you want to use this resources with KDEPIM Libraries >= 4.4, you can run cmake with -DUSE_KCAL=TRUE.
+This switch will enable backwards compatibility with old KDEPIM Libraries by using obsolete KCal API 
+instead of new KCalCore API. During compilation you will see lot of deprecation warning, but it's OK.
