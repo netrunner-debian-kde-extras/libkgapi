@@ -1,3 +1,9 @@
+libkgapi (0.4.0-0ubuntu2) quantal; urgency=low
+
+  * Add a symbols file for libkgapi0
+
+ -- Jonathan Thomas <echidnaman@kubuntu.org>  Mon, 18 Jun 2012 16:43:10 -0400
+
 libkgapi (0.4.0-0ubuntu1) quantal; urgency=low
 
   * Initial release
