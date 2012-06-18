@@ -1,3 +1,4 @@
+# SymbolsHelper-Confirmed: 0.4.0 amd64
 libkgapi.so.0 libkgapi0 #MINVER#
  _ZN5KGAPI12FetchListJob10setServiceERK7QString@Base 0.4.0
  _ZN5KGAPI12FetchListJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 0.4.0
@@ -343,7 +344,7 @@ libkgapi.so.0 libkgapi0 #MINVER#
  _ZNK5KGAPI2Ui10AuthWidget10metaObjectEv@Base 0.4.0
  _ZNK5KGAPI2Ui10AuthWidget11getProgressEv@Base 0.4.0
  _ZNK5KGAPI2Ui10AuthWidget18getShowProgressBarEv@Base 0.4.0
- _ZNK5KGAPI2Ui10AuthWidget26qt_check_for_QOBJECT_macroIS1_EEvRKT_@Base 0.4.0
+ (optional=templinst)_ZNK5KGAPI2Ui10AuthWidget26qt_check_for_QOBJECT_macroIS1_EEvRKT_@Base 0.4.0
  _ZNK5KGAPI2Ui13AccountsCombo10metaObjectEv@Base 0.4.0
  _ZNK5KGAPI2Ui13AccountsCombo14currentAccountEv@Base 0.4.0
  _ZNK5KGAPI4Auth10metaObjectEv@Base 0.4.0
@@ -491,17 +492,7 @@ libkgapi.so.0 libkgapi0 #MINVER#
  _ZTVN5KGAPI8Services5TasksE@Base 0.4.0
  _ZTVN5KGAPI8Services8CalendarE@Base 0.4.0
  _ZTVN5KGAPI8Services8ContactsE@Base 0.4.0
- _ZThn16_N5KGAPI2Ui10AuthWidgetD0Ev@Base 0.4.0
- _ZThn16_N5KGAPI2Ui10AuthWidgetD1Ev@Base 0.4.0
- _ZThn16_N5KGAPI2Ui13AccountsComboD0Ev@Base 0.4.0
- _ZThn16_N5KGAPI2Ui13AccountsComboD1Ev@Base 0.4.0
- _ZThn16_N5KGAPI7Objects4TaskD0Ev@Base 0.4.0
- _ZThn16_N5KGAPI7Objects4TaskD1Ev@Base 0.4.0
- _ZThn16_N5KGAPI7Objects5EventD0Ev@Base 0.4.0
- _ZThn16_N5KGAPI7Objects5EventD1Ev@Base 0.4.0
- _ZThn40_N5KGAPI2Ui13AccountsComboD0Ev@Base 0.4.0
- _ZThn40_N5KGAPI2Ui13AccountsComboD1Ev@Base 0.4.0
- _ZThn48_N5KGAPI7Objects4TaskD0Ev@Base 0.4.0
- _ZThn48_N5KGAPI7Objects4TaskD1Ev@Base 0.4.0
- _ZThn48_N5KGAPI7Objects5EventD0Ev@Base 0.4.0
- _ZThn48_N5KGAPI7Objects5EventD1Ev@Base 0.4.0
+ (c++)"non-virtual thunk to KGAPI::Objects::Event::~Event()@Base" 0.4.0
+ (c++)"non-virtual thunk to KGAPI::Objects::Task::~Task()@Base" 0.4.0
+ (c++)"non-virtual thunk to KGAPI::Ui::AccountsCombo::~AccountsCombo()@Base" 0.4.0
+ (c++)"non-virtual thunk to KGAPI::Ui::AuthWidget::~AuthWidget()@Base" 0.4.0
