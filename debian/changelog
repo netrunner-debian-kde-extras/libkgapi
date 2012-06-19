@@ -1,3 +1,14 @@
+libkgapi (0.4.1-0ubuntu1) quantal; urgency=low
+
+  * New upstream release.
+  * Add a watch file.
+  * Switch to debhelper compat level v9 which exports build flags.
+    - Update symbol file.
+  * Build for multiarch.
+  * Pass --fail-missing to dh_install.
+
+ -- Felix Geyer <debfx@ubuntu.com>  Tue, 19 Jun 2012 10:24:59 +0200
+
 libkgapi (0.4.0-0ubuntu3) quantal; urgency=low
 
   * Fix symbols to work on platforms other than amd64.

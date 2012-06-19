@@ -21,9 +21,9 @@ usr/include/libkgapi/objects/task.h
 usr/include/libkgapi/objects/tasklist.h
 usr/include/libkgapi/ui/accountscombo.h
 usr/include/libkgapi/ui/authwidget.h
-usr/lib/cmake/LibKGAPI/LibKGAPIConfig.cmake
-usr/lib/cmake/LibKGAPI/LibKGAPIConfigVersion.cmake
-usr/lib/cmake/LibKGAPI/LibKGAPITargetsWithPrefix.cmake
-usr/lib/cmake/LibKGAPI/LibKGAPITargetsWithPrefix-debian.cmake
-usr/lib/pkgconfig/libkgapi.pc
-usr/lib/libkgapi.so
+usr/lib/*/cmake/LibKGAPI/LibKGAPIConfig.cmake
+usr/lib/*/cmake/LibKGAPI/LibKGAPIConfigVersion.cmake
+usr/lib/*/cmake/LibKGAPI/LibKGAPITargetsWithPrefix.cmake
+usr/lib/*/cmake/LibKGAPI/LibKGAPITargetsWithPrefix-debian.cmake
+usr/lib/*/pkgconfig/libkgapi.pc
+usr/lib/*/libkgapi.so

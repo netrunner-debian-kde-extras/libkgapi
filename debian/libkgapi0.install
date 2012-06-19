@@ -1,2 +1,1 @@
-usr/lib/libkgapi.so.0.4.0
-usr/lib/libkgapi.so.0
+usr/lib/*/libkgapi.so.0*
