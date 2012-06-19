@@ -1,8 +1,8 @@
 project(libkgapi)
 set(KGAPI_VERSION_MAJOR 0)
 set(KGAPI_VERSION_MINOR 4)
-set(KGAPI_VERSION_RELEASE 0)
-set(KGAPI_VERSION 0.4.0)
+set(KGAPI_VERSION_RELEASE 1)
+set(KGAPI_VERSION 0.4.1)
 
 cmake_minimum_required(VERSION 2.8)
 
@@ -10,7 +10,8 @@ if(POLICY CMP0017)
   cmake_policy(SET CMP0017 NEW)
 endif()
 
-find_package(Qt4 4.7.0 REQUIRED) 
+find_package(Qt4 4.7.0 REQUIRED QtCore QtWebKit QtNetwork QtXML)
+include(${QT_USE_FILE})
 option(DEBUG_RAWDATA "Log raw data send and received from Google service (enables CMAKE_BUILD_TYPE=Debug)" FALSE)
 if (DEBUG_RAWDATA)
   SET(CMAKE_BUILD_TYPE Debug CACHE STRING "Choose the type of build, options are: None Debug Release RelWithDebInfo MinSizeRel." FORCE)
