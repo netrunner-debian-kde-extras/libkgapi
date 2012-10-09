@@ -1,3 +1,9 @@
+libkgapi (0.4.2-0ubuntu1) quantal; urgency=low
+
+  * New bugfix upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 09 Oct 2012 00:33:51 +0100
+
 libkgapi (0.4.1-0ubuntu1) quantal; urgency=low
 
   * New upstream release.
