@@ -22,6 +22,9 @@
 
 #include <kurl.h>
 
+/* Qt::escape() */
+#include <QTextDocument>
+
 #include <qjson/parser.h>
 #include <qjson/serializer.h>
 
@@ -527,8 +530,16 @@ KGAPI::Object* ContactsPrivate::JSONToContact(const QVariantMap &data)
 
     /* Birthday */
     QVariantMap bDay = data["gContact$birthday"].toMap();
-    if (!bDay.isEmpty())
-        object->setBirthday(QDateTime::fromString(bDay["when"].toString(), "yyyy-MM-dd"));
+    if (!bDay.isEmpty()) {
+	QString birthday = bDay["when"].toString();
+	/* Birthdays in format "--MM-DD" are valid and mean that no year has
+	  * been specified. Since KABC does not support birthdays without year,
+	  * we simulate that by specifying a fake year - 1900 */
+	if (birthday.startsWith("--")) {
+	    birthday = "1900" + birthday.mid(1);
+	}
+        object->setBirthday(QDateTime::fromString(birthday, "yyyy-MM-dd"));
+    }
 
     /* User-defined fields */
     QVariantList userDefined = data["gContact$userDefinedField"].toList();
@@ -562,34 +573,34 @@ QByteArray ContactsPrivate::contactToXML(const KGAPI::Object* object)
     /* Name */
     output.append("<gd:name>");
     if (!contact->givenName().isEmpty())
-        output.append("<gd:givenName>").append(contact->givenName().toUtf8()).append("</gd:givenName>");
+        output.append("<gd:givenName>").append(Qt::escape(contact->givenName()).toUtf8()).append("</gd:givenName>");
     if (!contact->familyName().isEmpty())
-        output.append("<gd:familyName>").append(contact->familyName().toUtf8()).append("</gd:familyName>");
+        output.append("<gd:familyName>").append(Qt::escape(contact->familyName()).toUtf8()).append("</gd:familyName>");
     if (!contact->assembledName().isEmpty())
-        output.append("<gd:fullName>").append(contact->formattedName().toUtf8()).append("</gd:fullName>");
+        output.append("<gd:fullName>").append(Qt::escape(contact->formattedName()).toUtf8()).append("</gd:fullName>");
     if (!contact->additionalName().isEmpty())
-        output.append("<gd:additionalName>").append(contact->additionalName().toUtf8()).append("</gd:additionalName>");
+        output.append("<gd:additionalName>").append(Qt::escape(contact->additionalName()).toUtf8()).append("</gd:additionalName>");
     if (!contact->prefix().isEmpty())
-        output.append("<gd:namePrefix>").append(contact->prefix().toUtf8()).append("</gd:namePrefix>");
+        output.append("<gd:namePrefix>").append(Qt::escape(contact->prefix()).toUtf8()).append("</gd:namePrefix>");
     if (!contact->suffix().isEmpty())
-        output.append("<gd:nameSuffix>").append(contact->suffix().toUtf8()).append("</gd:nameSuffix>");
+        output.append("<gd:nameSuffix>").append(Qt::escape(contact->suffix()).toUtf8()).append("</gd:nameSuffix>");
     output.append("</gd:name>");
 
     /* Notes */
     if (!contact->note().isEmpty())
-        output.append("<atom:content type='text'>").append(contact->note().toUtf8()).append("</atom:content>");
+        output.append("<atom:content type='text'>").append(Qt::escape(contact->note()).toUtf8()).append("</atom:content>");
 
     /* Organization (work) */
     QByteArray org;
     QString office = contact->office();
     if (!contact->organization().isEmpty())
-        org.append("<gd:orgName>").append(contact->organization().toUtf8()).append("</gd:orgName>");
+        org.append("<gd:orgName>").append(Qt::escape(contact->organization()).toUtf8()).append("</gd:orgName>");
     if (!contact->department().isEmpty())
-        org.append("<gd:orgDepartment>").append(contact->department().toUtf8()).append("</gd:orgDepartment>");
+        org.append("<gd:orgDepartment>").append(Qt::escape(contact->department()).toUtf8()).append("</gd:orgDepartment>");
     if (!contact->title().isEmpty())
-        org.append("<gd:orgTitle>").append(contact->title().toUtf8()).append("</gd:orgTitle>");
+        org.append("<gd:orgTitle>").append(Qt::escape(contact->title()).toUtf8()).append("</gd:orgTitle>");
     if (!office.isEmpty()) {
-        org.append("<gd:where>").append(office.toUtf8()).append("</gd:where>");
+        org.append("<gd:where>").append(Qt::escape(office).toUtf8()).append("</gd:where>");
         parsedCustoms << "KADDRESSBOOK-X-Office";
     }
     if (!org.isEmpty())
@@ -597,56 +608,56 @@ QByteArray ContactsPrivate::contactToXML(const KGAPI::Object* object)
 
     /* Nickname */
     if (!contact->nickName().isEmpty())
-        output.append("<gContact:nickname>").append(contact->nickName().toUtf8()).append("</gContact:nickname>");
+        output.append("<gContact:nickname>").append(Qt::escape(contact->nickName()).toUtf8()).append("</gContact:nickname>");
 
     /* Occupation */
     if (!contact->profession().isEmpty()) {
-        output.append("<gContact:occupation>").append(contact->profession().toUtf8()).append("</gContact:occupation>");
+        output.append("<gContact:occupation>").append(Qt::escape(contact->profession()).toUtf8()).append("</gContact:occupation>");
         parsedCustoms << "KADDRESSBOOK-X-Profession";
     }
 
     /* Spouse */
     QString spouse = contact->spousesName();
     if (!spouse.isEmpty()) {
-        output.append("<gContact:relation rel=\"spouse\">").append(spouse.toUtf8()).append("</gContact:relation>");
+        output.append("<gContact:relation rel=\"spouse\">").append(Qt::escape(spouse).toUtf8()).append("</gContact:relation>");
         parsedCustoms << "KADDRESSBOOK-X-SpousesName";
     }
 
     /* Manager */
     QString manager = contact->managersName();
     if (!manager.isEmpty()) {
-        output.append("<gContact:relation rel=\"manager\">").append(manager.toUtf8()).append("</gContact:relation>");
+        output.append("<gContact:relation rel=\"manager\">").append(Qt::escape(manager).toUtf8()).append("</gContact:relation>");
         parsedCustoms << "KADDRESSBOOK-X-ManagersName";
     }
 
     /* Assistant */
     QString assistant = contact->assistantsName();
     if (!assistant.isEmpty()) {
-        output.append("<gContact:relation rel=\"assistant\">").append(assistant.toUtf8()).append("</gContact:relation>");
+        output.append("<gContact:relation rel=\"assistant\">").append(Qt::escape(assistant).toUtf8()).append("</gContact:relation>");
         parsedCustoms << "KADDRESSBOOK-X-AssistantsName";
     }
 
     /* Anniversary */
     QString anniversary = contact->anniversary();
     if (!anniversary.isEmpty()) {
-        output.append("<gContact:event rel=\"anniversary\"><gd:when startTime=\"").append(anniversary.toUtf8()).append("\" /></gContact:event>");
+        output.append("<gContact:event rel=\"anniversary\"><gd:when startTime=\"").append(Qt::escape(anniversary).toUtf8()).append("\" /></gContact:event>");
         parsedCustoms << "KADDRESSBOOK-X-Anniversary";
     }
 
     /* Homepage */
     if (!contact->url().isEmpty())
-        output.append("<gContact:website rel=\"home-page\" href=\"").append(contact->url().prettyUrl().toUtf8()).append("\" />");
+        output.append("<gContact:website rel=\"home-page\" href=\"").append(Qt::escape(contact->url().prettyUrl()).toUtf8()).append("\" />");
 
     /* Blog */
     QString blog = contact->blogFeed();
     if (!blog.isEmpty()) {
-        output.append("<gContact:website rel=\"blog\" href=\"").append(blog.toUtf8()).append("\" />");
+        output.append("<gContact:website rel=\"blog\" href=\"").append(Qt::escape(blog).toUtf8()).append("\" />");
         parsedCustoms << "KADDRESSBOOK-BlogFeed";
     }
 
     /* Emails */
     Q_FOREACH(const QString &email, contact->emails()) {
-        output.append("<gd:email rel='http://schemas.google.com/g/2005#home' address='").append(email.toUtf8()).append("' />");
+        output.append("<gd:email rel='http://schemas.google.com/g/2005#home' address='").append(Qt::escape(email).toUtf8()).append("' />");
     }
 
     /* IMs */
@@ -659,6 +670,17 @@ QByteArray ContactsPrivate::contactToXML(const KGAPI::Object* object)
             proto.chop(4);
             bool primary = (contact->custom("KADDRESSBOOK", "X-IMAddress") == value);
             output.append(im_str.arg(value, Objects::Contact::IMProtocolNameToScheme(proto), (primary ? "true" : "false")).toUtf8());
+            parsedCustoms << key;
+        /* X-messaging is probably a new key (?) used by KAddressbook when importing
+         * contacts from vCard. */
+        } else if (im.startsWith(QLatin1String("X-messaging"))) {
+            const QString key = im.left(im.indexOf(QLatin1Char(':')));
+            const QString value = im.mid(im.indexOf(QLatin1Char(':')) + 1);
+            QString proto = key.mid(12); /* strlen("X-messaging/") */
+            if (proto.endsWith(QLatin1String("-All"))) {
+                proto.chop(4);
+            }
+            output.append(im_str.arg(value, proto, QLatin1String("false")).toUtf8());
             parsedCustoms << key;
         }
     }
@@ -677,24 +699,33 @@ QByteArray ContactsPrivate::contactToXML(const KGAPI::Object* object)
         .append("'>");
 
         if (!address.locality().isEmpty())
-            output.append("<gd:city>").append(address.locality().toUtf8()).append("</gd:city>");
+            output.append("<gd:city>").append(Qt::escape(address.locality()).toUtf8()).append("</gd:city>");
         if (!address.street().isEmpty())
-            output.append("<gd:street>").append(address.street().toUtf8()).append("</gd:street>");
+            output.append("<gd:street>").append(Qt::escape(address.street()).toUtf8()).append("</gd:street>");
         if (!address.region().isEmpty())
-            output.append("<gd:region>").append(address.region().toUtf8()).append("</gd:region>");
+            output.append("<gd:region>").append(Qt::escape(address.region()).toUtf8()).append("</gd:region>");
         if (!address.postalCode().isEmpty())
-            output.append("<gd:postcode>").append(address.postalCode().toUtf8()).append("</gd:postcode>");
+            output.append("<gd:postcode>").append(Qt::escape(address.postalCode()).toUtf8()).append("</gd:postcode>");
         if (!address.country().isEmpty())
-            output.append("<gd:country>").append(address.country().toUtf8()).append("</gd:country>");
+            output.append("<gd:country>").append(Qt::escape(address.country()).toUtf8()).append("</gd:country>");
         if (!address.formattedAddress().isEmpty())
-            output.append("<gd:formattedAddress>").append(address.formattedAddress().toUtf8()).append("</gd:formattedAddress>");
+            output.append("<gd:formattedAddress>").append(Qt::escape(address.formattedAddress()).toUtf8()).append("</gd:formattedAddress>");
         output.append("</gd:structuredPostalAddress>");
     }
 
     /* Birthday */
     QDate birthday = contact->birthday().date();
     if (birthday.isValid()) {
-        QString birthdayStr = birthday.toString("yyyy-MM-dd");
+	QString birthdayStr;
+	/* We use year 1900 as a fake year for birthdays without a year specified.
+	 * Here we assume that nobody actually has a contact born in 1900 and so
+	 * we replace 1900 by "-", so that we get "--MM-dd" date, which is a valid
+	 * birthday date according to RFC6350 */
+	if (birthday.year() == 1900) {
+	    birthdayStr = birthday.toString("--MM-dd");
+	} else {
+	    birthdayStr = birthday.toString("yyyy-MM-dd");
+	}
         output.append("<gContact:birthday when='").append(birthdayStr.toUtf8()).append("'/>");
     }
 
@@ -715,7 +746,7 @@ QByteArray ContactsPrivate::contactToXML(const KGAPI::Object* object)
         QString key = customStr.left(customStr.indexOf(':'));
         if (!parsedCustoms.contains(key)) {
             QString value = customStr.mid(customStr.indexOf(':') + 1);
-            output.append(defined_str.arg(key, value).toUtf8());
+            output.append(defined_str.arg(Qt::escape(key), Qt::escape(value)).toUtf8());
         }
     }
 
@@ -730,8 +761,8 @@ QByteArray ContactsPrivate::groupToXML(const KGAPI::Object *object)
 
     output.append("<atom:category scheme=\"http://schemas.google.com/g/2005#kind\" "
                   "term=\"http://schemas.google.com/g/2005#group\"/>");
-    output.append("<atom:title type=\"text\">").append(group->title().toUtf8()).append("</atom:title>");
-    output.append("<atom:content type=\"text\">").append(group->content().toUtf8()).append("</atom:content>");
+    output.append("<atom:title type=\"text\">").append(Qt::escape(group->title()).toUtf8()).append("</atom:title>");
+    output.append("<atom:content type=\"text\">").append(Qt::escape(group->content()).toUtf8()).append("</atom:content>");
 
     return output;
 }
@@ -979,7 +1010,14 @@ KGAPI::Object* ContactsPrivate::XMLToContact(const QDomDocument &doc)
 
         /* Birthday */
         if (e.tagName() == "gContact:birthday") {
-            contact->setBirthday(QDateTime::fromString(e.attribute("when"), "yyyy-MM-dd"));
+	    QString birthday = e.attribute("when");
+	    /* Birthdays in format "--MM-DD" are valid and mean that no year has
+	     * been specified. Since KABC does not support birthdays without year,
+	     * we simulate that by specifying a fake year - 1900 */
+	    if (birthday.startsWith("--")) {
+		birthday = "1900" + birthday.mid(1);
+	    }
+            contact->setBirthday(QDateTime::fromString(birthday, "yyyy-MM-dd"));
             continue;
         }
 
