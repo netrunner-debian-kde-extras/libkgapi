@@ -1,0 +1,6 @@
+libkgapi (0.4.4-1) experimental; urgency=low
+
+  * Initial release (based on Ubuntu package)
+
+ -- Michael Meskes <meskes@debian.org>  Tue, 14 May 2013 14:55:16 +0200
+
