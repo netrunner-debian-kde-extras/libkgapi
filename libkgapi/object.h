@@ -19,14 +19,11 @@
 #define LIBKGAPI_OBJECT_H
 
 #include <QtCore/QString>
-#include <QtCore/QSharedData>
 
 #include <libkgapi/libkgapi_export.h>
 
 namespace KGAPI
 {
-
-class ObjectPrivate;
 
 /**
  * Base class for Google objects.
@@ -34,7 +31,7 @@ class ObjectPrivate;
  * Google object represents data received
  * from a Google service.
  */
-class LIBKGAPI_EXPORT Object
+class LIBKGAPI_EXPORT_DEPRECATED Object
 {
   public:
     Object();
@@ -55,10 +52,12 @@ class LIBKGAPI_EXPORT Object
     /**
      * Returns tag of this object.
      */
-    const QString& etag() const;
+    QString etag() const;
 
   private:
-    QExplicitlySharedDataPointer< ObjectPrivate > d;
+    class Private;
+    Private * const d;
+    friend class Private;
 
 };
 

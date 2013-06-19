@@ -17,68 +17,6 @@
 
 #include "tasklist.h"
 
-namespace KGAPI
-{
-
-namespace Objects
-{
-
-class TaskListData: public QSharedData
-{
-  public:
-    TaskListData();
-    TaskListData(const TaskListData &other);
-    QString title;
-    QString uid;
-};
-
-}
-
-}
-
 using namespace KGAPI::Objects;
 
-TaskListData::TaskListData()
-{ }
-
-TaskListData::TaskListData (const TaskListData& other):
-    QSharedData(other),
-    title(other.title),
-    uid(other.uid)
-{ }
-
-TaskList::TaskList():
-    d(new TaskListData)
-{ }
-
-TaskList::TaskList (const TaskList& other):
-    Object(other),
-    d(other.d)
-{ }
-
-
-TaskList::~TaskList()
-{
-
-}
-
-void TaskList::setUid(const QString &uid)
-{
-    d->uid = uid;
-}
-
-QString TaskList::uid() const
-{
-    return d->uid;
-}
-
-void TaskList::setTitle(const QString& title)
-{
-    d->title = title;
-}
-
-QString TaskList::title() const
-{
-    return d->title;
-}
-
+#include "common/tasklist.inc.cpp"
