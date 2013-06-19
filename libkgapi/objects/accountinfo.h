@@ -21,7 +21,6 @@
 #include <libkgapi/object.h>
 #include <libkgapi/libkgapi_export.h>
 
-#include <QtCore/QSharedData>
 #include <QtCore/QMetaType>
 
 namespace KGAPI
@@ -29,8 +28,6 @@ namespace KGAPI
 
 namespace Objects
 {
-
-class AccountInfoData;
 
 /**
  * AccountInfo contains information about user's Google account.
@@ -43,7 +40,7 @@ class AccountInfoData;
  *
  * The accountInfo service provides read-only access.
  */
-class LIBKGAPI_EXPORT AccountInfo : public KGAPI::Object
+class LIBKGAPI_EXPORT_DEPRECATED AccountInfo : public KGAPI::Object
 {
   public:
     AccountInfo();
@@ -172,10 +169,12 @@ class LIBKGAPI_EXPORT AccountInfo : public KGAPI::Object
     /**
      * Returns URL of user's photo.
      */
-    const QString& photoUrl() const;
+    QString photoUrl() const;
 
   private:
-    QSharedDataPointer<AccountInfoData> d;
+    class Private;
+    Private * const d;
+    friend class Private;
 
 };
 

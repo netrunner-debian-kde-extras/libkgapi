@@ -19,22 +19,14 @@
 #define LIBKGAPI_OBJECTS_CALENDAR_H
 
 #include <libkgapi/object.h>
-#include <libkgapi/libkgapi_export.h>
+#include <libkgapi/objects/reminder.h>
 
-#include <QtCore/QSharedPointer>
 #include <QtCore/QMetaType>
 
-#ifdef WITH_KCAL
-#include <KCal/Alarm>
-#include <KCal/Incidence>
-typedef KCal::Alarm* AlarmPtr;
-using namespace KCal;
-#else
-#include <KCalCore/Alarm>
-#include <KCalCore/Incidence>
+#include <KDE/KCalCore/Alarm>
+#include <KDE/KCalCore/Incidence>
 typedef KCalCore::Alarm::Ptr AlarmPtr;
 using namespace KCalCore;
-#endif
 
 namespace KGAPI
 {
@@ -42,43 +34,12 @@ namespace KGAPI
 namespace Objects
 {
 
-class ReminderData;
-
-/**
- * Represents default calendar reminder.
- */
-class LIBKGAPI_EXPORT Reminder
-{
-    public:
-        typedef QSharedPointer< Reminder > Ptr;
-        typedef QList< Ptr > List;
-
-        explicit Reminder(const Alarm::Type &type, const Duration &startOffset = Duration(0));
-        Reminder(const Reminder &other);
-        Reminder();
-
-        virtual ~Reminder();
-
-        Alarm::Type type() const;
-
-        void setType(const Alarm::Type &type);
-
-        Duration startOffset() const;
-
-        void setStartOffset(const Duration &startOffset);
-
-        AlarmPtr toAlarm(Incidence *incidence) const;
-
-    private:
-        QExplicitlySharedDataPointer < ReminderData > d;
-};
-
-class CalendarData;
+class CalendarPrivate;
 
 /**
  * Represents a calendar.
  */
-class LIBKGAPI_EXPORT Calendar: public KGAPI::Object
+class LIBKGAPI_EXPORT_DEPRECATED Calendar: public KGAPI::Object
 {
 
   public:
@@ -167,7 +128,9 @@ class LIBKGAPI_EXPORT Calendar: public KGAPI::Object
     Reminder::List defaultReminders() const;
 
   protected:
-    QSharedDataPointer<CalendarData> d;
+    class Private;
+    Private * const d;
+    friend class Private;
 
 };
 
