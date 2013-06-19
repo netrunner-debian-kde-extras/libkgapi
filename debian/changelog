@@ -1,6 +1,7 @@
 libkgapi (2.0.1-1) experimental; urgency=low
 
   * Imported Upstream version 2.0.1
+  * Temporarily create kgapi1 and kgapi2 packages until KDE 4.11 hits Debian.
 
  -- Michael Meskes <meskes@debian.org>  Wed, 19 Jun 2013 09:32:10 +0200
 
