@@ -18,19 +18,33 @@
 #include "accountscombo.h"
 #include "auth.h"
 
-#include <klocalizedstring.h>
+#include <KLocalizedString>
+
+namespace KGAPI {
+
+namespace Ui {
+
+class AccountsComboPrivate {
+
+};
+
+} /* namespace Ui */
+
+} /* namespace KGAPI */
+
 
 using namespace KGAPI::Ui;
 
 AccountsCombo::AccountsCombo(QWidget *parent):
-    KComboBox(parent)
+    KComboBox(parent),
+    d_ptr(new AccountsComboPrivate)
 {
     reload();
 }
 
 AccountsCombo::~AccountsCombo()
 {
-
+    delete d_ptr;
 }
 
 KGAPI::Account::Ptr AccountsCombo::currentAccount() const
@@ -53,6 +67,7 @@ void AccountsCombo::reload()
         accounts = auth->getAccounts();
     } catch (KGAPI::Exception::BackendNotReady &e) {
         /* Slot must not throw an exception, application might not be ready for that */
+        Q_UNUSED(e);
         return;
     }
 
