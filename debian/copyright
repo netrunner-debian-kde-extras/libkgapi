@@ -3,7 +3,8 @@ Upstream-Name: libkgapi
 Source: http://www.progdan.cz/
 
 Files: *
-Copyright: 2012 Dan Vratil <dan@progdan.cz>
+Copyright: 2012-2013 Dan Vratil <dan@progdan.cz>
+           2012 Jan Grulich <grulja@gmail.com>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by

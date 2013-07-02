@@ -1,7 +1,11 @@
 #!/usr/bin/make -f
 
 %:
-	dh $@ --dbg-package=libkgapi0-dbg --with kde --parallel --fail-missing
+	dh $@ --with kde --parallel --fail-missing
 
 override_dh_auto_configure:
-	dh_auto_configure -Skde -- -DLIB_INSTALL_DIR=/usr/lib/$(DEB_HOST_MULTIARCH)
+	dh_auto_configure -Skde -- -DLIB_INSTALL_DIR=/usr/lib/$(DEB_HOST_MULTIARCH) -DKDE4_BUILD_TESTS=TRUE
+
+override_dh_strip:
+	dh_strip -plibkgapi1 --dbg-package=libkgapi1-dbg
+	dh_strip -plibkgapi2-2 --dbg-package=libkgapi2-2-dbg

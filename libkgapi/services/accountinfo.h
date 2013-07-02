@@ -29,11 +29,10 @@ class Object;
 namespace Services
 {
 
-class LIBKGAPI_EXPORT AccountInfo : public KGAPI::Service
+class LIBKGAPI_EXPORT_DEPRECATED AccountInfo : public KGAPI::Service
 {
   public:
     static QUrl ScopeUrl;
-    static QUrl EmailScopeUrl;
 
     /**
      * Implements KGAPI::Service::JSONToObject().
@@ -55,7 +54,7 @@ class LIBKGAPI_EXPORT AccountInfo : public KGAPI::Service
     /**
      * Returns scope URL for AccountInfo service.
      */
-    const QUrl& scopeUrl() const;
+    QUrl scopeUrl() const;
 
     /**
      * Returns KGAPI::Request::Fetch URL.
@@ -63,6 +62,11 @@ class LIBKGAPI_EXPORT AccountInfo : public KGAPI::Service
      * https://www.googleapis.com/oauth2/v1/userinfo
      */
     static QUrl fetchUrl();
+
+    /**
+     * Implements KGAPI::Service::name()
+     */
+    static QString serviceName();
 
     /**
      * The AccountInfo always returns information about single account, never feed.
@@ -92,6 +96,8 @@ class LIBKGAPI_EXPORT AccountInfo : public KGAPI::Service
      */
     KGAPI::Object *XMLToObject(const QByteArray &xmlData);
 
+  private:
+      //krazy:exclude=dpointer
 };
 
 } /* namespace Services */
