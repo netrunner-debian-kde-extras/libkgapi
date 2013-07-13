@@ -4,6 +4,7 @@ Source: http://www.progdan.cz/
 
 Files: *
 Copyright: 2012 Dan Vratil <dan@progdan.cz>
+           2012  Jan Grulich <grulja@gmail.com>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -23,6 +24,7 @@ License: GPL-2+
 
 Files: debian/*
 Copyright: 2012 Jonathan Thomas <echidnaman@kubuntu.org>
+           2013 Michael Meskes <meskes@debian.org>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
