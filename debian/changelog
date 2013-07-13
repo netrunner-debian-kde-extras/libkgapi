@@ -1,3 +1,10 @@
+libkgapi (2.0.1-2) unstable; urgency=low
+
+  * Added additional copyright owners to copyright file.
+  * Upload to unstable.
+
+ -- Michael Meskes <meskes@debian.org>  Sat, 13 Jul 2013 21:42:38 +0200
+
 libkgapi (2.0.1-1) experimental; urgency=low
 
   * Imported Upstream version 2.0.1
