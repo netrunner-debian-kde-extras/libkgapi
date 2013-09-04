@@ -12,3 +12,5 @@ override_dh_strip:
 	dh_strip -O--dbg-package=libkgapi1-dbg -plibkgapi1 
 	dh_strip -O--dbg-package=libkgapi2-2-dbg -plibkgapi2-2
 
+override_dh_shlibdeps:
+	dh_shlibdeps -xkdepim-runtime
