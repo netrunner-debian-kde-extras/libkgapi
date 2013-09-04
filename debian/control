@@ -9,6 +9,7 @@ Standards-Version: 3.9.4
 Section: libs
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/libkgapi.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-extras/libkgapi.git;a=summary
+Homepage: https://projects.kde.org/libkgapi
 
 Package: libkgapi-dev
 Section: libdevel
