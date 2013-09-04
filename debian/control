@@ -14,7 +14,6 @@ Homepage: https://projects.kde.org/libkgapi
 Package: libkgapi-dev
 Section: libdevel
 Architecture: any
-Multi-Arch: same
 Depends: ${misc:Depends}, libkgapi1 (= ${binary:Version}), libkgapi2-2-dev (= ${binary:Version})
 Description: Google API library for KDE version 1 -- development files
  LibKGAPI (previously called LibKGoogle) is a C++ library that implements APIs
@@ -26,7 +25,6 @@ Description: Google API library for KDE version 1 -- development files
 Package: libkgapi2-2-dev
 Section: libdevel
 Architecture: any
-Multi-Arch: same
 Depends: ${misc:Depends}, libkgapi2-2 (= ${binary:Version})
 Description: Google API library for KDE version 2 -- development files
  LibKGAPI (previously called LibKGoogle) is a C++ library that implements APIs
@@ -37,8 +35,6 @@ Description: Google API library for KDE version 2 -- development files
 
 Package: libkgapi1
 Architecture: any
-Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Google API library for KDE version 1
  LibKGAPI (previously called LibKGoogle) is a C++ library that implements APIs
@@ -51,7 +47,6 @@ Package: libkgapi1-dbg
 Section: debug
 Priority: extra
 Architecture: any
-Multi-Arch: same
 Depends: ${misc:Depends}, libkgapi1 (= ${binary:Version})
 Description: Google API library for KDE -- debugging symbols
  LibKGAPI (previously called LibKGoogle) is a C++ library that implements APIs
@@ -61,8 +56,6 @@ Description: Google API library for KDE -- debugging symbols
 
 Package: libkgapi2-2
 Architecture: any
-Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Google API library for KDE version 2
  LibKGAPI (previously called LibKGoogle) is a C++ library that implements APIs
@@ -75,7 +68,6 @@ Package: libkgapi2-2-dbg
 Section: debug
 Priority: extra
 Architecture: any
-Multi-Arch: same
 Depends: ${misc:Depends}, libkgapi2-2 (= ${binary:Version})
 Description: Google API library for KDE version 2 -- debugging symbols
  LibKGAPI (previously called LibKGoogle) is a C++ library that implements APIs

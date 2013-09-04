@@ -5,9 +5,6 @@ export DEB_LDFLAGS_MAINT_APPEND := -Wl,--as-needed
 %:
 	dh $@ --with kde --parallel --fail-missing
 
-override_dh_auto_configure:
-	dh_auto_configure -Skde -- -DLIB_INSTALL_DIR=/usr/lib/$(DEB_HOST_MULTIARCH)
-
 override_dh_strip:
 	dh_strip -O--dbg-package=libkgapi1-dbg -plibkgapi1 
 	dh_strip -O--dbg-package=libkgapi2-2-dbg -plibkgapi2-2
