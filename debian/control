@@ -7,6 +7,8 @@ Build-Depends: debhelper (>= 9), pkg-kde-tools (>= 0.5.0), cmake,
  libqjson-dev
 Standards-Version: 3.9.4
 Section: libs
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/libkgapi.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-extras/libkgapi.git;a=summary
 
 Package: libkgapi-dev
 Section: libdevel
