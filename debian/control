@@ -25,7 +25,7 @@ Description: Google API library for KDE version 1 -- development files
 Package: libkgapi2-2-dev
 Section: libdevel
 Architecture: any
-Depends: ${misc:Depends}, libkgapi2-2 (= ${binary:Version})
+Depends: ${misc:Depends}, libkgapi2-2 (= ${binary:Version}), kdepimlibs5-dev
 Description: Google API library for KDE version 2 -- development files
  LibKGAPI (previously called LibKGoogle) is a C++ library that implements APIs
  for various Google services.
