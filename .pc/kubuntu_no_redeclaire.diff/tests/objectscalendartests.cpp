@@ -26,6 +26,8 @@ using namespace KGAPI;
 using namespace KCalCore;
 
 Q_DECLARE_METATYPE(KCalCore::Alarm::Type);
+Q_DECLARE_METATYPE(KCalCore::Duration);
+Q_DECLARE_METATYPE(KCalCore::Alarm::Ptr);
 Q_DECLARE_METATYPE(KCalCore::Incidence::Ptr);
 Q_DECLARE_METATYPE(KGAPI::Objects::Reminder::List);
 

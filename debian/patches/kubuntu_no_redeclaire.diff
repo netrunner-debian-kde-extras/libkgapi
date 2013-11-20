@@ -1,0 +1,13 @@
+Index: libkgapi-2.0.1/tests/objectscalendartests.cpp
+===================================================================
+--- libkgapi-2.0.1.orig/tests/objectscalendartests.cpp	2013-06-01 00:02:40.000000000 +0000
++++ libkgapi-2.0.1/tests/objectscalendartests.cpp	2013-11-20 19:20:49.615184278 +0000
+@@ -26,8 +26,6 @@
+ using namespace KCalCore;
+ 
+ Q_DECLARE_METATYPE(KCalCore::Alarm::Type);
+-Q_DECLARE_METATYPE(KCalCore::Duration);
+-Q_DECLARE_METATYPE(KCalCore::Alarm::Ptr);
+ Q_DECLARE_METATYPE(KCalCore::Incidence::Ptr);
+ Q_DECLARE_METATYPE(KGAPI::Objects::Reminder::List);
+ 
