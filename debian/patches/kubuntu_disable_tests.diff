@@ -1,0 +1,12 @@
+Index: libkgapi-2.0.1/CMakeLists.txt
+===================================================================
+--- libkgapi-2.0.1.orig/CMakeLists.txt	2013-06-01 00:02:40.000000000 +0000
++++ libkgapi-2.0.1/CMakeLists.txt	2013-11-21 17:38:16.459044983 +0000
+@@ -50,7 +50,3 @@
+ 
+ add_subdirectory(libkgapi2)
+ 
+-# FIXME: Port tests to LibKGAPI2
+-if (NOT KGAPI_DISABLE_DEPRECATED)
+-    add_subdirectory(tests)
+-endif (NOT KGAPI_DISABLE_DEPRECATED)

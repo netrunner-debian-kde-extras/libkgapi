@@ -50,3 +50,7 @@ endif(KGAPI_BUILD_EXAMPLES)
 
 add_subdirectory(libkgapi2)
 
+# FIXME: Port tests to LibKGAPI2
+if (NOT KGAPI_DISABLE_DEPRECATED)
+    add_subdirectory(tests)
+endif (NOT KGAPI_DISABLE_DEPRECATED)

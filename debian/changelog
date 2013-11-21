@@ -1,3 +1,19 @@
+libkgapi (2.0.1-0ubuntu3) trusty; urgency=low
+
+  * Add kubuntu_disable_tests.diff to remove tests which cause compile
+    failure
+  * Remove kubuntu_no_redeclaire.diff as it did not work
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 21 Nov 2013 17:38:32 +0000
+
+libkgapi (2.0.1-0ubuntu2) trusty; urgency=low
+
+  * Add kubuntu_no_redeclaire.diff to fix compile with gcc 4.8.1
+  * In debian/rules override dh_shlibdeps to remove kdepim-runtime
+    dependency
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 20 Nov 2013 19:22:33 +0000
+
 libkgapi (2.0.1-0ubuntu1) saucy; urgency=low
 
   * New upstream release
