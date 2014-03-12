@@ -1,6 +1,3 @@
 usr/include/*
 usr/lib/*/cmake/*
-usr/lib/*/libkgapi.so
 usr/lib/*/libkgapi2.so
-usr/lib/*/pkgconfig/libkgapi.pc
-usr/lib/*/pkgconfig/libkgapi2.pc

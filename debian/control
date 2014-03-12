@@ -4,7 +4,7 @@ Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 XSBC-Original-Maintainer: Jonathan Thomas <echidnaman@kubuntu.org>
 Build-Depends: debhelper (>= 9), pkg-kde-tools (>= 0.5.0), cmake,
  libqtwebkit-dev, kdelibs5-dev (>= 4:4.6.0), kdepimlibs5-dev (>= 4:4.5.63),
- libqjson-dev
+ libqjson-dev, libboost1.54-dev
 Standards-Version: 3.9.3.1
 Section: libs
 
@@ -12,24 +12,13 @@ Package: libkgapi-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: ${misc:Depends}, libkgapi2-2 (= ${binary:Version}), libkgapi1 (= ${binary:Version})
+Depends: ${misc:Depends}, libkgapi2-2 (= ${binary:Version})
 Description: Google API library for KDE -- development files
  LibKGAPI (previously called LibKGoogle) is a C++ library that implements APIs
  for various Google services.
  .
  This package contains development files for building software that uses
  the LibKGAPI library.
-
-Package: libkgapi1
-Architecture: any
-Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Google API library for KDE
- LibKGAPI (previously called LibKGoogle) is a C++ library that implements APIs
- for various Google services.
- .
- This package contains the first version of the LibKGAPI library.
 
 Package: libkgapi2-2
 Architecture: any
@@ -41,18 +30,6 @@ Description: Google API library for KDE
  for various Google services.
  .
  This package contains the second version of the LibKGAPI library.
-
-Package: libkgapi1-dbg
-Section: debug
-Priority: extra
-Architecture: any
-Multi-Arch: same
-Depends: ${misc:Depends}, libkgapi1 (= ${binary:Version})
-Description: Google API library for KDE -- debugging symbols
- LibKGAPI (previously called LibKGoogle) is a C++ library that implements APIs
- for various Google services.
- .
- This package contains the debugging symbols for the LibKGAPI library.
 
 Package: libkgapi2-2-dbg
 Section: debug

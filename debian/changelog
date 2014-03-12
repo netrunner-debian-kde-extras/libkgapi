@@ -1,3 +1,12 @@
+libkgapi (2.1.0-0ubuntu1) trusty; urgency=medium
+
+  * New upstream release
+  * Update symbols
+  * Drop libkgapi1*, no reverse depends
+  * Update install files
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Wed, 12 Mar 2014 10:14:08 +0100
+
 libkgapi (2.0.1-0ubuntu3) trusty; urgency=low
 
   * Add kubuntu_disable_tests.diff to remove tests which cause compile
