@@ -1,3 +1,9 @@
+libkgapi (2.1.1-0ubuntu2) utopic; urgency=high
+
+  * Rebuild against boost1.55
+
+ -- Dimitri John Ledkov <xnox@ubuntu.com>  Sat, 03 May 2014 22:09:56 +0100
+
 libkgapi (2.1.1-0ubuntu1) utopic; urgency=medium
 
   * New upstream release (LP: #1314235)
