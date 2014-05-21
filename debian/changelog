@@ -10,6 +10,7 @@ libkgapi (2.1.1-1) UNRELEASED; urgency=low
   * Add symbols file, synced from ubuntu package.
   * Remove libkgapi1, no rdeps.
   * Remove libkgapi2-2-dev, no rdeps.
+  * Install in m-a paths, sync with ubuntu.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 21 May 2014 12:21:22 +0200
 
