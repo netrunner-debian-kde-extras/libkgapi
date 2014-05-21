@@ -3,7 +3,7 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Michael Meskes <meskes@debian.org>
 Build-Depends: debhelper (>= 9), pkg-kde-tools (>= 0.5.0), cmake,
- libqtwebkit-dev, kdelibs5-dev (>= 4:4.6.0), kdepimlibs5-dev (>= 4:4.5.63),
+ libqtwebkit-dev, kdelibs5-dev (>= 4:4.6.0), kdepimlibs5-dev (>= 4:4.11),
  libqjson-dev
 Standards-Version: 3.9.4
 Section: libs
