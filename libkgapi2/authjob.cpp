@@ -147,6 +147,16 @@ AccountPtr AuthJob::account() const
     return d->account;
 }
 
+void AuthJob::setUsername(const QString& username)
+{
+    d->username = username;
+}
+
+void AuthJob::setPassword(const QString& password)
+{
+    d->password = password;
+}
+
 void AuthJob::handleReply(const QNetworkReply *reply, const QByteArray& rawData)
 {
     Q_UNUSED(reply);
@@ -169,7 +179,8 @@ void AuthJob::handleReply(const QNetworkReply *reply, const QByteArray& rawData)
      *  "expires_in":3600
      * }
      */
-
+    const qlonglong expiresIn = map.value(QLatin1String("expires_in")).toLongLong();
+    d->account->setExpireDateTime(QDateTime::currentDateTime().addSecs(expiresIn));
     d->account->setAccessToken(map.value(QLatin1String("access_token")).toString());
     emitFinished();
 }
@@ -184,7 +195,6 @@ void AuthJob::dispatchRequest(QNetworkAccessManager* accessManager, const QNetwo
 void AuthJob::start()
 {
     AuthWidget *widget = 0;
-    KDialog *dlg;
 
     if (d->account->refreshToken().isEmpty() || (d->account->m_scopesChanged == true)) {
 
@@ -211,7 +221,7 @@ void AuthJob::start()
     }
 
     if (widget) {
-        dlg = new KDialog();
+        KDialog *dlg = new KDialog();
         dlg->setModal(true);
         KWindowSystem::setMainWindow(dlg, KWindowSystem::activeWindow());
 
