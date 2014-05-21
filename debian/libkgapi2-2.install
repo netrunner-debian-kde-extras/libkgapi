@@ -1,1 +1,2 @@
-usr/lib/libkgapi2.so.*
+usr/lib/*/libkgapi2.so.2
+usr/lib/*/libkgapi2.so.2.*
