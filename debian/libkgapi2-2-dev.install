@@ -1,5 +1,5 @@
-usr/include/libkgapi2/*
 usr/include/LibKGAPI2/*
+usr/include/libkgapi2/*
 usr/lib/cmake/LibKGAPI2/*
-usr/lib/pkgconfig/libkgapi2.pc
 usr/lib/libkgapi2.so
+usr/lib/pkgconfig/libkgapi2.pc

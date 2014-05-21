@@ -1,4 +1,4 @@
 usr/include/libkgapi/*
 usr/lib/cmake/LibKGAPI/*
-usr/lib/pkgconfig/libkgapi.pc
 usr/lib/libkgapi.so
+usr/lib/pkgconfig/libkgapi.pc
