@@ -14,6 +14,7 @@ libkgapi (2.1.1-1) UNRELEASED; urgency=low
   * Update install files.
   * Update copyright file.
   * Add myself to the uploaders list.
+  * Bump Standards-Version to 3.9.5, no changes needed.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 21 May 2014 12:21:22 +0200
 

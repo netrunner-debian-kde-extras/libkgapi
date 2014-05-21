@@ -11,7 +11,7 @@ Build-Depends: cmake,
                libqjson-dev,
                libqtwebkit-dev,
                pkg-kde-tools (>= 0.5.0)
-Standards-Version: 3.9.4
+Standards-Version: 3.9.5
 Section: libs
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/libkgapi.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-extras/libkgapi.git;a=summary
