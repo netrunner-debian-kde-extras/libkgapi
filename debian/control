@@ -1,7 +1,8 @@
 Source: libkgapi
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Michael Meskes <meskes@debian.org>
+Uploaders: Michael Meskes <meskes@debian.org>,
+           Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
                kdelibs5-dev (>= 4:4.6.0),
