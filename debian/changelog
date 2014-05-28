@@ -2,6 +2,7 @@ libkgapi (2.1.1-2) UNRELEASED; urgency=medium
 
   * Add missing breaks/replaces for libkgapi2-2-dev. (Closes: #749525)
     Thanks to Holger Levsen.
+  * Update symbols file with 2.1.1-1 build logs.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 28 May 2014 09:07:00 +0200
 
