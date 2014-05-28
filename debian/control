@@ -21,8 +21,7 @@ Package: libkgapi-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: libkgapi2-2 (= ${binary:Version}),
-         ${misc:Depends}
+Depends: kdepimlibs5-dev, libkgapi2-2 (= ${binary:Version}), ${misc:Depends}
 Breaks: libkgapi2-2-dev (<< 2.1.1)
 Replaces: libkgapi2-2-dev (<< 2.1.1)
 Description: Google API library for KDE -- development files
