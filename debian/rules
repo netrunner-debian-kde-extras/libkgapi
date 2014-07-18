@@ -1,7 +1,6 @@
 #!/usr/bin/make -f
 
-%:
-	dh $@ --with kde --parallel --fail-missing
+include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
 override_dh_auto_configure:
 	dh_auto_configure -Skde -- -DLIB_INSTALL_DIR=/usr/lib/$(DEB_HOST_MULTIARCH) -DKDE4_BUILD_TESTS=TRUE

@@ -1,3 +1,14 @@
+libkgapi (2.1.80-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release required by kdepim-runtime 4.13.90 beta 2
+  * Patched symbols with batchpatch
+  * Updated install file.
+  * Switch to using include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
+    due to Depends field of package libkgapi2-2: unknown substitution variable ${shlibs:Depends}
+    in rules.
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Fri, 18 Jul 2014 18:36:40 -0700
+
 libkgapi (2.1.1-0ubuntu2) utopic; urgency=high
 
   * Rebuild against boost1.55
