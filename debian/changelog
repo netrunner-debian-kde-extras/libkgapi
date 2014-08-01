@@ -1,3 +1,9 @@
+libkgapi (2.2.0-0ubuntu1) utopic; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 01 Aug 2014 13:07:07 +0200
+
 libkgapi (2.1.80-0ubuntu1) utopic; urgency=medium
 
   * New upstream release required by kdepim-runtime 4.13.90 beta 2
