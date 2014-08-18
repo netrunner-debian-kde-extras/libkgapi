@@ -32,6 +32,18 @@ namespace KGAPI2 {
 
 class Job;
 
+class WebView : public QWebView
+{
+    Q_OBJECT
+public:
+    explicit WebView(QWidget *parent=0);
+    ~WebView();
+
+protected:
+    void contextMenuEvent( QContextMenuEvent *);
+};
+
+
 class AuthWidget::Private: public QObject {
 
     Q_OBJECT
@@ -52,13 +64,15 @@ class AuthWidget::Private: public QObject {
 
     QProgressBar *progressbar;
     QVBoxLayout *vbox;
-    QWebView *webview;
+    WebView *webview;
     QLabel *label;
 
   private Q_SLOTS:
+    void onSslError(QNetworkReply *reply, const QList<QSslError> &errors);
+
     void emitError(const KGAPI2::Error errCode, const QString &msg);
     void webviewUrlChanged(const QUrl &url);
-    void webviewFinished();
+    void webviewFinished(bool ok);
 
     void tokensReceived(KGAPI2::Job *job);
     void accountInfoReceived(KGAPI2::Job *job);
