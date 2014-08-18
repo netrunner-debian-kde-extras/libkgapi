@@ -1,3 +1,9 @@
+libkgapi (2.1.80-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 18 Aug 2014 18:34:51 +0200
+
 libkgapi (2.1.1-2) unstable; urgency=medium
 
   * Add missing breaks/replaces for libkgapi2-2-dev. (Closes: #749525)
