@@ -1,6 +1,6 @@
 Source: libkgapi
 Priority: optional
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Maintainer: Debian/Ubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Michael Meskes <meskes@debian.org>,
            Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake,
@@ -13,9 +13,9 @@ Build-Depends: cmake,
                pkg-kde-tools (>= 0.5.0)
 Standards-Version: 3.9.5
 Section: libs
+Homepage: https://projects.kde.org/libkgapi
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-extras/libkgapi.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-extras/libkgapi.git;a=summary
-Homepage: https://projects.kde.org/libkgapi
 
 Package: libkgapi-dev
 Section: libdevel
