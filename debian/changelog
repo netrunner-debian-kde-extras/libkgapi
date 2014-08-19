@@ -1,6 +1,7 @@
 libkgapi (2.2.0-1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * Update build dependencies.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 19 Aug 2014 15:20:51 +0200
 
