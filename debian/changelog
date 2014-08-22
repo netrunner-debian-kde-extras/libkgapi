@@ -1,10 +1,10 @@
-libkgapi (2.2.0-1) UNRELEASED; urgency=medium
+libkgapi (2.2.0-1) unstable; urgency=medium
 
   * New upstream release.
   * Update build dependencies.
   * Update symbols file.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 19 Aug 2014 15:20:51 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 22 Aug 2014 07:07:25 +0200
 
 libkgapi (2.2.0-0ubuntu1) utopic; urgency=medium
 
