@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 2.1.1 amd64 sparc
+# SymbolsHelper-Confirmed: 2.2.0 amd64
 libkgapi2.so.2 libkgapi2-2 #MINVER#
  _ZN6KGAPI210AuthWidget10setAccountERK14QSharedPointerINS_7AccountEE@Base 2.0.1
  _ZN6KGAPI210AuthWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.1
@@ -11,11 +11,12 @@ libkgapi2.so.2 libkgapi2-2 #MINVER#
  _ZN6KGAPI210AuthWidget16staticMetaObjectE@Base 2.0.1
  _ZN6KGAPI210AuthWidget18setShowProgressBarEb@Base 2.0.1
  _ZN6KGAPI210AuthWidget5errorENS_5ErrorERK7QString@Base 2.0.1
+ _ZN6KGAPI210AuthWidget7Private10onSslErrorEP13QNetworkReplyRK5QListI9QSslErrorE@Base 2.2.0
  _ZN6KGAPI210AuthWidget7Private11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.1
  _ZN6KGAPI210AuthWidget7Private11qt_metacastEPKc@Base 2.0.1
  _ZN6KGAPI210AuthWidget7Private11setProgressENS0_8ProgressE@Base 2.0.1
  _ZN6KGAPI210AuthWidget7Private14tokensReceivedEPNS_3JobE@Base 2.0.1
- _ZN6KGAPI210AuthWidget7Private15webviewFinishedEv@Base 2.0.1
+ _ZN6KGAPI210AuthWidget7Private15webviewFinishedEb@Base 2.2.0
  _ZN6KGAPI210AuthWidget7Private16staticMetaObjectE@Base 2.0.1
  _ZN6KGAPI210AuthWidget7Private17webviewUrlChangedERK4QUrl@Base 2.0.1
  _ZN6KGAPI210AuthWidget7Private19accountInfoReceivedEPNS_3JobE@Base 2.0.1
@@ -309,6 +310,25 @@ libkgapi2.so.2 libkgapi2-2 #MINVER#
  _ZN6KGAPI213TaskModifyJobD0Ev@Base 2.0.1
  _ZN6KGAPI213TaskModifyJobD1Ev@Base 2.0.1
  _ZN6KGAPI213TaskModifyJobD2Ev@Base 2.0.1
+ _ZN6KGAPI214BloggerService12fetchPageUrlERK7QStringS3_@Base 2.2.0
+ _ZN6KGAPI214BloggerService12fetchPostUrlERK7QStringS3_@Base 2.2.0
+ _ZN6KGAPI214BloggerService13createPageUrlERK7QString@Base 2.2.0
+ _ZN6KGAPI214BloggerService13createPostUrlERK7QString@Base 2.2.0
+ _ZN6KGAPI214BloggerService13deletePageUrlERK7QStringS3_@Base 2.2.0
+ _ZN6KGAPI214BloggerService13deletePostUrlERK7QStringS3_@Base 2.2.0
+ _ZN6KGAPI214BloggerService13modifyPageUrlERK7QStringS3_@Base 2.2.0
+ _ZN6KGAPI214BloggerService13modifyPostUrlERK7QStringS3_@Base 2.2.0
+ _ZN6KGAPI214BloggerService13revertPostUrlERK7QStringS3_@Base 2.2.0
+ _ZN6KGAPI214BloggerService13searchPostUrlERK7QString@Base 2.2.0
+ _ZN6KGAPI214BloggerService14publishPostUrlERK7QStringS3_@Base 2.2.0
+ _ZN6KGAPI214BloggerService16deleteCommentUrlERK7QStringS3_S3_@Base 2.2.0
+ _ZN6KGAPI214BloggerService16fetchCommentsUrlERK7QStringS3_S3_@Base 2.2.0
+ _ZN6KGAPI214BloggerService17approveCommentUrlERK7QStringS3_S3_@Base 2.2.0
+ _ZN6KGAPI214BloggerService20fetchBlogByBlogIdUrlERK7QString@Base 2.2.0
+ _ZN6KGAPI214BloggerService20markCommentAsSpamUrlERK7QStringS3_S3_@Base 2.2.0
+ _ZN6KGAPI214BloggerService21fetchBlogByBlogUrlUrlERK7QString@Base 2.2.0
+ _ZN6KGAPI214BloggerService21fetchBlogsByUserIdUrlERK7QString@Base 2.2.0
+ _ZN6KGAPI214BloggerService23deleteCommentContentUrlERK7QStringS3_S3_@Base 2.2.0
  _ZN6KGAPI214EventCreateJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.0.1
  _ZN6KGAPI214EventCreateJob11qt_metacastEPKc@Base 2.0.1
  _ZN6KGAPI214EventCreateJob16staticMetaObjectE@Base 2.0.1
@@ -1591,6 +1611,7 @@ libkgapi2.so.2 libkgapi2-2 #MINVER#
  _ZN6KGAPI27Account13tasksScopeUrlEv@Base 2.0.1
  _ZN6KGAPI27Account14setAccessTokenERK7QString@Base 2.0.1
  _ZN6KGAPI27Account14setAccountNameERK7QString@Base 2.0.1
+ _ZN6KGAPI27Account15bloggerScopeUrlEv@Base 2.2.0
  _ZN6KGAPI27Account15setRefreshTokenERK7QString@Base 2.0.1
  _ZN6KGAPI27Account16calendarScopeUrlEv@Base 2.0.1
  _ZN6KGAPI27Account16contactsScopeUrlEv@Base 2.0.1
@@ -1634,6 +1655,314 @@ libkgapi2.so.2 libkgapi2-2 #MINVER#
  _ZN6KGAPI27AuthJobD0Ev@Base 2.0.1
  _ZN6KGAPI27AuthJobD1Ev@Base 2.0.1
  _ZN6KGAPI27AuthJobD2Ev@Base 2.0.1
+ _ZN6KGAPI27Blogger12BlogFetchJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.2.0
+ _ZN6KGAPI27Blogger12BlogFetchJob11qt_metacastEPKc@Base 2.2.0
+ _ZN6KGAPI27Blogger12BlogFetchJob16staticMetaObjectE@Base 2.2.0
+ _ZN6KGAPI27Blogger12BlogFetchJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 2.2.0
+ _ZN6KGAPI27Blogger12BlogFetchJob5startEv@Base 2.2.0
+ _ZN6KGAPI27Blogger12BlogFetchJob7PrivateC1ERK7QStringNS1_7FetchByE@Base 2.2.0
+ _ZN6KGAPI27Blogger12BlogFetchJob7PrivateC2ERK7QStringNS1_7FetchByE@Base 2.2.0
+ _ZN6KGAPI27Blogger12BlogFetchJob7PrivateD1Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger12BlogFetchJob7PrivateD2Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger12BlogFetchJobC1ERK7QStringNS1_7FetchByERK14QSharedPointerINS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger12BlogFetchJobC2ERK7QStringNS1_7FetchByERK14QSharedPointerINS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger12BlogFetchJobD0Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger12BlogFetchJobD1Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger12BlogFetchJobD2Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger12PageFetchJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.2.0
+ _ZN6KGAPI27Blogger12PageFetchJob11qt_metacastEPKc@Base 2.2.0
+ _ZN6KGAPI27Blogger12PageFetchJob15setFetchContentEb@Base 2.2.0
+ _ZN6KGAPI27Blogger12PageFetchJob15setStatusFilterE6QFlagsINS1_12StatusFilterEE@Base 2.2.0
+ _ZN6KGAPI27Blogger12PageFetchJob16staticMetaObjectE@Base 2.2.0
+ _ZN6KGAPI27Blogger12PageFetchJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 2.2.0
+ _ZN6KGAPI27Blogger12PageFetchJob5startEv@Base 2.2.0
+ _ZN6KGAPI27Blogger12PageFetchJob7PrivateC1ERK7QStringS5_@Base 2.2.0
+ _ZN6KGAPI27Blogger12PageFetchJob7PrivateC2ERK7QStringS5_@Base 2.2.0
+ _ZN6KGAPI27Blogger12PageFetchJobC1ERK7QStringRK14QSharedPointerINS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger12PageFetchJobC1ERK7QStringS4_RK14QSharedPointerINS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger12PageFetchJobC2ERK7QStringRK14QSharedPointerINS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger12PageFetchJobC2ERK7QStringS4_RK14QSharedPointerINS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger12PageFetchJobD0Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger12PageFetchJobD1Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger12PageFetchJobD2Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger12PostFetchJob10setEndDateERK9KDateTime@Base 2.2.0
+ _ZN6KGAPI27Blogger12PostFetchJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.2.0
+ _ZN6KGAPI27Blogger12PostFetchJob11qt_metacastEPKc@Base 2.2.0
+ _ZN6KGAPI27Blogger12PostFetchJob12setStartDateERK9KDateTime@Base 2.2.0
+ _ZN6KGAPI27Blogger12PostFetchJob13setMaxResultsEj@Base 2.2.0
+ _ZN6KGAPI27Blogger12PostFetchJob14setFetchBodiesEb@Base 2.2.0
+ _ZN6KGAPI27Blogger12PostFetchJob14setFetchImagesEb@Base 2.2.0
+ _ZN6KGAPI27Blogger12PostFetchJob15setFilterLabelsERK11QStringList@Base 2.2.0
+ _ZN6KGAPI27Blogger12PostFetchJob15setStatusFilterE6QFlagsINS1_12StatusFilterEE@Base 2.2.0
+ _ZN6KGAPI27Blogger12PostFetchJob16staticMetaObjectE@Base 2.2.0
+ _ZN6KGAPI27Blogger12PostFetchJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 2.2.0
+ _ZN6KGAPI27Blogger12PostFetchJob5startEv@Base 2.2.0
+ _ZN6KGAPI27Blogger12PostFetchJob7Private13createRequestERK4QUrl@Base 2.2.0
+ _ZN6KGAPI27Blogger12PostFetchJob7PrivateC1ERK7QStringS5_PS1_@Base 2.2.0
+ _ZN6KGAPI27Blogger12PostFetchJob7PrivateC2ERK7QStringS5_PS1_@Base 2.2.0
+ _ZN6KGAPI27Blogger12PostFetchJobC1ERK7QStringRK14QSharedPointerINS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger12PostFetchJobC1ERK7QStringS4_RK14QSharedPointerINS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger12PostFetchJobC2ERK7QStringRK14QSharedPointerINS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger12PostFetchJobC2ERK7QStringS4_RK14QSharedPointerINS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger12PostFetchJobD0Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger12PostFetchJobD1Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger12PostFetchJobD2Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger13PageCreateJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.2.0
+ _ZN6KGAPI27Blogger13PageCreateJob11qt_metacastEPKc@Base 2.2.0
+ _ZN6KGAPI27Blogger13PageCreateJob16staticMetaObjectE@Base 2.2.0
+ _ZN6KGAPI27Blogger13PageCreateJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 2.2.0
+ _ZN6KGAPI27Blogger13PageCreateJob5startEv@Base 2.2.0
+ _ZN6KGAPI27Blogger13PageCreateJob7PrivateC1ERK14QSharedPointerINS0_4PageEE@Base 2.2.0
+ _ZN6KGAPI27Blogger13PageCreateJob7PrivateC2ERK14QSharedPointerINS0_4PageEE@Base 2.2.0
+ _ZN6KGAPI27Blogger13PageCreateJobC1ERK14QSharedPointerINS0_4PageEERKS2_INS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger13PageCreateJobC2ERK14QSharedPointerINS0_4PageEERKS2_INS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger13PageCreateJobD0Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger13PageCreateJobD1Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger13PageCreateJobD2Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger13PageDeleteJob11handleReplyEPK13QNetworkReplyRK10QByteArray@Base 2.2.0
+ _ZN6KGAPI27Blogger13PageDeleteJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.2.0
+ _ZN6KGAPI27Blogger13PageDeleteJob11qt_metacastEPKc@Base 2.2.0
+ _ZN6KGAPI27Blogger13PageDeleteJob16staticMetaObjectE@Base 2.2.0
+ _ZN6KGAPI27Blogger13PageDeleteJob5startEv@Base 2.2.0
+ _ZN6KGAPI27Blogger13PageDeleteJob7PrivateC1ERK7QStringS5_@Base 2.2.0
+ _ZN6KGAPI27Blogger13PageDeleteJob7PrivateC2ERK7QStringS5_@Base 2.2.0
+ _ZN6KGAPI27Blogger13PageDeleteJobC1ERK14QSharedPointerINS0_4PageEERKS2_INS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger13PageDeleteJobC1ERK7QStringS4_RK14QSharedPointerINS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger13PageDeleteJobC2ERK14QSharedPointerINS0_4PageEERKS2_INS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger13PageDeleteJobC2ERK7QStringS4_RK14QSharedPointerINS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger13PageDeleteJobD0Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger13PageDeleteJobD1Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger13PageDeleteJobD2Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger13PageModifyJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.2.0
+ _ZN6KGAPI27Blogger13PageModifyJob11qt_metacastEPKc@Base 2.2.0
+ _ZN6KGAPI27Blogger13PageModifyJob16staticMetaObjectE@Base 2.2.0
+ _ZN6KGAPI27Blogger13PageModifyJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 2.2.0
+ _ZN6KGAPI27Blogger13PageModifyJob5startEv@Base 2.2.0
+ _ZN6KGAPI27Blogger13PageModifyJob7PrivateC1ERK14QSharedPointerINS0_4PageEE@Base 2.2.0
+ _ZN6KGAPI27Blogger13PageModifyJob7PrivateC2ERK14QSharedPointerINS0_4PageEE@Base 2.2.0
+ _ZN6KGAPI27Blogger13PageModifyJobC1ERK14QSharedPointerINS0_4PageEERKS2_INS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger13PageModifyJobC2ERK14QSharedPointerINS0_4PageEERKS2_INS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger13PageModifyJobD0Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger13PageModifyJobD1Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger13PageModifyJobD2Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostCreateJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostCreateJob11qt_metacastEPKc@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostCreateJob16staticMetaObjectE@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostCreateJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostCreateJob5startEv@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostCreateJob7PrivateC1ERK14QSharedPointerINS0_4PostEEb@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostCreateJob7PrivateC2ERK14QSharedPointerINS0_4PostEEb@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostCreateJobC1ERK14QSharedPointerINS0_4PostEEbRKS2_INS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostCreateJobC2ERK14QSharedPointerINS0_4PostEEbRKS2_INS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostCreateJobD0Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostCreateJobD1Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostCreateJobD2Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostDeleteJob11handleReplyEPK13QNetworkReplyRK10QByteArray@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostDeleteJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostDeleteJob11qt_metacastEPKc@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostDeleteJob16staticMetaObjectE@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostDeleteJob5startEv@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostDeleteJob7PrivateC1ERK7QStringS5_@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostDeleteJob7PrivateC2ERK7QStringS5_@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostDeleteJobC1ERK14QSharedPointerINS0_4PostEERKS2_INS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostDeleteJobC1ERK7QStringS4_RK14QSharedPointerINS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostDeleteJobC2ERK14QSharedPointerINS0_4PostEERKS2_INS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostDeleteJobC2ERK7QStringS4_RK14QSharedPointerINS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostDeleteJobD0Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostDeleteJobD1Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostDeleteJobD2Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostModifyJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostModifyJob11qt_metacastEPKc@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostModifyJob16staticMetaObjectE@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostModifyJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostModifyJob5startEv@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostModifyJob7PrivateC1ERK14QSharedPointerINS0_4PostEE@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostModifyJob7PrivateC2ERK14QSharedPointerINS0_4PostEE@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostModifyJobC1ERK14QSharedPointerINS0_4PostEERKS2_INS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostModifyJobC2ERK14QSharedPointerINS0_4PostEERKS2_INS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostModifyJobD0Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostModifyJobD1Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostModifyJobD2Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostSearchJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostSearchJob11qt_metacastEPKc@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostSearchJob14setFetchBodiesEb@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostSearchJob16staticMetaObjectE@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostSearchJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostSearchJob5startEv@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostSearchJob7Private13createRequestERK4QUrl@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostSearchJob7PrivateC1ERK7QStringS5_PS1_@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostSearchJob7PrivateC2ERK7QStringS5_PS1_@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostSearchJobC1ERK7QStringS4_RK14QSharedPointerINS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostSearchJobC2ERK7QStringS4_RK14QSharedPointerINS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostSearchJobD0Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostSearchJobD1Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger13PostSearchJobD2Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger14PostPublishJob11handleReplyEPK13QNetworkReplyRK10QByteArray@Base 2.2.0
+ _ZN6KGAPI27Blogger14PostPublishJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.2.0
+ _ZN6KGAPI27Blogger14PostPublishJob11qt_metacastEPKc@Base 2.2.0
+ _ZN6KGAPI27Blogger14PostPublishJob15dispatchRequestEP21QNetworkAccessManagerRK15QNetworkRequestRK10QByteArrayRK7QString@Base 2.2.0
+ _ZN6KGAPI27Blogger14PostPublishJob16staticMetaObjectE@Base 2.2.0
+ _ZN6KGAPI27Blogger14PostPublishJob5startEv@Base 2.2.0
+ _ZN6KGAPI27Blogger14PostPublishJob7PrivateC1ERK7QStringS5_NS1_13PublishActionERK9KDateTime@Base 2.2.0
+ _ZN6KGAPI27Blogger14PostPublishJob7PrivateC2ERK7QStringS5_NS1_13PublishActionERK9KDateTime@Base 2.2.0
+ _ZN6KGAPI27Blogger14PostPublishJobC1ERK14QSharedPointerINS0_4PostEENS1_13PublishActionERKS2_INS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger14PostPublishJobC1ERK14QSharedPointerINS0_4PostEERK9KDateTimeRKS2_INS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger14PostPublishJobC1ERK7QStringS4_NS1_13PublishActionERK14QSharedPointerINS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger14PostPublishJobC1ERK7QStringS4_RK9KDateTimeRK14QSharedPointerINS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger14PostPublishJobC2ERK14QSharedPointerINS0_4PostEENS1_13PublishActionERKS2_INS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger14PostPublishJobC2ERK14QSharedPointerINS0_4PostEERK9KDateTimeRKS2_INS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger14PostPublishJobC2ERK7QStringS4_NS1_13PublishActionERK14QSharedPointerINS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger14PostPublishJobC2ERK7QStringS4_RK9KDateTimeRK14QSharedPointerINS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger14PostPublishJobD0Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger14PostPublishJobD1Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger14PostPublishJobD2Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger15CommentFetchJob10setEndDateERK9KDateTime@Base 2.2.0
+ _ZN6KGAPI27Blogger15CommentFetchJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.2.0
+ _ZN6KGAPI27Blogger15CommentFetchJob11qt_metacastEPKc@Base 2.2.0
+ _ZN6KGAPI27Blogger15CommentFetchJob12setStartDateERK9KDateTime@Base 2.2.0
+ _ZN6KGAPI27Blogger15CommentFetchJob13setMaxResultsEj@Base 2.2.0
+ _ZN6KGAPI27Blogger15CommentFetchJob14setFetchBodiesEb@Base 2.2.0
+ _ZN6KGAPI27Blogger15CommentFetchJob16staticMetaObjectE@Base 2.2.0
+ _ZN6KGAPI27Blogger15CommentFetchJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 2.2.0
+ _ZN6KGAPI27Blogger15CommentFetchJob5startEv@Base 2.2.0
+ _ZN6KGAPI27Blogger15CommentFetchJob7Private13createRequestERK4QUrl@Base 2.2.0
+ _ZN6KGAPI27Blogger15CommentFetchJob7PrivateC1ERK7QStringS5_S5_PS1_@Base 2.2.0
+ _ZN6KGAPI27Blogger15CommentFetchJob7PrivateC2ERK7QStringS5_S5_PS1_@Base 2.2.0
+ _ZN6KGAPI27Blogger15CommentFetchJob7PrivateD1Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger15CommentFetchJob7PrivateD2Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger15CommentFetchJobC1ERK7QStringRK14QSharedPointerINS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger15CommentFetchJobC1ERK7QStringS4_RK14QSharedPointerINS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger15CommentFetchJobC1ERK7QStringS4_S4_RK14QSharedPointerINS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger15CommentFetchJobC2ERK7QStringRK14QSharedPointerINS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger15CommentFetchJobC2ERK7QStringS4_RK14QSharedPointerINS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger15CommentFetchJobC2ERK7QStringS4_S4_RK14QSharedPointerINS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger15CommentFetchJobD0Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger15CommentFetchJobD1Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger15CommentFetchJobD2Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger16CommentDeleteJob11handleReplyEPK13QNetworkReplyRK10QByteArray@Base 2.2.0
+ _ZN6KGAPI27Blogger16CommentDeleteJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.2.0
+ _ZN6KGAPI27Blogger16CommentDeleteJob11qt_metacastEPKc@Base 2.2.0
+ _ZN6KGAPI27Blogger16CommentDeleteJob16staticMetaObjectE@Base 2.2.0
+ _ZN6KGAPI27Blogger16CommentDeleteJob5startEv@Base 2.2.0
+ _ZN6KGAPI27Blogger16CommentDeleteJob7PrivateC1ERK7QStringS5_S5_@Base 2.2.0
+ _ZN6KGAPI27Blogger16CommentDeleteJob7PrivateC2ERK7QStringS5_S5_@Base 2.2.0
+ _ZN6KGAPI27Blogger16CommentDeleteJobC1ERK14QSharedPointerINS0_7CommentEERKS2_INS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger16CommentDeleteJobC1ERK7QStringS4_S4_RK14QSharedPointerINS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger16CommentDeleteJobC2ERK14QSharedPointerINS0_7CommentEERKS2_INS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger16CommentDeleteJobC2ERK7QStringS4_S4_RK14QSharedPointerINS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger16CommentDeleteJobD0Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger16CommentDeleteJobD1Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger16CommentDeleteJobD2Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger17CommentApproveJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.2.0
+ _ZN6KGAPI27Blogger17CommentApproveJob11qt_metacastEPKc@Base 2.2.0
+ _ZN6KGAPI27Blogger17CommentApproveJob16staticMetaObjectE@Base 2.2.0
+ _ZN6KGAPI27Blogger17CommentApproveJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 2.2.0
+ _ZN6KGAPI27Blogger17CommentApproveJob5startEv@Base 2.2.0
+ _ZN6KGAPI27Blogger17CommentApproveJob7PrivateC1ERK7QStringS5_S5_NS1_14ApprovalActionE@Base 2.2.0
+ _ZN6KGAPI27Blogger17CommentApproveJob7PrivateC2ERK7QStringS5_S5_NS1_14ApprovalActionE@Base 2.2.0
+ _ZN6KGAPI27Blogger17CommentApproveJobC1ERK14QSharedPointerINS0_7CommentEENS1_14ApprovalActionERKS2_INS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger17CommentApproveJobC1ERK7QStringS4_S4_NS1_14ApprovalActionERK14QSharedPointerINS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger17CommentApproveJobC2ERK14QSharedPointerINS0_7CommentEENS1_14ApprovalActionERKS2_INS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger17CommentApproveJobC2ERK7QStringS4_S4_NS1_14ApprovalActionERK14QSharedPointerINS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger17CommentApproveJobD0Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger17CommentApproveJobD1Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger17CommentApproveJobD2Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger23CommentDeleteContentJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 2.2.0
+ _ZN6KGAPI27Blogger23CommentDeleteContentJob11qt_metacastEPKc@Base 2.2.0
+ _ZN6KGAPI27Blogger23CommentDeleteContentJob16staticMetaObjectE@Base 2.2.0
+ _ZN6KGAPI27Blogger23CommentDeleteContentJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 2.2.0
+ _ZN6KGAPI27Blogger23CommentDeleteContentJob5startEv@Base 2.2.0
+ _ZN6KGAPI27Blogger23CommentDeleteContentJob7PrivateC1ERK7QStringS5_S5_@Base 2.2.0
+ _ZN6KGAPI27Blogger23CommentDeleteContentJob7PrivateC2ERK7QStringS5_S5_@Base 2.2.0
+ _ZN6KGAPI27Blogger23CommentDeleteContentJobC1ERK14QSharedPointerINS0_7CommentEERKS2_INS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger23CommentDeleteContentJobC1ERK7QStringS4_S4_RK14QSharedPointerINS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger23CommentDeleteContentJobC2ERK14QSharedPointerINS0_7CommentEERKS2_INS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger23CommentDeleteContentJobC2ERK7QStringS4_S4_RK14QSharedPointerINS_7AccountEEP7QObject@Base 2.2.0
+ _ZN6KGAPI27Blogger23CommentDeleteContentJobD0Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger23CommentDeleteContentJobD1Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger23CommentDeleteContentJobD2Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger4Blog12fromJSONFeedERK10QByteArray@Base 2.2.0
+ _ZN6KGAPI27Blogger4Blog3urlEv@Base 2.2.0
+ _ZN6KGAPI27Blogger4Blog7Private8fromJSONERK8QVariant@Base 2.2.0
+ _ZN6KGAPI27Blogger4Blog7PrivateC1Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger4Blog7PrivateC2Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger4Blog8fromJSONERK10QByteArray@Base 2.2.0
+ _ZN6KGAPI27Blogger4BlogC1Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger4BlogC2Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger4BlogD0Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger4BlogD1Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger4BlogD2Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger4Page10setContentERK7QString@Base 2.2.0
+ _ZN6KGAPI27Blogger4Page10setUpdatedER9KDateTime@Base 2.2.0
+ _ZN6KGAPI27Blogger4Page12fromJSONFeedERK10QByteArray@Base 2.2.0
+ _ZN6KGAPI27Blogger4Page12setPublishedERK9KDateTime@Base 2.2.0
+ _ZN6KGAPI27Blogger4Page5setIdERK7QString@Base 2.2.0
+ _ZN6KGAPI27Blogger4Page6setUrlERK4QUrl@Base 2.2.0
+ _ZN6KGAPI27Blogger4Page6toJSONERK14QSharedPointerIS1_E@Base 2.2.0
+ _ZN6KGAPI27Blogger4Page7Private6toJSONERK14QSharedPointerIS1_E@Base 2.2.0
+ _ZN6KGAPI27Blogger4Page7Private8fromJSONERK8QVariant@Base 2.2.0
+ _ZN6KGAPI27Blogger4Page7PrivateC1Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger4Page7PrivateC2Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger4Page7PrivateD1Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger4Page7PrivateD2Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger4Page8fromJSONERK10QByteArray@Base 2.2.0
+ _ZN6KGAPI27Blogger4Page8setTitleERK7QString@Base 2.2.0
+ _ZN6KGAPI27Blogger4Page9setBlogIdERK7QString@Base 2.2.0
+ _ZN6KGAPI27Blogger4Page9setStatusENS1_6StatusE@Base 2.2.0
+ _ZN6KGAPI27Blogger4PageC1Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger4PageC2Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger4PageD0Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger4PageD1Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger4PageD2Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger4Post10setContentERK7QString@Base 2.2.0
+ _ZN6KGAPI27Blogger4Post10setUpdatedERK9KDateTime@Base 2.2.0
+ _ZN6KGAPI27Blogger4Post11setLatitudeEd@Base 2.2.0
+ _ZN6KGAPI27Blogger4Post11setLocationERK7QString@Base 2.2.0
+ _ZN6KGAPI27Blogger4Post12fromJSONFeedERK10QByteArrayRNS_8FeedDataE@Base 2.2.0
+ _ZN6KGAPI27Blogger4Post12setLongituteEd@Base 2.2.0
+ _ZN6KGAPI27Blogger4Post12setPublishedERK9KDateTime@Base 2.2.0
+ _ZN6KGAPI27Blogger4Post17setCustomMetaDataERK8QVariant@Base 2.2.0
+ _ZN6KGAPI27Blogger4Post2idEv@Base 2.2.0
+ _ZN6KGAPI27Blogger4Post5setIdERK7QString@Base 2.2.0
+ _ZN6KGAPI27Blogger4Post6blogIdEv@Base 2.2.0
+ _ZN6KGAPI27Blogger4Post6setUrlERK4QUrl@Base 2.2.0
+ _ZN6KGAPI27Blogger4Post6toJSONERK14QSharedPointerIS1_E@Base 2.2.0
+ _ZN6KGAPI27Blogger4Post7Private6toJSONERK14QSharedPointerIS1_E@Base 2.2.0
+ _ZN6KGAPI27Blogger4Post7Private8fromJSONERK8QVariant@Base 2.2.0
+ _ZN6KGAPI27Blogger4Post7PrivateC1Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger4Post7PrivateC2Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger4Post8fromJSONERK10QByteArray@Base 2.2.0
+ _ZN6KGAPI27Blogger4Post8setTitleERK7QString@Base 2.2.0
+ _ZN6KGAPI27Blogger4Post9setBlogIdERK7QString@Base 2.2.0
+ _ZN6KGAPI27Blogger4Post9setImagesERK5QListI4QUrlE@Base 2.2.0
+ _ZN6KGAPI27Blogger4Post9setLabelsERK11QStringList@Base 2.2.0
+ _ZN6KGAPI27Blogger4PostC1Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger4PostC2Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger4PostD0Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger4PostD1Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger4PostD2Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger7Comment10setContentERK7QString@Base 2.2.0
+ _ZN6KGAPI27Blogger7Comment10setUpdatedERK9KDateTime@Base 2.2.0
+ _ZN6KGAPI27Blogger7Comment11setAuthorIdERK7QString@Base 2.2.0
+ _ZN6KGAPI27Blogger7Comment12fromJSONFeedERK10QByteArrayRNS_8FeedDataE@Base 2.2.0
+ _ZN6KGAPI27Blogger7Comment12setAuthorUrlERK4QUrl@Base 2.2.0
+ _ZN6KGAPI27Blogger7Comment12setInReplyToERK7QString@Base 2.2.0
+ _ZN6KGAPI27Blogger7Comment12setPublishedERK9KDateTime@Base 2.2.0
+ _ZN6KGAPI27Blogger7Comment13setAuthorNameERK7QString@Base 2.2.0
+ _ZN6KGAPI27Blogger7Comment17setAuthorImageUrlERK4QUrl@Base 2.2.0
+ _ZN6KGAPI27Blogger7Comment5setIdERK7QString@Base 2.2.0
+ _ZN6KGAPI27Blogger7Comment7Private8fromJSONERK8QVariant@Base 2.2.0
+ _ZN6KGAPI27Blogger7Comment7PrivateC1Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger7Comment7PrivateC2Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger7Comment8fromJSONERK10QByteArray@Base 2.2.0
+ _ZN6KGAPI27Blogger7Comment9setBlogIdERK7QString@Base 2.2.0
+ _ZN6KGAPI27Blogger7Comment9setPostIdERK7QString@Base 2.2.0
+ _ZN6KGAPI27Blogger7Comment9setStatusERK7QString@Base 2.2.0
+ _ZN6KGAPI27Blogger7CommentC1Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger7CommentC2Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger7CommentD0Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger7CommentD1Ev@Base 2.2.0
+ _ZN6KGAPI27Blogger7CommentD2Ev@Base 2.2.0
  _ZN6KGAPI27Contact10setCreatedERK9KDateTime@Base 2.0.1
  _ZN6KGAPI27Contact10setDeletedEb@Base 2.0.1
  _ZN6KGAPI27Contact10setUpdatedERK9KDateTime@Base 2.0.1
@@ -2126,6 +2455,88 @@ libkgapi2.so.2 libkgapi2-2 #MINVER#
  _ZNK6KGAPI27Account6scopesEv@Base 2.0.1
  _ZNK6KGAPI27AuthJob10metaObjectEv@Base 2.0.1
  _ZNK6KGAPI27AuthJob7accountEv@Base 2.0.1
+ _ZNK6KGAPI27Blogger12BlogFetchJob10metaObjectEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger12PageFetchJob10metaObjectEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger12PageFetchJob12fetchContentEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger12PageFetchJob12statusFilterEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger12PostFetchJob10maxResultsEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger12PostFetchJob10metaObjectEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger12PostFetchJob11fetchBodiesEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger12PostFetchJob11fetchImagesEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger12PostFetchJob12filterLabelsEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger12PostFetchJob12statusFilterEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger12PostFetchJob7endDateEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger12PostFetchJob9startDateEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger13PageCreateJob10metaObjectEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger13PageDeleteJob10metaObjectEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger13PageModifyJob10metaObjectEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger13PostCreateJob10metaObjectEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger13PostDeleteJob10metaObjectEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger13PostModifyJob10metaObjectEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger13PostSearchJob10metaObjectEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger13PostSearchJob11fetchBodiesEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger14PostPublishJob10metaObjectEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger14PostPublishJob4itemEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger15CommentFetchJob10maxResultsEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger15CommentFetchJob10metaObjectEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger15CommentFetchJob11fetchBodiesEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger15CommentFetchJob7endDateEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger15CommentFetchJob9startDateEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger16CommentDeleteJob10metaObjectEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger17CommentApproveJob10metaObjectEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger23CommentDeleteContentJob10metaObjectEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger4Blog10pagesCountEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger4Blog10postsCountEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger4Blog11descriptionEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger4Blog14customMetaDataEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger4Blog15languageVariantEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger4Blog2idEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger4Blog4nameEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger4Blog7countryEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger4Blog7updatedEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger4Blog8langaugeEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger4Blog9publishedEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger4Page10authorNameEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger4Page14authorImageUrlEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger4Page2idEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger4Page3urlEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger4Page5titleEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger4Page6blogIdEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger4Page6statusEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger4Page7contentEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger4Page7updatedEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger4Page8authorIdEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger4Page9authorUrlEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger4Page9publishedEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger4Post10authorNameEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger4Post13commentsCountEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger4Post14authorImageUrlEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger4Post14customMetaDataEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger4Post3urlEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger4Post5titleEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger4Post6imagesEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger4Post6labelsEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger4Post6statusEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger4Post7contentEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger4Post7updatedEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger4Post8authorIdEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger4Post8latitudeEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger4Post8locationEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger4Post9authorUrlEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger4Post9longitudeEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger4Post9publishedEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger7Comment10authorNameEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger7Comment14authorImageUrlEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger7Comment2idEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger7Comment6blogIdEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger7Comment6postIdEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger7Comment6statusEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger7Comment7contentEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger7Comment7updatedEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger7Comment8authorIdEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger7Comment9authorUrlEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger7Comment9inReplyToEv@Base 2.2.0
+ _ZNK6KGAPI27Blogger7Comment9publishedEv@Base 2.2.0
  _ZNK6KGAPI27Contact10professionEv@Base 2.0.1
  _ZNK6KGAPI27Contact11anniversaryEv@Base 2.0.1
  _ZNK6KGAPI27Contact11spousesNameEv@Base 2.0.1
@@ -2259,6 +2670,25 @@ libkgapi2.so.2 libkgapi2-2 #MINVER#
  _ZTIN6KGAPI26ObjectE@Base 2.0.1
  _ZTIN6KGAPI27AccountE@Base 2.0.1
  _ZTIN6KGAPI27AuthJobE@Base 2.0.1
+ _ZTIN6KGAPI27Blogger12BlogFetchJobE@Base 2.2.0
+ _ZTIN6KGAPI27Blogger12PageFetchJobE@Base 2.2.0
+ _ZTIN6KGAPI27Blogger12PostFetchJobE@Base 2.2.0
+ _ZTIN6KGAPI27Blogger13PageCreateJobE@Base 2.2.0
+ _ZTIN6KGAPI27Blogger13PageDeleteJobE@Base 2.2.0
+ _ZTIN6KGAPI27Blogger13PageModifyJobE@Base 2.2.0
+ _ZTIN6KGAPI27Blogger13PostCreateJobE@Base 2.2.0
+ _ZTIN6KGAPI27Blogger13PostDeleteJobE@Base 2.2.0
+ _ZTIN6KGAPI27Blogger13PostModifyJobE@Base 2.2.0
+ _ZTIN6KGAPI27Blogger13PostSearchJobE@Base 2.2.0
+ _ZTIN6KGAPI27Blogger14PostPublishJobE@Base 2.2.0
+ _ZTIN6KGAPI27Blogger15CommentFetchJobE@Base 2.2.0
+ _ZTIN6KGAPI27Blogger16CommentDeleteJobE@Base 2.2.0
+ _ZTIN6KGAPI27Blogger17CommentApproveJobE@Base 2.2.0
+ _ZTIN6KGAPI27Blogger23CommentDeleteContentJobE@Base 2.2.0
+ _ZTIN6KGAPI27Blogger4BlogE@Base 2.2.0
+ _ZTIN6KGAPI27Blogger4PageE@Base 2.2.0
+ _ZTIN6KGAPI27Blogger4PostE@Base 2.2.0
+ _ZTIN6KGAPI27Blogger7CommentE@Base 2.2.0
  _ZTIN6KGAPI27ContactE@Base 2.0.1
  _ZTIN6KGAPI28CalendarE@Base 2.0.1
  _ZTIN6KGAPI28FetchJobE@Base 2.0.1
@@ -2362,6 +2792,25 @@ libkgapi2.so.2 libkgapi2-2 #MINVER#
  _ZTSN6KGAPI26ObjectE@Base 2.0.1
  _ZTSN6KGAPI27AccountE@Base 2.0.1
  _ZTSN6KGAPI27AuthJobE@Base 2.0.1
+ _ZTSN6KGAPI27Blogger12BlogFetchJobE@Base 2.2.0
+ _ZTSN6KGAPI27Blogger12PageFetchJobE@Base 2.2.0
+ _ZTSN6KGAPI27Blogger12PostFetchJobE@Base 2.2.0
+ _ZTSN6KGAPI27Blogger13PageCreateJobE@Base 2.2.0
+ _ZTSN6KGAPI27Blogger13PageDeleteJobE@Base 2.2.0
+ _ZTSN6KGAPI27Blogger13PageModifyJobE@Base 2.2.0
+ _ZTSN6KGAPI27Blogger13PostCreateJobE@Base 2.2.0
+ _ZTSN6KGAPI27Blogger13PostDeleteJobE@Base 2.2.0
+ _ZTSN6KGAPI27Blogger13PostModifyJobE@Base 2.2.0
+ _ZTSN6KGAPI27Blogger13PostSearchJobE@Base 2.2.0
+ _ZTSN6KGAPI27Blogger14PostPublishJobE@Base 2.2.0
+ _ZTSN6KGAPI27Blogger15CommentFetchJobE@Base 2.2.0
+ _ZTSN6KGAPI27Blogger16CommentDeleteJobE@Base 2.2.0
+ _ZTSN6KGAPI27Blogger17CommentApproveJobE@Base 2.2.0
+ _ZTSN6KGAPI27Blogger23CommentDeleteContentJobE@Base 2.2.0
+ _ZTSN6KGAPI27Blogger4BlogE@Base 2.2.0
+ _ZTSN6KGAPI27Blogger4PageE@Base 2.2.0
+ _ZTSN6KGAPI27Blogger4PostE@Base 2.2.0
+ _ZTSN6KGAPI27Blogger7CommentE@Base 2.2.0
  _ZTSN6KGAPI27ContactE@Base 2.0.1
  _ZTSN6KGAPI28CalendarE@Base 2.0.1
  _ZTSN6KGAPI28FetchJobE@Base 2.0.1
@@ -2463,6 +2912,25 @@ libkgapi2.so.2 libkgapi2-2 #MINVER#
  _ZTVN6KGAPI26ObjectE@Base 2.0.1
  _ZTVN6KGAPI27AccountE@Base 2.0.1
  _ZTVN6KGAPI27AuthJobE@Base 2.0.1
+ _ZTVN6KGAPI27Blogger12BlogFetchJobE@Base 2.2.0
+ _ZTVN6KGAPI27Blogger12PageFetchJobE@Base 2.2.0
+ _ZTVN6KGAPI27Blogger12PostFetchJobE@Base 2.2.0
+ _ZTVN6KGAPI27Blogger13PageCreateJobE@Base 2.2.0
+ _ZTVN6KGAPI27Blogger13PageDeleteJobE@Base 2.2.0
+ _ZTVN6KGAPI27Blogger13PageModifyJobE@Base 2.2.0
+ _ZTVN6KGAPI27Blogger13PostCreateJobE@Base 2.2.0
+ _ZTVN6KGAPI27Blogger13PostDeleteJobE@Base 2.2.0
+ _ZTVN6KGAPI27Blogger13PostModifyJobE@Base 2.2.0
+ _ZTVN6KGAPI27Blogger13PostSearchJobE@Base 2.2.0
+ _ZTVN6KGAPI27Blogger14PostPublishJobE@Base 2.2.0
+ _ZTVN6KGAPI27Blogger15CommentFetchJobE@Base 2.2.0
+ _ZTVN6KGAPI27Blogger16CommentDeleteJobE@Base 2.2.0
+ _ZTVN6KGAPI27Blogger17CommentApproveJobE@Base 2.2.0
+ _ZTVN6KGAPI27Blogger23CommentDeleteContentJobE@Base 2.2.0
+ _ZTVN6KGAPI27Blogger4BlogE@Base 2.2.0
+ _ZTVN6KGAPI27Blogger4PageE@Base 2.2.0
+ _ZTVN6KGAPI27Blogger4PostE@Base 2.2.0
+ _ZTVN6KGAPI27Blogger7CommentE@Base 2.2.0
  _ZTVN6KGAPI27ContactE@Base 2.0.1
  _ZTVN6KGAPI28CalendarE@Base 2.0.1
  _ZTVN6KGAPI28FetchJobE@Base 2.0.1
