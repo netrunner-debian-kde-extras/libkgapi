@@ -1,3 +1,17 @@
+libkgapi (4.80.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+  * KDE Frameworks 5 port
+    - remove all previous packages
+    - new packages:
+      + libkf5gapi*5 for all libraries
+      + libkf5gapi-dev
+      + libkf5gapi-data (depended on by all libs, contains debug settings
+         category)
+      + libkf5gapi-dbg
+
+ -- Harald Sitter <sitter@kde.org>  Wed, 19 Aug 2015 13:09:42 +0200
+
 libkgapi (2.2.0-1) unstable; urgency=medium
 
   * New upstream release.

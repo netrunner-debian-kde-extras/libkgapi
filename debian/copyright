@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: libkgapi
-Source: http://www.progdan.cz/
+Source: http://download.kde.org/stable/libkgapi
 
 Files: *
 Copyright: 2012 Andrius da Costa Ribas <andriusmao@gmail.com>
@@ -26,6 +26,7 @@ License: GPL-2+
 Files: debian/*
 Copyright: 2012 Jonathan Thomas <echidnaman@kubuntu.org>
            2013 Michael Meskes <meskes@debian.org>
+           2015 Harald Sitter <sitter@kde.org>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by

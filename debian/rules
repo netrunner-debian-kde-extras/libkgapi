@@ -1,12 +1,10 @@
 #!/usr/bin/make -f
 
-include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
-
-override_dh_auto_configure:
-	$(overridden_command) -- -DLIB_INSTALL_DIR=/usr/lib/$(DEB_HOST_MULTIARCH) -DKDE4_BUILD_TESTS=TRUE
-
-override_dh_shlibdeps:
-	$(overridden_command) -- -xkdepim-runtime
+include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 
 override_dh_strip:
-	$(overridden_command) -plibkgapi2-2 --dbg-package=libkgapi2-2-dbg
+	$(overridden_command) --dbg-package=libkf5gapi-dbg
+
+override_dh_auto_test:
+	# Disable auto test at build time, fakeroot breaks them
+	:
