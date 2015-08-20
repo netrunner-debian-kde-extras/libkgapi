@@ -1,4 +1,4 @@
-libkgapi (4.80.0-0ubuntu1) UNRELEASED; urgency=medium
+libkgapi (5.0.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
   * KDE Frameworks 5 port
