@@ -1,6 +1,6 @@
 libkgapi (5.0.0-0ubuntu1) UNRELEASED; urgency=medium
 
-  * New upstream release
+  [ Harald Sitter ]
   * KDE Frameworks 5 port
     - remove all previous packages
     - new packages:
@@ -10,7 +10,10 @@ libkgapi (5.0.0-0ubuntu1) UNRELEASED; urgency=medium
          category)
       + libkf5gapi-dbg
 
- -- Harald Sitter <sitter@kde.org>  Wed, 19 Aug 2015 13:09:42 +0200
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 20 Aug 2015 11:32:14 +0100
 
 libkgapi (2.2.0-1) unstable; urgency=medium
 

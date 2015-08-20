@@ -57,7 +57,7 @@ Description: Google API library for KDE -- data files
 Package: libkf5gapiblogger5
 Architecture: any
 Multi-Arch: same
-Depends: libkf5gapi-data (= ${binary:Version}),
+Depends: libkf5gapi-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: library to integrate with Google Blogger service API
@@ -66,7 +66,7 @@ Description: library to integrate with Google Blogger service API
 Package: libkf5gapicalendar5
 Architecture: any
 Multi-Arch: same
-Depends: libkf5gapi-data (= ${binary:Version}),
+Depends: libkf5gapi-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: library to integrate with Google Calendar service API
@@ -75,7 +75,7 @@ Description: library to integrate with Google Calendar service API
 Package: libkf5gapicontacts5
 Architecture: any
 Multi-Arch: same
-Depends: libkf5gapi-data (= ${binary:Version}),
+Depends: libkf5gapi-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: library to integrate with Google Contacts service API
@@ -84,7 +84,7 @@ Description: library to integrate with Google Contacts service API
 Package: libkf5gapicore5
 Architecture: any
 Multi-Arch: same
-Depends: libkf5gapi-data (= ${binary:Version}),
+Depends: libkf5gapi-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: core library to integrate with Google service APIs
@@ -93,7 +93,7 @@ Description: core library to integrate with Google service APIs
 Package: libkf5gapidrive5
 Architecture: any
 Multi-Arch: same
-Depends: libkf5gapi-data (= ${binary:Version}),
+Depends: libkf5gapi-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: library to integrate with Google Drive service API
@@ -102,7 +102,7 @@ Description: library to integrate with Google Drive service API
 Package: libkf5gapilatitude5
 Architecture: any
 Multi-Arch: same
-Depends: libkf5gapi-data (= ${binary:Version}),
+Depends: libkf5gapi-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: library to integrate with Google Latitude service API
@@ -111,7 +111,7 @@ Description: library to integrate with Google Latitude service API
 Package: libkf5gapimaps5
 Architecture: any
 Multi-Arch: same
-Depends: libkf5gapi-data (= ${binary:Version}),
+Depends: libkf5gapi-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: library to integrate with Google Maps service API
@@ -120,7 +120,7 @@ Description: library to integrate with Google Maps service API
 Package: libkf5gapitasks5
 Architecture: any
 Multi-Arch: same
-Depends: libkf5gapi-data (= ${binary:Version}),
+Depends: libkf5gapi-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: library to integrate with Google Tasks service API

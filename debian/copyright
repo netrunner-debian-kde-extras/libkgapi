@@ -3,6 +3,7 @@ Upstream-Name: libkgapi
 Source: http://download.kde.org/stable/libkgapi
 
 Files: *
+       debian/*
 Copyright: 2012 Andrius da Costa Ribas <andriusmao@gmail.com>
            2012-2013 Dan Vratil <dan@progdan.cz>
            2012 Jan Grulich <grulja@gmail.com>
