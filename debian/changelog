@@ -1,3 +1,9 @@
+libkgapi (5.0.0-0ubuntu2) wily; urgency=medium
+
+  * Add build-dep on qttools5-dev, qttools5-dev-tools
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 20 Aug 2015 12:24:57 +0100
+
 libkgapi (5.0.0-0ubuntu1) wily; urgency=medium
 
   [ Harald Sitter ]
