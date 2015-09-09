@@ -4,17 +4,17 @@ Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Michael Meskes <meskes@debian.org>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: cmake,
+Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
-               extra-cmake-modules,
-               kio-dev,
-               libkf5calendarcore-dev,
-               libkf5contacts-dev,
-               libkf5coreaddons-dev,
-               libkf5windowsystem-dev,
-               libqt5webkit5-dev,
+               extra-cmake-modules (>= 5.12.0~),
+               kio-dev (>= 5.12.0~),
+               libkf5calendarcore-dev (>= 4.81.0~),
+               libkf5contacts-dev (>= 4.91.0~),
+               libkf5coreaddons-dev (>= 5.12.0~),
+               libkf5windowsystem-dev (>= 5.12.0~),
+               libqt5webkit5-dev (>= 5.2.0~),
                pkg-kde-tools (>= 0.5.0),
-               qtbase5-dev,
+               qtbase5-dev (>= 5.2.0~),
                qttools5-dev,
                qttools5-dev-tools
 Standards-Version: 3.9.6
@@ -26,9 +26,9 @@ Package: libkf5gapi-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: foreign
-Depends: libkf5calendarcore-dev,
-         libkf5contacts-dev,
-         libkf5coreaddons-dev,
+Depends: libkf5calendarcore-dev (>= 4.81.0~),
+         libkf5contacts-dev (>= 4.91.0~),
+         libkf5coreaddons-dev (>= 5.12.0~),
          libkf5gapiblogger5 (= ${binary:Version}),
          libkf5gapicalendar5 (= ${binary:Version}),
          libkf5gapicontacts5 (= ${binary:Version}),
