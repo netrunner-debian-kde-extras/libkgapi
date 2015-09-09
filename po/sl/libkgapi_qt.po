@@ -1,0 +1,408 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Andrej Mernik <andrejm@ubuntu.si>, 2012, 2013, 2014, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-08-23 01:46+0000\n"
+"PO-Revision-Date: 2015-08-08 11:45+0200\n"
+"Last-Translator: Andrej Mernik <andrejm@ubuntu.si>\n"
+"Language-Team: Slovenian <lugos-slo@lugos.si>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+"%100==4 ? 3 : 0);\n"
+"X-Generator: Lokalize 1.5\n"
+
+#: src/blogger/blogfetchjob.cpp:102
+msgctxt "KGAPI2::Blogger::BlogFetchJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/blogger/commentapprovejob.cpp:102
+msgctxt "KGAPI2::Blogger::CommentApproveJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/blogger/commentdeletecontentjob.cpp:90
+msgctxt "KGAPI2::Blogger::CommentDeleteContentJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/blogger/commentfetchjob.cpp:199
+msgctxt "KGAPI2::Blogger::CommentFetchJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/blogger/pagecreatejob.cpp:77
+msgctxt "KGAPI2::Blogger::PageCreateJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/blogger/pagefetchjob.cpp:134
+msgctxt "KGAPI2::Blogger::PageFetchJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/blogger/pagemodifyjob.cpp:77
+msgctxt "KGAPI2::Blogger::PageModifyJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/blogger/postcreatejob.cpp:86
+msgctxt "KGAPI2::Blogger::PostCreateJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/blogger/postfetchjob.cpp:225
+msgctxt "KGAPI2::Blogger::PostFetchJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/blogger/postmodifyjob.cpp:76
+msgctxt "KGAPI2::Blogger::PostModifyJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/blogger/postpublishjob.cpp:141
+msgctxt "KGAPI2::Blogger::PostPublishJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/blogger/postsearchjob.cpp:118
+msgctxt "KGAPI2::Blogger::PostSearchJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/calendar/calendar.cpp:93
+msgctxt "QObject|"
+msgid "Google Calendar"
+msgstr "Google Calendar"
+
+#: src/calendar/calendarcreatejob.cpp:95
+msgctxt "KGAPI2::CalendarCreateJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/calendar/calendarfetchjob.cpp:118
+msgctxt "KGAPI2::CalendarFetchJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/calendar/calendarmodifyjob.cpp:94
+msgctxt "KGAPI2::CalendarModifyJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/calendar/eventcreatejob.cpp:97
+msgctxt "KGAPI2::EventCreateJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/calendar/eventfetchjob.cpp:216
+msgctxt "KGAPI2::EventFetchJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/calendar/eventmodifyjob.cpp:96
+msgctxt "KGAPI2::EventModifyJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/calendar/eventmovejob.cpp:149
+msgctxt "KGAPI2::EventMoveJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/contacts/contactcreatejob.cpp:149
+msgctxt "KGAPI2::ContactCreateJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/contacts/contactmodifyjob.cpp:154
+msgctxt "KGAPI2::ContactModifyJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/contacts/contactsgroupcreatejob.cpp:105
+msgctxt "KGAPI2::ContactsGroupCreateJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/contacts/contactsgroupfetchjob.cpp:114
+msgctxt "KGAPI2::ContactsGroupFetchJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/contacts/contactsgroupmodifyjob.cpp:107
+msgctxt "KGAPI2::ContactsGroupModifyJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/core/accountinfo/accountinfofetchjob.cpp:73
+msgctxt "KGAPI2::AccountInfoFetchJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/core/authjob.cpp:182
+msgctxt "KGAPI2::AuthJob|"
+msgid "Failed to parse newly fetched tokens"
+msgstr "Ni bilo mogoče razčleniti novo pridobljenih žetonov"
+
+#: src/core/authjob.cpp:229
+msgctxt "KGAPI2::AuthJob|"
+msgid "Account name is empty"
+msgstr "Ime računa je prazno"
+
+#: src/core/job.cpp:131
+msgctxt "KGAPI2::Job|"
+msgid "Bad request."
+msgstr "Slaba zahteva."
+
+#: src/core/job.cpp:138
+msgctxt "KGAPI2::Job|"
+msgid "Invalid authentication."
+msgstr "Neveljavna overitev."
+
+#: src/core/job.cpp:147
+#, qt-format
+msgctxt "KGAPI2::Job|"
+msgid ""
+"Requested resource is forbidden.\n"
+"\n"
+"Google replied '%1'"
+msgstr ""
+"Zahtevan vir je prepovedan.\n"
+"\n"
+"Google je odgovoril »%1«"
+
+#: src/core/job.cpp:157
+#, qt-format
+msgctxt "KGAPI2::Job|"
+msgid ""
+"Requested resource does not exist.\n"
+"\n"
+"Google replied '%1'"
+msgstr ""
+"Zahtevan vir ne obstaja.\n"
+"\n"
+"Google je odgovoril »%1«"
+
+#: src/core/job.cpp:173
+#, qt-format
+msgctxt "KGAPI2::Job|"
+msgid ""
+"Conflict. Remote resource is newer than local.\n"
+"\n"
+"Google replied '%1'"
+msgstr ""
+"Spor. Oddaljen vir je novejši kot krajevni.\n"
+"\n"
+"Google je odgovoril »%1«"
+
+#: src/core/job.cpp:183
+#, qt-format
+msgctxt "KGAPI2::Job|"
+msgid ""
+"Requested resource does not exist anymore.\n"
+"\n"
+"Google replied '%1'"
+msgstr ""
+"Zahtevan vir ne obstaja več.\n"
+"\n"
+"Google je odgovoril »%1«"
+
+#: src/core/job.cpp:193
+#, qt-format
+msgctxt "KGAPI2::Job|"
+msgid ""
+"Internal server error. Try again later.\n"
+"\n"
+"Google replied '%1'"
+msgstr ""
+"Notranja napaka strežnika. Poskusite znova kasneje.\n"
+"\n"
+"Google je odgovoril »%1«"
+
+#: src/core/job.cpp:211
+#, qt-format
+msgctxt "KGAPI2::Job|"
+msgid ""
+"Maximum quota exceeded. Try again later.\n"
+"\n"
+"Google replied '%1'"
+msgstr ""
+"Največja količinska omejitev je bila presežena. Poskusite znova kasneje.\n"
+"\n"
+"Google je odgovoril »%1«"
+
+#: src/core/job.cpp:233
+#, qt-format
+msgctxt "KGAPI2::Job|"
+msgid ""
+"Unknown error.\n"
+"\n"
+"Google replied '%1'"
+msgstr ""
+"Neznana napaka.\n"
+"\n"
+"Google je odgovoril »%1«"
+
+#: src/core/private/newtokensfetchjob.cpp:128
+msgctxt "KGAPI2::NewTokensFetchJob|"
+msgid "Failed to parse server response."
+msgstr "Ni bilo mogoče razčleniti odgovora strežnika."
+
+#: src/core/ui/authwidget.cpp:85
+msgctxt "KGAPI2::AuthWidget|"
+msgid "Invalid account"
+msgstr "Neveljaven račun"
+
+#: src/core/ui/authwidget.cpp:89
+msgctxt "KGAPI2::AuthWidget|"
+msgid "No scopes to authenticate for"
+msgstr "Ni obsegov za overitev"
+
+#: src/core/ui/authwidget_p.cpp:72
+msgctxt "AuthWidget::Private|"
+msgid "Authorizing token. This should take just a moment..."
+msgstr "Overjanje žetona. To bi moralo trajati le nekaj trenutkov ..."
+
+#: src/core/ui/authwidget_p.cpp:185
+msgctxt "AuthWidget::Private|"
+msgid "Parsing token page failed."
+msgstr "Razčlenjevanje strani žetona ni uspelo."
+
+#: src/core/ui/authwidget_p.cpp:192
+msgctxt "AuthWidget::Private|"
+msgid "Failed to obtain token."
+msgstr "Ni bilo mogoče pridobiti žetona."
+
+#: src/drive/aboutfetchjob.cpp:139
+msgctxt "KGAPI2::Drive::AboutFetchJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/drive/appfetchjob.cpp:89
+msgctxt "KGAPI2::Drive::AppFetchJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/drive/changefetchjob.cpp:192
+msgctxt "KGAPI2::Drive::ChangeFetchJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/drive/childreferencecreatejob.cpp:137
+msgctxt "KGAPI2::Drive::ChildReferenceCreateJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/drive/childreferencefetchjob.cpp:116
+msgctxt "KGAPI2::Drive::ChildReferenceFetchJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/drive/fileabstractmodifyjob.cpp:128
+msgctxt "KGAPI2::Drive::FileAbstractModifyJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/drive/fileabstractuploadjob.cpp:323
+msgctxt "KGAPI2::Drive::FileAbstractUploadJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/drive/filecopyjob.cpp:152
+msgctxt "KGAPI2::Drive::FileCopyJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/drive/filefetchjob.cpp:350
+msgctxt "KGAPI2::Drive::FileFetchJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/drive/parentreferencecreatejob.cpp:137
+msgctxt "KGAPI2::Drive::ParentReferenceCreateJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/drive/parentreferencefetchjob.cpp:95
+msgctxt "KGAPI2::Drive::ParentReferenceFetchJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/drive/permissioncreatejob.cpp:114
+msgctxt "KGAPI2::Drive::PermissionCreateJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/drive/permissionfetchjob.cpp:117
+msgctxt "KGAPI2::Drive::PermissionFetchJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/drive/permissionmodifyjob.cpp:113
+msgctxt "KGAPI2::Drive::PermissionModifyJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/drive/revisionfetchjob.cpp:94
+msgctxt "KGAPI2::Drive::RevisionFetchJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/drive/revisionmodifyjob.cpp:111
+msgctxt "KGAPI2::Drive::RevisionModifyJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/latitude/locationcreatejob.cpp:96
+msgctxt "KGAPI2::LocationCreateJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/latitude/locationfetchhistoryjob.cpp:151
+msgctxt "KGAPI2::LocationFetchHistoryJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/latitude/locationfetchjob.cpp:107
+msgctxt "KGAPI2::LocationFetchJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/tasks/taskcreatejob.cpp:117
+msgctxt "KGAPI2::TaskCreateJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/tasks/taskfetchjob.cpp:248
+msgctxt "KGAPI2::TaskFetchJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/tasks/tasklistcreatejob.cpp:94
+msgctxt "KGAPI2::TaskListCreateJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/tasks/tasklistfetchjob.cpp:94
+msgctxt "KGAPI2::TaskListFetchJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/tasks/tasklistmodifyjob.cpp:96
+msgctxt "KGAPI2::TaskListModifyJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"
+
+#: src/tasks/taskmodifyjob.cpp:97
+msgctxt "KGAPI2::TaskModifyJob|"
+msgid "Invalid response content type"
+msgstr "Neveljavna vrsta vsebine odgovora"

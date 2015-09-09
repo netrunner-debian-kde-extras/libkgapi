@@ -1,0 +1,408 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2011, 2012, 2014, 2015.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2014-08-23 01:46+0000\n"
+"PO-Revision-Date: 2015-08-08 21:00+0100\n"
+"Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
+"Language-Team: Polish <kde-i18n-doc@kde.org>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+
+#: src/blogger/blogfetchjob.cpp:102
+msgctxt "KGAPI2::Blogger::BlogFetchJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/blogger/commentapprovejob.cpp:102
+msgctxt "KGAPI2::Blogger::CommentApproveJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/blogger/commentdeletecontentjob.cpp:90
+msgctxt "KGAPI2::Blogger::CommentDeleteContentJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/blogger/commentfetchjob.cpp:199
+msgctxt "KGAPI2::Blogger::CommentFetchJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/blogger/pagecreatejob.cpp:77
+msgctxt "KGAPI2::Blogger::PageCreateJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/blogger/pagefetchjob.cpp:134
+msgctxt "KGAPI2::Blogger::PageFetchJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/blogger/pagemodifyjob.cpp:77
+msgctxt "KGAPI2::Blogger::PageModifyJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/blogger/postcreatejob.cpp:86
+msgctxt "KGAPI2::Blogger::PostCreateJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/blogger/postfetchjob.cpp:225
+msgctxt "KGAPI2::Blogger::PostFetchJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/blogger/postmodifyjob.cpp:76
+msgctxt "KGAPI2::Blogger::PostModifyJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/blogger/postpublishjob.cpp:141
+msgctxt "KGAPI2::Blogger::PostPublishJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/blogger/postsearchjob.cpp:118
+msgctxt "KGAPI2::Blogger::PostSearchJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/calendar/calendar.cpp:93
+msgctxt "QObject|"
+msgid "Google Calendar"
+msgstr "Kalendarz Google"
+
+#: src/calendar/calendarcreatejob.cpp:95
+msgctxt "KGAPI2::CalendarCreateJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/calendar/calendarfetchjob.cpp:118
+msgctxt "KGAPI2::CalendarFetchJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/calendar/calendarmodifyjob.cpp:94
+msgctxt "KGAPI2::CalendarModifyJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/calendar/eventcreatejob.cpp:97
+msgctxt "KGAPI2::EventCreateJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/calendar/eventfetchjob.cpp:216
+msgctxt "KGAPI2::EventFetchJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/calendar/eventmodifyjob.cpp:96
+msgctxt "KGAPI2::EventModifyJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/calendar/eventmovejob.cpp:149
+msgctxt "KGAPI2::EventMoveJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/contacts/contactcreatejob.cpp:149
+msgctxt "KGAPI2::ContactCreateJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/contacts/contactmodifyjob.cpp:154
+msgctxt "KGAPI2::ContactModifyJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/contacts/contactsgroupcreatejob.cpp:105
+msgctxt "KGAPI2::ContactsGroupCreateJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/contacts/contactsgroupfetchjob.cpp:114
+msgctxt "KGAPI2::ContactsGroupFetchJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/contacts/contactsgroupmodifyjob.cpp:107
+msgctxt "KGAPI2::ContactsGroupModifyJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/core/accountinfo/accountinfofetchjob.cpp:73
+msgctxt "KGAPI2::AccountInfoFetchJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/core/authjob.cpp:182
+msgctxt "KGAPI2::AuthJob|"
+msgid "Failed to parse newly fetched tokens"
+msgstr "Nieudane przetworzenie nowo pobranych tokenów"
+
+#: src/core/authjob.cpp:229
+msgctxt "KGAPI2::AuthJob|"
+msgid "Account name is empty"
+msgstr "Nazwa konta jest pusta"
+
+#: src/core/job.cpp:131
+msgctxt "KGAPI2::Job|"
+msgid "Bad request."
+msgstr "Złe żądanie."
+
+#: src/core/job.cpp:138
+msgctxt "KGAPI2::Job|"
+msgid "Invalid authentication."
+msgstr "Nieprawidłowe uwierzytelnienie"
+
+#: src/core/job.cpp:147
+#, qt-format
+msgctxt "KGAPI2::Job|"
+msgid ""
+"Requested resource is forbidden.\n"
+"\n"
+"Google replied '%1'"
+msgstr ""
+"Żądany zasób jest zabroniony.\n"
+"\n"
+"Google dał odpowiedź '%1'"
+
+#: src/core/job.cpp:157
+#, qt-format
+msgctxt "KGAPI2::Job|"
+msgid ""
+"Requested resource does not exist.\n"
+"\n"
+"Google replied '%1'"
+msgstr ""
+"Żądany zasób nie istnieje.\n"
+"\n"
+"Google dał odpowiedź '%1'"
+
+#: src/core/job.cpp:173
+#, qt-format
+msgctxt "KGAPI2::Job|"
+msgid ""
+"Conflict. Remote resource is newer than local.\n"
+"\n"
+"Google replied '%1'"
+msgstr ""
+"Konflikt. Zdalny zasób jest nowszy niż lokalny.\n"
+"\n"
+"Google dał odpowiedź '%1'"
+
+#: src/core/job.cpp:183
+#, qt-format
+msgctxt "KGAPI2::Job|"
+msgid ""
+"Requested resource does not exist anymore.\n"
+"\n"
+"Google replied '%1'"
+msgstr ""
+"Żądany zasób już nie istnieje.\n"
+"\n"
+"Google dał odpowiedź '%1'"
+
+#: src/core/job.cpp:193
+#, qt-format
+msgctxt "KGAPI2::Job|"
+msgid ""
+"Internal server error. Try again later.\n"
+"\n"
+"Google replied '%1'"
+msgstr ""
+"Wewnętrzny błąd serwera. Spróbuj ponownie później.\n"
+"\n"
+"Google dał odpowiedź '%1'"
+
+#: src/core/job.cpp:211
+#, qt-format
+msgctxt "KGAPI2::Job|"
+msgid ""
+"Maximum quota exceeded. Try again later.\n"
+"\n"
+"Google replied '%1'"
+msgstr ""
+"Przekroczono liczbę użytkowników. Spróbuj ponownie później.\n"
+"\n"
+"Google dał odpowiedź '%1'"
+
+#: src/core/job.cpp:233
+#, qt-format
+msgctxt "KGAPI2::Job|"
+msgid ""
+"Unknown error.\n"
+"\n"
+"Google replied '%1'"
+msgstr ""
+"Nieznany błąd.\n"
+"\n"
+"Google dał odpowiedź '%1'"
+
+#: src/core/private/newtokensfetchjob.cpp:128
+msgctxt "KGAPI2::NewTokensFetchJob|"
+msgid "Failed to parse server response."
+msgstr "Nieudane przetworzenie odpowiedzi serwera."
+
+#: src/core/ui/authwidget.cpp:85
+msgctxt "KGAPI2::AuthWidget|"
+msgid "Invalid account"
+msgstr "Nieprawidłowe konto"
+
+#: src/core/ui/authwidget.cpp:89
+msgctxt "KGAPI2::AuthWidget|"
+msgid "No scopes to authenticate for"
+msgstr "Nie ma zakresów do uwierzytelnienia"
+
+#: src/core/ui/authwidget_p.cpp:72
+msgctxt "AuthWidget::Private|"
+msgid "Authorizing token. This should take just a moment..."
+msgstr "Uwierzytelnianie tokena. Może to zająć chwilę..."
+
+#: src/core/ui/authwidget_p.cpp:185
+msgctxt "AuthWidget::Private|"
+msgid "Parsing token page failed."
+msgstr "Nieudane przetworzenie strony tokenów"
+
+#: src/core/ui/authwidget_p.cpp:192
+msgctxt "AuthWidget::Private|"
+msgid "Failed to obtain token."
+msgstr "Nieudane pobranie tokena."
+
+#: src/drive/aboutfetchjob.cpp:139
+msgctxt "KGAPI2::Drive::AboutFetchJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/drive/appfetchjob.cpp:89
+msgctxt "KGAPI2::Drive::AppFetchJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/drive/changefetchjob.cpp:192
+msgctxt "KGAPI2::Drive::ChangeFetchJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/drive/childreferencecreatejob.cpp:137
+msgctxt "KGAPI2::Drive::ChildReferenceCreateJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/drive/childreferencefetchjob.cpp:116
+msgctxt "KGAPI2::Drive::ChildReferenceFetchJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/drive/fileabstractmodifyjob.cpp:128
+msgctxt "KGAPI2::Drive::FileAbstractModifyJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/drive/fileabstractuploadjob.cpp:323
+msgctxt "KGAPI2::Drive::FileAbstractUploadJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/drive/filecopyjob.cpp:152
+msgctxt "KGAPI2::Drive::FileCopyJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/drive/filefetchjob.cpp:350
+msgctxt "KGAPI2::Drive::FileFetchJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/drive/parentreferencecreatejob.cpp:137
+msgctxt "KGAPI2::Drive::ParentReferenceCreateJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/drive/parentreferencefetchjob.cpp:95
+msgctxt "KGAPI2::Drive::ParentReferenceFetchJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/drive/permissioncreatejob.cpp:114
+msgctxt "KGAPI2::Drive::PermissionCreateJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/drive/permissionfetchjob.cpp:117
+msgctxt "KGAPI2::Drive::PermissionFetchJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/drive/permissionmodifyjob.cpp:113
+msgctxt "KGAPI2::Drive::PermissionModifyJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/drive/revisionfetchjob.cpp:94
+msgctxt "KGAPI2::Drive::RevisionFetchJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/drive/revisionmodifyjob.cpp:111
+msgctxt "KGAPI2::Drive::RevisionModifyJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/latitude/locationcreatejob.cpp:96
+msgctxt "KGAPI2::LocationCreateJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/latitude/locationfetchhistoryjob.cpp:151
+msgctxt "KGAPI2::LocationFetchHistoryJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/latitude/locationfetchjob.cpp:107
+msgctxt "KGAPI2::LocationFetchJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/tasks/taskcreatejob.cpp:117
+msgctxt "KGAPI2::TaskCreateJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/tasks/taskfetchjob.cpp:248
+msgctxt "KGAPI2::TaskFetchJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/tasks/tasklistcreatejob.cpp:94
+msgctxt "KGAPI2::TaskListCreateJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/tasks/tasklistfetchjob.cpp:94
+msgctxt "KGAPI2::TaskListFetchJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/tasks/tasklistmodifyjob.cpp:96
+msgctxt "KGAPI2::TaskListModifyJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
+
+#: src/tasks/taskmodifyjob.cpp:97
+msgctxt "KGAPI2::TaskModifyJob|"
+msgid "Invalid response content type"
+msgstr "Nieznany rodzaj treści odpowiedzi"
