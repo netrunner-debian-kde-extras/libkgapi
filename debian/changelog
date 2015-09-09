@@ -4,6 +4,29 @@ libkgapi (5.0.0-1~) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Sep 2015 12:09:30 +0200
 
+libkgapi (5.0.0-0ubuntu2) wily; urgency=medium
+
+  * Add build-dep on qttools5-dev, qttools5-dev-tools
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 20 Aug 2015 12:24:57 +0100
+
+libkgapi (5.0.0-0ubuntu1) wily; urgency=medium
+
+  [ Harald Sitter ]
+  * KDE Frameworks 5 port
+    - remove all previous packages
+    - new packages:
+      + libkf5gapi*5 for all libraries
+      + libkf5gapi-dev
+      + libkf5gapi-data (depended on by all libs, contains debug settings
+         category)
+      + libkf5gapi-dbg
+
+  [ Jonathan Riddell ]
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 20 Aug 2015 11:32:14 +0100
+
 libkgapi (2.2.0-2) unstable; urgency=medium
 
   * Add libsoprano-dev build dep.
