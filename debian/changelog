@@ -1,3 +1,9 @@
+libkgapi (5.0.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (5.0.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Sep 2015 12:09:30 +0200
+
 libkgapi (2.2.0-2) unstable; urgency=medium
 
   * Add libsoprano-dev build dep.
