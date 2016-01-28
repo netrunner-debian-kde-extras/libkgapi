@@ -1,13 +1,9 @@
-# SymbolsHelper-Confirmed: 4.80.0 amd64
+# SymbolsHelper-Confirmed: 5.1.0 amd64
 libKF5GAPIContacts.so.5 libkf5gapicontacts5 #MINVER#
  _ZN6KGAPI213ContactsGroup10setContentERK7QString@Base 4.80.0
  _ZN6KGAPI213ContactsGroup10setUpdatedERK9QDateTime@Base 4.80.0
  _ZN6KGAPI213ContactsGroup16setIsSystemGroupEb@Base 4.80.0
  _ZN6KGAPI213ContactsGroup5setIdERK7QString@Base 4.80.0
- _ZN6KGAPI213ContactsGroup7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI213ContactsGroup7PrivateC2Ev@Base 4.80.0
- _ZN6KGAPI213ContactsGroup7PrivateD1Ev@Base 4.80.0
- _ZN6KGAPI213ContactsGroup7PrivateD2Ev@Base 4.80.0
  _ZN6KGAPI213ContactsGroup8setTitleERK7QString@Base 4.80.0
  _ZN6KGAPI213ContactsGroupC1ERKS0_@Base 4.80.0
  _ZN6KGAPI213ContactsGroupC1Ev@Base 4.80.0
@@ -24,9 +20,6 @@ libKF5GAPIContacts.so.5 libkf5gapicontacts5 #MINVER#
  _ZN6KGAPI215ContactFetchJob19setFetchOnlyUpdatedEy@Base 4.80.0
  _ZN6KGAPI215ContactFetchJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 4.80.0
  _ZN6KGAPI215ContactFetchJob5startEv@Base 4.80.0
- _ZN6KGAPI215ContactFetchJob7Private13createRequestERK4QUrl@Base 4.80.0
- _ZN6KGAPI215ContactFetchJob7PrivateC1EPS0_@Base 4.80.0
- _ZN6KGAPI215ContactFetchJob7PrivateC2EPS0_@Base 4.80.0
  _ZN6KGAPI215ContactFetchJob9setFilterERK7QString@Base 4.80.0
  _ZN6KGAPI215ContactFetchJobC1ERK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI215ContactFetchJobC1ERK7QStringRK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
@@ -60,9 +53,6 @@ libKF5GAPIContacts.so.5 libkf5gapicontacts5 #MINVER#
  _ZN6KGAPI216ContactCreateJob16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI216ContactCreateJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 4.80.0
  _ZN6KGAPI216ContactCreateJob5startEv@Base 4.80.0
- _ZN6KGAPI216ContactCreateJob7Private18processNextContactEv@Base 4.80.0
- _ZN6KGAPI216ContactCreateJob7PrivateC1EPS0_@Base 4.80.0
- _ZN6KGAPI216ContactCreateJob7PrivateC2EPS0_@Base 4.80.0
  _ZN6KGAPI216ContactCreateJobC1ERK14QSharedPointerINS_7ContactEERKS1_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI216ContactCreateJobC1ERK5QListI14QSharedPointerINS_7ContactEEERKS2_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI216ContactCreateJobC2ERK14QSharedPointerINS_7ContactEERKS1_INS_7AccountEEP7QObject@Base 4.80.0
@@ -75,9 +65,6 @@ libKF5GAPIContacts.so.5 libkf5gapicontacts5 #MINVER#
  _ZN6KGAPI216ContactDeleteJob11qt_metacastEPKc@Base 4.80.0
  _ZN6KGAPI216ContactDeleteJob16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI216ContactDeleteJob5startEv@Base 4.80.0
- _ZN6KGAPI216ContactDeleteJob7Private18processNextContactEv@Base 4.80.0
- _ZN6KGAPI216ContactDeleteJob7PrivateC1EPS0_@Base 4.80.0
- _ZN6KGAPI216ContactDeleteJob7PrivateC2EPS0_@Base 4.80.0
  _ZN6KGAPI216ContactDeleteJobC1E11QStringListRK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI216ContactDeleteJobC1ERK14QSharedPointerINS_7ContactEERKS1_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI216ContactDeleteJobC1ERK5QListI14QSharedPointerINS_7ContactEEERKS2_INS_7AccountEEP7QObject@Base 4.80.0
@@ -95,9 +82,6 @@ libKF5GAPIContacts.so.5 libkf5gapicontacts5 #MINVER#
  _ZN6KGAPI216ContactModifyJob16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI216ContactModifyJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 4.80.0
  _ZN6KGAPI216ContactModifyJob5startEv@Base 4.80.0
- _ZN6KGAPI216ContactModifyJob7Private18processNextContactEv@Base 4.80.0
- _ZN6KGAPI216ContactModifyJob7PrivateC1EPS0_@Base 4.80.0
- _ZN6KGAPI216ContactModifyJob7PrivateC2EPS0_@Base 4.80.0
  _ZN6KGAPI216ContactModifyJobC1ERK14QSharedPointerINS_7ContactEERKS1_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI216ContactModifyJobC1ERK5QListI14QSharedPointerINS_7ContactEEERKS2_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI216ContactModifyJobC2ERK14QSharedPointerINS_7ContactEERKS1_INS_7AccountEEP7QObject@Base 4.80.0
@@ -111,9 +95,6 @@ libKF5GAPIContacts.so.5 libkf5gapicontacts5 #MINVER#
  _ZN6KGAPI220ContactFetchPhotoJob12photoFetchedEPNS_3JobERK14QSharedPointerINS_7ContactEE@Base 4.80.0
  _ZN6KGAPI220ContactFetchPhotoJob16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI220ContactFetchPhotoJob5startEv@Base 4.80.0
- _ZN6KGAPI220ContactFetchPhotoJob7Private18processNextContactEv@Base 4.80.0
- _ZN6KGAPI220ContactFetchPhotoJob7PrivateC1EPS0_@Base 4.80.0
- _ZN6KGAPI220ContactFetchPhotoJob7PrivateC2EPS0_@Base 4.80.0
  _ZN6KGAPI220ContactFetchPhotoJobC1ERK14QSharedPointerINS_7ContactEERKS1_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI220ContactFetchPhotoJobC1ERK5QListI14QSharedPointerINS_7ContactEEERKS2_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI220ContactFetchPhotoJobC2ERK14QSharedPointerINS_7ContactEERKS1_INS_7AccountEEP7QObject@Base 4.80.0
@@ -126,9 +107,6 @@ libKF5GAPIContacts.so.5 libkf5gapicontacts5 #MINVER#
  _ZN6KGAPI221ContactsGroupFetchJob16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI221ContactsGroupFetchJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 4.80.0
  _ZN6KGAPI221ContactsGroupFetchJob5startEv@Base 4.80.0
- _ZN6KGAPI221ContactsGroupFetchJob7Private13createRequestERK4QUrl@Base 4.80.0
- _ZN6KGAPI221ContactsGroupFetchJob7PrivateC1EPS0_@Base 4.80.0
- _ZN6KGAPI221ContactsGroupFetchJob7PrivateC2EPS0_@Base 4.80.0
  _ZN6KGAPI221ContactsGroupFetchJobC1ERK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI221ContactsGroupFetchJobC1ERK7QStringRK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI221ContactsGroupFetchJobC2ERK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
@@ -153,8 +131,6 @@ libKF5GAPIContacts.so.5 libkf5gapicontacts5 #MINVER#
  _ZN6KGAPI222ContactsGroupDeleteJob11qt_metacastEPKc@Base 4.80.0
  _ZN6KGAPI222ContactsGroupDeleteJob16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI222ContactsGroupDeleteJob5startEv@Base 4.80.0
- _ZN6KGAPI222ContactsGroupDeleteJob7PrivateC1EPS0_@Base 4.80.0
- _ZN6KGAPI222ContactsGroupDeleteJob7PrivateC2EPS0_@Base 4.80.0
  _ZN6KGAPI222ContactsGroupDeleteJobC1ERK11QStringListRK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI222ContactsGroupDeleteJobC1ERK14QSharedPointerINS_13ContactsGroupEERKS1_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI222ContactsGroupDeleteJobC1ERK5QListI14QSharedPointerINS_13ContactsGroupEEERKS2_INS_7AccountEEP7QObject@Base 4.80.0
@@ -199,8 +175,6 @@ libKF5GAPIContacts.so.5 libkf5gapicontacts5 #MINVER#
  _ZN6KGAPI27Contact19addressTypeToSchemeE6QFlagsIN9KContacts7Address8TypeFlagEEPb@Base 4.80.0
  _ZN6KGAPI27Contact22IMProtocolNameToSchemeERK7QString@Base 4.80.0
  _ZN6KGAPI27Contact22IMSchemeToProtocolNameERK7QString@Base 4.80.0
- _ZN6KGAPI27Contact7PrivateC1ERKS1_@Base 4.80.0
- _ZN6KGAPI27Contact7PrivateC2ERKS1_@Base 4.80.0
  _ZN6KGAPI27Contact8addGroupERK7QString@Base 4.80.0
  _ZN6KGAPI27Contact9setGroupsERK11QStringList@Base 4.80.0
  _ZN6KGAPI27Contact9setOfficeERK7QString@Base 4.80.0
@@ -228,7 +202,6 @@ libKF5GAPIContacts.so.5 libkf5gapicontacts5 #MINVER#
  _ZNK6KGAPI221ContactsGroupFetchJob10metaObjectEv@Base 4.80.0
  _ZNK6KGAPI222ContactsGroupCreateJob10metaObjectEv@Base 4.80.0
  _ZNK6KGAPI222ContactsGroupDeleteJob10metaObjectEv@Base 4.80.0
- _ZNK6KGAPI222ContactsGroupDeleteJob7Private13createRequestERK4QUrl@Base 4.80.0
  _ZNK6KGAPI222ContactsGroupModifyJob10metaObjectEv@Base 4.80.0
  _ZNK6KGAPI27Contact10professionEv@Base 4.80.0
  _ZNK6KGAPI27Contact11anniversaryEv@Base 4.80.0

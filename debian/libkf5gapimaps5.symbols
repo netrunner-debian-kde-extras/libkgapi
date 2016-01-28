@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.80.0 amd64
+# SymbolsHelper-Confirmed: 5.1.0 amd64
 libKF5GAPIMaps.so.5 libkf5gapimaps5 #MINVER#
  _ZN6KGAPI212StaticMapUrl10setMapTypeENS0_7MapTypeE@Base 4.80.0
  _ZN6KGAPI212StaticMapUrl10setMarkersERK5QListINS_15StaticMapMarkerEE@Base 4.80.0
@@ -10,11 +10,6 @@ libKF5GAPIMaps.so.5 libkf5gapimaps5 #MINVER#
  _ZN6KGAPI212StaticMapUrl18setVisibleLocationERK7QString@Base 4.80.0
  _ZN6KGAPI212StaticMapUrl18setVisibleLocationERKN9KContacts3GeoE@Base 4.80.0
  _ZN6KGAPI212StaticMapUrl18setVisibleLocationERKN9KContacts7AddressE@Base 4.80.0
- _ZN6KGAPI212StaticMapUrl7Private4initERKS1_@Base 4.80.0
- _ZN6KGAPI212StaticMapUrl7PrivateC1ERKS1_@Base 4.80.0
- _ZN6KGAPI212StaticMapUrl7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI212StaticMapUrl7PrivateC2ERKS1_@Base 4.80.0
- _ZN6KGAPI212StaticMapUrl7PrivateC2Ev@Base 4.80.0
  _ZN6KGAPI212StaticMapUrl7setPathERKNS_13StaticMapPathE@Base 4.80.0
  _ZN6KGAPI212StaticMapUrl7setSizeERK5QSize@Base 4.80.0
  _ZN6KGAPI212StaticMapUrl8setPathsERK5QListINS_13StaticMapPathEE@Base 4.80.0
@@ -39,11 +34,6 @@ libKF5GAPIMaps.so.5 libkf5gapimaps5 #MINVER#
  _ZN6KGAPI213StaticMapPath12setLocationsERK11QStringList@Base 4.80.0
  _ZN6KGAPI213StaticMapPath12setLocationsERK5QListIN9KContacts3GeoEE@Base 4.80.0
  _ZN6KGAPI213StaticMapPath12setLocationsERK7QVectorIN9KContacts7AddressEE@Base 4.80.0
- _ZN6KGAPI213StaticMapPath7Private4initERKS1_@Base 4.80.0
- _ZN6KGAPI213StaticMapPath7PrivateC1ERKS1_@Base 4.80.0
- _ZN6KGAPI213StaticMapPath7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI213StaticMapPath7PrivateC2ERKS1_@Base 4.80.0
- _ZN6KGAPI213StaticMapPath7PrivateC2Ev@Base 4.80.0
  _ZN6KGAPI213StaticMapPath8setColorERK6QColor@Base 4.80.0
  _ZN6KGAPI213StaticMapPath9setWeightEh@Base 4.80.0
  _ZN6KGAPI213StaticMapPathC1ERK11QStringListhRK6QColorS6_@Base 4.80.0
@@ -65,11 +55,6 @@ libKF5GAPIMaps.so.5 libkf5gapimaps5 #MINVER#
  _ZN6KGAPI215StaticMapMarker12setLocationsERK11QStringList@Base 4.80.0
  _ZN6KGAPI215StaticMapMarker12setLocationsERK5QListIN9KContacts3GeoEE@Base 4.80.0
  _ZN6KGAPI215StaticMapMarker12setLocationsERK7QVectorIN9KContacts7AddressEE@Base 4.80.0
- _ZN6KGAPI215StaticMapMarker7Private4initERKS1_@Base 4.80.0
- _ZN6KGAPI215StaticMapMarker7PrivateC1ERKS1_@Base 4.80.0
- _ZN6KGAPI215StaticMapMarker7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI215StaticMapMarker7PrivateC2ERKS1_@Base 4.80.0
- _ZN6KGAPI215StaticMapMarker7PrivateC2Ev@Base 4.80.0
  _ZN6KGAPI215StaticMapMarker7setSizeENS0_10MarkerSizeE@Base 4.80.0
  _ZN6KGAPI215StaticMapMarker8setColorERK6QColor@Base 4.80.0
  _ZN6KGAPI215StaticMapMarker8setLabelERK5QChar@Base 4.80.0

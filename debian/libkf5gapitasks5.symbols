@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.80.0 amd64
+# SymbolsHelper-Confirmed: 5.1.0 amd64
 libKF5GAPITasks.so.5 libkf5gapitasks5 #MINVER#
  _ZN6KGAPI211TaskMoveJob11handleReplyEPK13QNetworkReplyRK10QByteArray@Base 4.80.0
  _ZN6KGAPI211TaskMoveJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.80.0
@@ -6,9 +6,6 @@ libKF5GAPITasks.so.5 libkf5gapitasks5 #MINVER#
  _ZN6KGAPI211TaskMoveJob15dispatchRequestEP21QNetworkAccessManagerRK15QNetworkRequestRK10QByteArrayRK7QString@Base 4.80.0
  _ZN6KGAPI211TaskMoveJob16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI211TaskMoveJob5startEv@Base 4.80.0
- _ZN6KGAPI211TaskMoveJob7Private15processNextTaskEv@Base 4.80.0
- _ZN6KGAPI211TaskMoveJob7PrivateC1EPS0_@Base 4.80.0
- _ZN6KGAPI211TaskMoveJob7PrivateC2EPS0_@Base 4.80.0
  _ZN6KGAPI211TaskMoveJobC1ERK11QStringListRK7QStringS6_RK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI211TaskMoveJobC1ERK14QSharedPointerINS_4TaskEERK7QStringS8_RKS1_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI211TaskMoveJobC1ERK5QListI14QSharedPointerINS_4TaskEEERK7QStringSA_RKS2_INS_7AccountEEP7QObject@Base 4.80.0
@@ -31,9 +28,6 @@ libKF5GAPITasks.so.5 libkf5gapitasks5 #MINVER#
  _ZN6KGAPI212TaskFetchJob19setFetchOnlyUpdatedEy@Base 4.80.0
  _ZN6KGAPI212TaskFetchJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 4.80.0
  _ZN6KGAPI212TaskFetchJob5startEv@Base 4.80.0
- _ZN6KGAPI212TaskFetchJob7Private13createRequestERK4QUrl@Base 4.80.0
- _ZN6KGAPI212TaskFetchJob7PrivateC1EPS0_@Base 4.80.0
- _ZN6KGAPI212TaskFetchJob7PrivateC2EPS0_@Base 4.80.0
  _ZN6KGAPI212TaskFetchJob9setDueMaxEy@Base 4.80.0
  _ZN6KGAPI212TaskFetchJob9setDueMinEy@Base 4.80.0
  _ZN6KGAPI212TaskFetchJobC1ERK7QStringRK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
@@ -76,9 +70,6 @@ libKF5GAPITasks.so.5 libkf5gapitasks5 #MINVER#
  _ZN6KGAPI213TaskDeleteJob11qt_metacastEPKc@Base 4.80.0
  _ZN6KGAPI213TaskDeleteJob16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI213TaskDeleteJob5startEv@Base 4.80.0
- _ZN6KGAPI213TaskDeleteJob7Private15processNextTaskEv@Base 4.80.0
- _ZN6KGAPI213TaskDeleteJob7PrivateC1EPS0_@Base 4.80.0
- _ZN6KGAPI213TaskDeleteJob7PrivateC2EPS0_@Base 4.80.0
  _ZN6KGAPI213TaskDeleteJobC1ERK11QStringListRK7QStringRK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI213TaskDeleteJobC1ERK14QSharedPointerINS_4TaskEERK7QStringRKS1_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI213TaskDeleteJobC1ERK5QListI14QSharedPointerINS_4TaskEEERK7QStringRKS2_INS_7AccountEEP7QObject@Base 4.80.0
@@ -107,9 +98,6 @@ libKF5GAPITasks.so.5 libkf5gapitasks5 #MINVER#
  _ZN6KGAPI216TaskListFetchJob16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI216TaskListFetchJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 4.80.0
  _ZN6KGAPI216TaskListFetchJob5startEv@Base 4.80.0
- _ZN6KGAPI216TaskListFetchJob7Private13createRequestERK4QUrl@Base 4.80.0
- _ZN6KGAPI216TaskListFetchJob7PrivateC1EPS0_@Base 4.80.0
- _ZN6KGAPI216TaskListFetchJob7PrivateC2EPS0_@Base 4.80.0
  _ZN6KGAPI216TaskListFetchJobC1ERK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI216TaskListFetchJobC2ERK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI216TaskListFetchJobD0Ev@Base 4.80.0
@@ -132,9 +120,6 @@ libKF5GAPITasks.so.5 libkf5gapitasks5 #MINVER#
  _ZN6KGAPI217TaskListDeleteJob11qt_metacastEPKc@Base 4.80.0
  _ZN6KGAPI217TaskListDeleteJob16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI217TaskListDeleteJob5startEv@Base 4.80.0
- _ZN6KGAPI217TaskListDeleteJob7Private19processNextTaskListEv@Base 4.80.0
- _ZN6KGAPI217TaskListDeleteJob7PrivateC1EPS0_@Base 4.80.0
- _ZN6KGAPI217TaskListDeleteJob7PrivateC2EPS0_@Base 4.80.0
  _ZN6KGAPI217TaskListDeleteJobC1ERK11QStringListRK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI217TaskListDeleteJobC1ERK14QSharedPointerINS_8TaskListEERKS1_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI217TaskListDeleteJobC1ERK5QListI14QSharedPointerINS_8TaskListEEERKS2_INS_7AccountEEP7QObject@Base 4.80.0
@@ -159,10 +144,6 @@ libKF5GAPITasks.so.5 libkf5gapitasks5 #MINVER#
  _ZN6KGAPI217TaskListModifyJobD1Ev@Base 4.80.0
  _ZN6KGAPI217TaskListModifyJobD2Ev@Base 4.80.0
  _ZN6KGAPI24Task10setDeletedEb@Base 4.80.0
- _ZN6KGAPI24Task7PrivateC1ERKS1_@Base 4.80.0
- _ZN6KGAPI24Task7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI24Task7PrivateC2ERKS1_@Base 4.80.0
- _ZN6KGAPI24Task7PrivateC2Ev@Base 4.80.0
  _ZN6KGAPI24TaskC1ERKN8KCalCore4TodoE@Base 4.80.0
  _ZN6KGAPI24TaskC1ERKS0_@Base 4.80.0
  _ZN6KGAPI24TaskC1Ev@Base 4.80.0
@@ -173,10 +154,6 @@ libKF5GAPITasks.so.5 libkf5gapitasks5 #MINVER#
  _ZN6KGAPI24TaskD1Ev@Base 4.80.0
  _ZN6KGAPI24TaskD2Ev@Base 4.80.0
  _ZN6KGAPI28TaskList6setUidERK7QString@Base 4.80.0
- _ZN6KGAPI28TaskList7PrivateC1ERKS1_@Base 4.80.0
- _ZN6KGAPI28TaskList7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI28TaskList7PrivateC2ERKS1_@Base 4.80.0
- _ZN6KGAPI28TaskList7PrivateC2Ev@Base 4.80.0
  _ZN6KGAPI28TaskList8setTitleERK7QString@Base 4.80.0
  _ZN6KGAPI28TaskListC1ERKS0_@Base 4.80.0
  _ZN6KGAPI28TaskListC1Ev@Base 4.80.0

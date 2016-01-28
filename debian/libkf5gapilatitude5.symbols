@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.80.0 amd64
+# SymbolsHelper-Confirmed: 5.1.0 amd64
 libKF5GAPILatitude.so.5 libkf5gapilatitude5 #MINVER#
  _ZN6KGAPI215LatitudeService10APIVersionEv@Base 4.80.0
  _ZN6KGAPI215LatitudeService14JSONToLocationERK10QByteArray@Base 4.80.0
@@ -17,8 +17,6 @@ libKF5GAPILatitude.so.5 libkf5gapilatitude5 #MINVER#
  _ZN6KGAPI216LocationFetchJob16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI216LocationFetchJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 4.80.0
  _ZN6KGAPI216LocationFetchJob5startEv@Base 4.80.0
- _ZN6KGAPI216LocationFetchJob7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI216LocationFetchJob7PrivateC2Ev@Base 4.80.0
  _ZN6KGAPI216LocationFetchJobC1ERK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI216LocationFetchJobC1ExRK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI216LocationFetchJobC2ERK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
@@ -31,8 +29,6 @@ libKF5GAPILatitude.so.5 libkf5gapilatitude5 #MINVER#
  _ZN6KGAPI217LocationCreateJob16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI217LocationCreateJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 4.80.0
  _ZN6KGAPI217LocationCreateJob5startEv@Base 4.80.0
- _ZN6KGAPI217LocationCreateJob7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI217LocationCreateJob7PrivateC2Ev@Base 4.80.0
  _ZN6KGAPI217LocationCreateJobC1ERK14QSharedPointerINS_8LocationEEbRKS1_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI217LocationCreateJobC2ERK14QSharedPointerINS_8LocationEEbRKS1_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI217LocationCreateJobD0Ev@Base 4.80.0
@@ -42,8 +38,6 @@ libKF5GAPILatitude.so.5 libkf5gapilatitude5 #MINVER#
  _ZN6KGAPI217LocationDeleteJob11qt_metacastEPKc@Base 4.80.0
  _ZN6KGAPI217LocationDeleteJob16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI217LocationDeleteJob5startEv@Base 4.80.0
- _ZN6KGAPI217LocationDeleteJob7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI217LocationDeleteJob7PrivateC2Ev@Base 4.80.0
  _ZN6KGAPI217LocationDeleteJobC1ERK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI217LocationDeleteJobC1ERK14QSharedPointerINS_8LocationEERKS1_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI217LocationDeleteJobC1EyRK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
@@ -62,9 +56,6 @@ libKF5GAPILatitude.so.5 libkf5gapilatitude5 #MINVER#
  _ZN6KGAPI223LocationFetchHistoryJob16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI223LocationFetchHistoryJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 4.80.0
  _ZN6KGAPI223LocationFetchHistoryJob5startEv@Base 4.80.0
- _ZN6KGAPI223LocationFetchHistoryJob7Private13createRequestERK4QUrl@Base 4.80.0
- _ZN6KGAPI223LocationFetchHistoryJob7PrivateC1EPS0_@Base 4.80.0
- _ZN6KGAPI223LocationFetchHistoryJob7PrivateC2EPS0_@Base 4.80.0
  _ZN6KGAPI223LocationFetchHistoryJobC1ERK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI223LocationFetchHistoryJobC2ERK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI223LocationFetchHistoryJobD0Ev@Base 4.80.0
@@ -78,10 +69,6 @@ libKF5GAPILatitude.so.5 libkf5gapilatitude5 #MINVER#
  _ZN6KGAPI28Location11setAltitudeERKi@Base 4.80.0
  _ZN6KGAPI28Location12setTimestampERKy@Base 4.80.0
  _ZN6KGAPI28Location19setAltitudeAccuracyERKi@Base 4.80.0
- _ZN6KGAPI28Location7PrivateC1ERKS1_@Base 4.80.0
- _ZN6KGAPI28Location7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI28Location7PrivateC2ERKS1_@Base 4.80.0
- _ZN6KGAPI28Location7PrivateC2Ev@Base 4.80.0
  _ZN6KGAPI28Location8setSpeedERKi@Base 4.80.0
  _ZN6KGAPI28LocationC1ERKS0_@Base 4.80.0
  _ZN6KGAPI28LocationC1Eff@Base 4.80.0

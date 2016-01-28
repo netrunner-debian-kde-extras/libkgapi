@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.80.0 amd64
+# SymbolsHelper-Confirmed: 5.1.0 amd64
 libKF5GAPIDrive.so.5 libkf5gapidrive5 #MINVER#
  _ZN6KGAPI212DriveService11copyFileUrlERK7QString@Base 4.80.0
  _ZN6KGAPI212DriveService11fetchAppUrlERK7QString@Base 4.80.0
@@ -37,15 +37,6 @@ libKF5GAPIDrive.so.5 libkf5gapidrive5 #MINVER#
  _ZN6KGAPI25Drive10Permission18setAdditionalRolesERK5QListINS1_4RoleEE@Base 4.80.0
  _ZN6KGAPI25Drive10Permission5setIdERK7QString@Base 4.80.0
  _ZN6KGAPI25Drive10Permission6toJSONERK14QSharedPointerIS1_E@Base 4.80.0
- _ZN6KGAPI25Drive10Permission7Private10roleToNameENS1_4RoleE@Base 4.80.0
- _ZN6KGAPI25Drive10Permission7Private10typeToNameENS1_4TypeE@Base 4.80.0
- _ZN6KGAPI25Drive10Permission7Private12roleFromNameERK7QString@Base 4.80.0
- _ZN6KGAPI25Drive10Permission7Private12typeFromNameERK7QString@Base 4.80.0
- _ZN6KGAPI25Drive10Permission7Private8fromJSONERK4QMapI7QString8QVariantE@Base 4.80.0
- _ZN6KGAPI25Drive10Permission7PrivateC1ERKS2_@Base 4.80.0
- _ZN6KGAPI25Drive10Permission7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI25Drive10Permission7PrivateC2ERKS2_@Base 4.80.0
- _ZN6KGAPI25Drive10Permission7PrivateC2Ev@Base 4.80.0
  _ZN6KGAPI25Drive10Permission7setRoleENS1_4RoleE@Base 4.80.0
  _ZN6KGAPI25Drive10Permission7setTypeENS1_4TypeE@Base 4.80.0
  _ZN6KGAPI25Drive10Permission8fromJSONERK10QByteArray@Base 4.80.0
@@ -72,9 +63,6 @@ libKF5GAPIDrive.so.5 libkf5gapidrive5 #MINVER#
  _ZN6KGAPI25Drive11FileCopyJob15dispatchRequestEP21QNetworkAccessManagerRK15QNetworkRequestRK10QByteArrayRK7QString@Base 4.80.0
  _ZN6KGAPI25Drive11FileCopyJob16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI25Drive11FileCopyJob5startEv@Base 4.80.0
- _ZN6KGAPI25Drive11FileCopyJob7Private11processNextEv@Base 4.80.0
- _ZN6KGAPI25Drive11FileCopyJob7PrivateC1EPS1_@Base 4.80.0
- _ZN6KGAPI25Drive11FileCopyJob7PrivateC2EPS1_@Base 4.80.0
  _ZN6KGAPI25Drive11FileCopyJobC1ERK14QSharedPointerINS0_4FileEES6_RKS2_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI25Drive11FileCopyJobC1ERK4QMapI14QSharedPointerINS0_4FileEES5_ERKS3_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI25Drive11FileCopyJobC1ERK4QMapI7QString14QSharedPointerINS0_4FileEEERKS4_INS_7AccountEEP7QObject@Base 4.80.0
@@ -92,11 +80,6 @@ libKF5GAPIDrive.so.5 libkf5gapidrive5 #MINVER#
  _ZN6KGAPI25Drive12FileFetchJob19setUpdateViewedDateEb@Base 4.80.0
  _ZN6KGAPI25Drive12FileFetchJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 4.80.0
  _ZN6KGAPI25Drive12FileFetchJob5startEv@Base 4.80.0
- _ZN6KGAPI25Drive12FileFetchJob7Private11processNextEv@Base 4.80.0
- _ZN6KGAPI25Drive12FileFetchJob7Private13createRequestERK4QUrl@Base 4.80.0
- _ZN6KGAPI25Drive12FileFetchJob7Private15fieldsToStringsEy@Base 4.80.0
- _ZN6KGAPI25Drive12FileFetchJob7PrivateC1EPS1_@Base 4.80.0
- _ZN6KGAPI25Drive12FileFetchJob7PrivateC2EPS1_@Base 4.80.0
  _ZN6KGAPI25Drive12FileFetchJob9setFieldsEy@Base 4.80.0
  _ZN6KGAPI25Drive12FileFetchJobC1ERK11QStringListRK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI25Drive12FileFetchJobC1ERK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
@@ -148,8 +131,6 @@ libKF5GAPIDrive.so.5 libkf5gapidrive5 #MINVER#
  _ZN6KGAPI25Drive13AboutFetchJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 4.80.0
  _ZN6KGAPI25Drive13AboutFetchJob20setIncludeSubscribedEb@Base 4.80.0
  _ZN6KGAPI25Drive13AboutFetchJob5startEv@Base 4.80.0
- _ZN6KGAPI25Drive13AboutFetchJob7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI25Drive13AboutFetchJob7PrivateC2Ev@Base 4.80.0
  _ZN6KGAPI25Drive13AboutFetchJobC1ERK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI25Drive13AboutFetchJobC2ERK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI25Drive13AboutFetchJobD0Ev@Base 4.80.0
@@ -196,8 +177,6 @@ libKF5GAPIDrive.so.5 libkf5gapidrive5 #MINVER#
  _ZN6KGAPI25Drive13FileModifyJob19setUpdateViewedDateEb@Base 4.80.0
  _ZN6KGAPI25Drive13FileModifyJob20setCreateNewRevisionEb@Base 4.80.0
  _ZN6KGAPI25Drive13FileModifyJob21setUpdateModifiedDateEb@Base 4.80.0
- _ZN6KGAPI25Drive13FileModifyJob7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI25Drive13FileModifyJob7PrivateC2Ev@Base 4.80.0
  _ZN6KGAPI25Drive13FileModifyJob8dispatchEP21QNetworkAccessManagerRK15QNetworkRequestRK10QByteArray@Base 4.80.0
  _ZN6KGAPI25Drive13FileModifyJob9createUrlERK7QStringRK14QSharedPointerINS0_4FileEE@Base 4.80.0
  _ZN6KGAPI25Drive13FileModifyJobC1ERK14QSharedPointerINS0_4FileEERKS2_INS_7AccountEEP7QObject@Base 4.80.0
@@ -222,9 +201,6 @@ libKF5GAPIDrive.so.5 libkf5gapidrive5 #MINVER#
  _ZN6KGAPI25Drive14ChangeFetchJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 4.80.0
  _ZN6KGAPI25Drive14ChangeFetchJob20setIncludeSubscribedEb@Base 4.80.0
  _ZN6KGAPI25Drive14ChangeFetchJob5startEv@Base 4.80.0
- _ZN6KGAPI25Drive14ChangeFetchJob7Private13createRequestERK4QUrl@Base 4.80.0
- _ZN6KGAPI25Drive14ChangeFetchJob7PrivateC1EPS1_@Base 4.80.0
- _ZN6KGAPI25Drive14ChangeFetchJob7PrivateC2EPS1_@Base 4.80.0
  _ZN6KGAPI25Drive14ChangeFetchJobC1ERK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI25Drive14ChangeFetchJobC1ERK7QStringRK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI25Drive14ChangeFetchJobC2ERK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
@@ -234,11 +210,6 @@ libKF5GAPIDrive.so.5 libkf5gapidrive5 #MINVER#
  _ZN6KGAPI25Drive14ChangeFetchJobD2Ev@Base 4.80.0
  _ZN6KGAPI25Drive14ChildReference12fromJSONFeedERK10QByteArrayRNS_8FeedDataE@Base 4.80.0
  _ZN6KGAPI25Drive14ChildReference6toJSONERK14QSharedPointerIS1_E@Base 4.80.0
- _ZN6KGAPI25Drive14ChildReference7Private8fromJSONERK4QMapI7QString8QVariantE@Base 4.80.0
- _ZN6KGAPI25Drive14ChildReference7PrivateC1ERKS2_@Base 4.80.0
- _ZN6KGAPI25Drive14ChildReference7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI25Drive14ChildReference7PrivateC2ERKS2_@Base 4.80.0
- _ZN6KGAPI25Drive14ChildReference7PrivateC2Ev@Base 4.80.0
  _ZN6KGAPI25Drive14ChildReference8fromJSONERK10QByteArray@Base 4.80.0
  _ZN6KGAPI25Drive14ChildReferenceC1ERK7QString@Base 4.80.0
  _ZN6KGAPI25Drive14ChildReferenceC1ERKS1_@Base 4.80.0
@@ -263,16 +234,6 @@ libKF5GAPIDrive.so.5 libkf5gapidrive5 #MINVER#
  _ZN6KGAPI25Drive14FileUntrashJobD0Ev@Base 4.80.0
  _ZN6KGAPI25Drive14FileUntrashJobD1Ev@Base 4.80.0
  _ZN6KGAPI25Drive14FileUntrashJobD2Ev@Base 4.80.0
- _ZN6KGAPI25Drive15FileSearchQuery7Private13fieldToStringENS1_5FieldE@Base 4.80.0
- _ZN6KGAPI25Drive15FileSearchQuery7Private13valueToStringENS1_5FieldERK8QVariant@Base 4.80.0
- _ZN6KGAPI25Drive15FileSearchQuery7Private21logicOperatorToStringENS1_13LogicOperatorE@Base 4.80.0
- _ZN6KGAPI25Drive15FileSearchQuery7Private23compareOperatorToStringENS1_15CompareOperatorE@Base 4.80.0
- _ZN6KGAPI25Drive15FileSearchQuery7PrivateC1ERKS2_@Base 4.80.0
- _ZN6KGAPI25Drive15FileSearchQuery7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI25Drive15FileSearchQuery7PrivateC2ERKS2_@Base 4.80.0
- _ZN6KGAPI25Drive15FileSearchQuery7PrivateC2Ev@Base 4.80.0
- _ZN6KGAPI25Drive15FileSearchQuery7PrivateD1Ev@Base 4.80.0
- _ZN6KGAPI25Drive15FileSearchQuery7PrivateD2Ev@Base 4.80.0
  _ZN6KGAPI25Drive15FileSearchQuery8addQueryENS1_5FieldENS1_15CompareOperatorERK8QVariant@Base 4.80.0
  _ZN6KGAPI25Drive15FileSearchQuery8addQueryERKS1_@Base 4.80.0
  _ZN6KGAPI25Drive15FileSearchQueryC1ENS1_13LogicOperatorE@Base 4.80.0
@@ -284,12 +245,6 @@ libKF5GAPIDrive.so.5 libkf5gapidrive5 #MINVER#
  _ZN6KGAPI25Drive15FileSearchQueryaSERKS1_@Base 4.80.0
  _ZN6KGAPI25Drive15ParentReference12fromJSONFeedERK10QByteArray@Base 4.80.0
  _ZN6KGAPI25Drive15ParentReference6toJSONERK14QSharedPointerIS1_E@Base 4.80.0
- _ZN6KGAPI25Drive15ParentReference7Private6toJSONERK14QSharedPointerIS1_E@Base 4.80.0
- _ZN6KGAPI25Drive15ParentReference7Private8fromJSONERK4QMapI7QString8QVariantE@Base 4.80.0
- _ZN6KGAPI25Drive15ParentReference7PrivateC1ERKS2_@Base 4.80.0
- _ZN6KGAPI25Drive15ParentReference7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI25Drive15ParentReference7PrivateC2ERKS2_@Base 4.80.0
- _ZN6KGAPI25Drive15ParentReference7PrivateC2Ev@Base 4.80.0
  _ZN6KGAPI25Drive15ParentReference8fromJSONERK10QByteArray@Base 4.80.0
  _ZN6KGAPI25Drive15ParentReferenceC1ERK7QString@Base 4.80.0
  _ZN6KGAPI25Drive15ParentReferenceC1ERKS1_@Base 4.80.0
@@ -330,9 +285,6 @@ libKF5GAPIDrive.so.5 libkf5gapidrive5 #MINVER#
  _ZN6KGAPI25Drive17RevisionModifyJob16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI25Drive17RevisionModifyJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 4.80.0
  _ZN6KGAPI25Drive17RevisionModifyJob5startEv@Base 4.80.0
- _ZN6KGAPI25Drive17RevisionModifyJob7Private11processNextEv@Base 4.80.0
- _ZN6KGAPI25Drive17RevisionModifyJob7PrivateC1EPS1_@Base 4.80.0
- _ZN6KGAPI25Drive17RevisionModifyJob7PrivateC2EPS1_@Base 4.80.0
  _ZN6KGAPI25Drive17RevisionModifyJobC1ERK7QStringRK14QSharedPointerINS0_8RevisionEERKS5_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI25Drive17RevisionModifyJobC1ERK7QStringRK5QListI14QSharedPointerINS0_8RevisionEEERKS6_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI25Drive17RevisionModifyJobC2ERK7QStringRK14QSharedPointerINS0_8RevisionEERKS5_INS_7AccountEEP7QObject@Base 4.80.0
@@ -364,8 +316,6 @@ libKF5GAPIDrive.so.5 libkf5gapidrive5 #MINVER#
  _ZN6KGAPI25Drive19FileAbstractDataJob20setTimedTextLanguageERK7QString@Base 4.80.0
  _ZN6KGAPI25Drive19FileAbstractDataJob21setTimedTextTrackNameERK7QString@Base 4.80.0
  _ZN6KGAPI25Drive19FileAbstractDataJob6setOcrEb@Base 4.80.0
- _ZN6KGAPI25Drive19FileAbstractDataJob7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI25Drive19FileAbstractDataJob7PrivateC2Ev@Base 4.80.0
  _ZN6KGAPI25Drive19FileAbstractDataJob9setPinnedEb@Base 4.80.0
  _ZN6KGAPI25Drive19FileAbstractDataJob9updateUrlER4QUrl@Base 4.80.0
  _ZN6KGAPI25Drive19FileAbstractDataJobC1ERK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
@@ -380,9 +330,6 @@ libKF5GAPIDrive.so.5 libkf5gapidrive5 #MINVER#
  _ZN6KGAPI25Drive19FileFetchContentJob16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI25Drive19FileFetchContentJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 4.80.0
  _ZN6KGAPI25Drive19FileFetchContentJob5startEv@Base 4.80.0
- _ZN6KGAPI25Drive19FileFetchContentJob7Private19_k_downloadProgressExx@Base 4.80.0
- _ZN6KGAPI25Drive19FileFetchContentJob7PrivateC1EPS1_@Base 4.80.0
- _ZN6KGAPI25Drive19FileFetchContentJob7PrivateC2EPS1_@Base 4.80.0
  _ZN6KGAPI25Drive19FileFetchContentJobC1ERK14QSharedPointerINS0_4FileEERKS2_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI25Drive19FileFetchContentJobC1ERK4QUrlRK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI25Drive19FileFetchContentJobC2ERK14QSharedPointerINS0_4FileEERKS2_INS_7AccountEEP7QObject@Base 4.80.0
@@ -395,9 +342,6 @@ libKF5GAPIDrive.so.5 libkf5gapidrive5 #MINVER#
  _ZN6KGAPI25Drive19PermissionCreateJob16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI25Drive19PermissionCreateJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 4.80.0
  _ZN6KGAPI25Drive19PermissionCreateJob5startEv@Base 4.80.0
- _ZN6KGAPI25Drive19PermissionCreateJob7Private11processNextEv@Base 4.80.0
- _ZN6KGAPI25Drive19PermissionCreateJob7PrivateC1EPS1_@Base 4.80.0
- _ZN6KGAPI25Drive19PermissionCreateJob7PrivateC2EPS1_@Base 4.80.0
  _ZN6KGAPI25Drive19PermissionCreateJobC1ERK7QStringRK14QSharedPointerINS0_10PermissionEERKS5_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI25Drive19PermissionCreateJobC1ERK7QStringRK5QListI14QSharedPointerINS0_10PermissionEEERKS6_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI25Drive19PermissionCreateJobC2ERK7QStringRK14QSharedPointerINS0_10PermissionEERKS5_INS_7AccountEEP7QObject@Base 4.80.0
@@ -425,9 +369,6 @@ libKF5GAPIDrive.so.5 libkf5gapidrive5 #MINVER#
  _ZN6KGAPI25Drive19PermissionModifyJob16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI25Drive19PermissionModifyJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 4.80.0
  _ZN6KGAPI25Drive19PermissionModifyJob5startEv@Base 4.80.0
- _ZN6KGAPI25Drive19PermissionModifyJob7Private11processNextEv@Base 4.80.0
- _ZN6KGAPI25Drive19PermissionModifyJob7PrivateC1EPS1_@Base 4.80.0
- _ZN6KGAPI25Drive19PermissionModifyJob7PrivateC2EPS1_@Base 4.80.0
  _ZN6KGAPI25Drive19PermissionModifyJobC1ERK7QStringRK14QSharedPointerINS0_10PermissionEERKS5_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI25Drive19PermissionModifyJobC1ERK7QStringRK5QListI14QSharedPointerINS0_10PermissionEEERKS6_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI25Drive19PermissionModifyJobC2ERK7QStringRK14QSharedPointerINS0_10PermissionEERKS5_INS_7AccountEEP7QObject@Base 4.80.0
@@ -440,9 +381,6 @@ libKF5GAPIDrive.so.5 libkf5gapidrive5 #MINVER#
  _ZN6KGAPI25Drive21FileAbstractModifyJob16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI25Drive21FileAbstractModifyJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 4.80.0
  _ZN6KGAPI25Drive21FileAbstractModifyJob5startEv@Base 4.80.0
- _ZN6KGAPI25Drive21FileAbstractModifyJob7Private11processNextEv@Base 4.80.0
- _ZN6KGAPI25Drive21FileAbstractModifyJob7PrivateC1EPS1_@Base 4.80.0
- _ZN6KGAPI25Drive21FileAbstractModifyJob7PrivateC2EPS1_@Base 4.80.0
  _ZN6KGAPI25Drive21FileAbstractModifyJobC1ERK11QStringListRK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI25Drive21FileAbstractModifyJobC1ERK14QSharedPointerINS0_4FileEERKS2_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI25Drive21FileAbstractModifyJobC1ERK5QListI14QSharedPointerINS0_4FileEEERKS3_INS_7AccountEEP7QObject@Base 4.80.0
@@ -461,12 +399,6 @@ libKF5GAPIDrive.so.5 libkf5gapidrive5 #MINVER#
  _ZN6KGAPI25Drive21FileAbstractUploadJob16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI25Drive21FileAbstractUploadJob28setUseContentAsIndexableTextEb@Base 4.80.0
  _ZN6KGAPI25Drive21FileAbstractUploadJob5startEv@Base 4.80.0
- _ZN6KGAPI25Drive21FileAbstractUploadJob7Private11processNextEv@Base 4.80.0
- _ZN6KGAPI25Drive21FileAbstractUploadJob7Private14buildMultipartERK7QStringRK14QSharedPointerINS0_4FileEERS3_@Base 4.80.0
- _ZN6KGAPI25Drive21FileAbstractUploadJob7Private17_k_uploadProgressExx@Base 4.80.0
- _ZN6KGAPI25Drive21FileAbstractUploadJob7Private8readFileERK7QStringRS3_@Base 4.80.0
- _ZN6KGAPI25Drive21FileAbstractUploadJob7PrivateC1EPS1_@Base 4.80.0
- _ZN6KGAPI25Drive21FileAbstractUploadJob7PrivateC2EPS1_@Base 4.80.0
  _ZN6KGAPI25Drive21FileAbstractUploadJobC1ERK11QStringListRK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI25Drive21FileAbstractUploadJobC1ERK14QSharedPointerINS0_4FileEERKS2_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI25Drive21FileAbstractUploadJobC1ERK4QMapI7QString14QSharedPointerINS0_4FileEEERKS4_INS_7AccountEEP7QObject@Base 4.80.0
@@ -487,9 +419,6 @@ libKF5GAPIDrive.so.5 libkf5gapidrive5 #MINVER#
  _ZN6KGAPI25Drive22ChildReferenceFetchJob16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI25Drive22ChildReferenceFetchJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 4.80.0
  _ZN6KGAPI25Drive22ChildReferenceFetchJob5startEv@Base 4.80.0
- _ZN6KGAPI25Drive22ChildReferenceFetchJob7Private13createRequestERK4QUrl@Base 4.80.0
- _ZN6KGAPI25Drive22ChildReferenceFetchJob7PrivateC1EPS1_@Base 4.80.0
- _ZN6KGAPI25Drive22ChildReferenceFetchJob7PrivateC2EPS1_@Base 4.80.0
  _ZN6KGAPI25Drive22ChildReferenceFetchJobC1ERK7QStringRK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI25Drive22ChildReferenceFetchJobC1ERK7QStringS4_RK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI25Drive22ChildReferenceFetchJobC2ERK7QStringRK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
@@ -502,9 +431,6 @@ libKF5GAPIDrive.so.5 libkf5gapidrive5 #MINVER#
  _ZN6KGAPI25Drive23ChildReferenceCreateJob16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI25Drive23ChildReferenceCreateJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 4.80.0
  _ZN6KGAPI25Drive23ChildReferenceCreateJob5startEv@Base 4.80.0
- _ZN6KGAPI25Drive23ChildReferenceCreateJob7Private11processNextEv@Base 4.80.0
- _ZN6KGAPI25Drive23ChildReferenceCreateJob7PrivateC1EPS1_@Base 4.80.0
- _ZN6KGAPI25Drive23ChildReferenceCreateJob7PrivateC2EPS1_@Base 4.80.0
  _ZN6KGAPI25Drive23ChildReferenceCreateJobC1ERK7QStringRK11QStringListRK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI25Drive23ChildReferenceCreateJobC1ERK7QStringRK14QSharedPointerINS0_14ChildReferenceEERKS5_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI25Drive23ChildReferenceCreateJobC1ERK7QStringRK5QListI14QSharedPointerINS0_14ChildReferenceEEERKS6_INS_7AccountEEP7QObject@Base 4.80.0
@@ -548,9 +474,6 @@ libKF5GAPIDrive.so.5 libkf5gapidrive5 #MINVER#
  _ZN6KGAPI25Drive24ParentReferenceCreateJob16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI25Drive24ParentReferenceCreateJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 4.80.0
  _ZN6KGAPI25Drive24ParentReferenceCreateJob5startEv@Base 4.80.0
- _ZN6KGAPI25Drive24ParentReferenceCreateJob7Private11processNextEv@Base 4.80.0
- _ZN6KGAPI25Drive24ParentReferenceCreateJob7PrivateC1EPS1_@Base 4.80.0
- _ZN6KGAPI25Drive24ParentReferenceCreateJob7PrivateC2EPS1_@Base 4.80.0
  _ZN6KGAPI25Drive24ParentReferenceCreateJobC1ERK7QStringRK11QStringListRK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI25Drive24ParentReferenceCreateJobC1ERK7QStringRK14QSharedPointerINS0_15ParentReferenceEERKS5_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI25Drive24ParentReferenceCreateJobC1ERK7QStringRK5QListI14QSharedPointerINS0_15ParentReferenceEEERKS6_INS_7AccountEEP7QObject@Base 4.80.0
@@ -578,11 +501,6 @@ libKF5GAPIDrive.so.5 libkf5gapidrive5 #MINVER#
  _ZN6KGAPI25Drive24ParentReferenceDeleteJobD1Ev@Base 4.80.0
  _ZN6KGAPI25Drive24ParentReferenceDeleteJobD2Ev@Base 4.80.0
  _ZN6KGAPI25Drive3App12fromJSONFeedERK10QByteArray@Base 4.80.0
- _ZN6KGAPI25Drive3App4Icon7Private16categoryFromNameERK7QString@Base 4.80.0
- _ZN6KGAPI25Drive3App4Icon7PrivateC1ERKS3_@Base 4.80.0
- _ZN6KGAPI25Drive3App4Icon7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI25Drive3App4Icon7PrivateC2ERKS3_@Base 4.80.0
- _ZN6KGAPI25Drive3App4Icon7PrivateC2Ev@Base 4.80.0
  _ZN6KGAPI25Drive3App4IconC1ERKS2_@Base 4.80.0
  _ZN6KGAPI25Drive3App4IconC1Ev@Base 4.80.0
  _ZN6KGAPI25Drive3App4IconC2ERKS2_@Base 4.80.0
@@ -590,11 +508,6 @@ libKF5GAPIDrive.so.5 libkf5gapidrive5 #MINVER#
  _ZN6KGAPI25Drive3App4IconD0Ev@Base 4.80.0
  _ZN6KGAPI25Drive3App4IconD1Ev@Base 4.80.0
  _ZN6KGAPI25Drive3App4IconD2Ev@Base 4.80.0
- _ZN6KGAPI25Drive3App7Private8fromJSONERK4QMapI7QString8QVariantE@Base 4.80.0
- _ZN6KGAPI25Drive3App7PrivateC1ERKS2_@Base 4.80.0
- _ZN6KGAPI25Drive3App7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI25Drive3App7PrivateC2ERKS2_@Base 4.80.0
- _ZN6KGAPI25Drive3App7PrivateC2Ev@Base 4.80.0
  _ZN6KGAPI25Drive3App8fromJSONERK10QByteArray@Base 4.80.0
  _ZN6KGAPI25Drive3AppC1ERKS1_@Base 4.80.0
  _ZN6KGAPI25Drive3AppC1Ev@Base 4.80.0
@@ -606,10 +519,6 @@ libKF5GAPIDrive.so.5 libkf5gapidrive5 #MINVER#
  _ZN6KGAPI25Drive4File10setParentsERK5QListI14QSharedPointerINS0_15ParentReferenceEEE@Base 4.80.0
  _ZN6KGAPI25Drive4File11setMimeTypeERK7QString@Base 4.80.0
  _ZN6KGAPI25Drive4File12fromJSONFeedERK10QByteArrayRNS_8FeedDataE@Base 4.80.0
- _ZN6KGAPI25Drive4File13IndexableText7PrivateC1ERKS3_@Base 4.80.0
- _ZN6KGAPI25Drive4File13IndexableText7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI25Drive4File13IndexableText7PrivateC2ERKS3_@Base 4.80.0
- _ZN6KGAPI25Drive4File13IndexableText7PrivateC2Ev@Base 4.80.0
  _ZN6KGAPI25Drive4File13IndexableText7setTextERK7QString@Base 4.80.0
  _ZN6KGAPI25Drive4File13IndexableTextC1ERKS2_@Base 4.80.0
  _ZN6KGAPI25Drive4File13IndexableTextC1Ev@Base 4.80.0
@@ -622,14 +531,6 @@ libKF5GAPIDrive.so.5 libkf5gapidrive5 #MINVER#
  _ZN6KGAPI25Drive4File14folderMimeTypeEv@Base 4.80.0
  _ZN6KGAPI25Drive4File14setDescriptionERK7QString@Base 4.80.0
  _ZN6KGAPI25Drive4File15setModifiedDateERK9QDateTime@Base 4.80.0
- _ZN6KGAPI25Drive4File18ImageMediaMetadata7PrivateC1ERKS3_@Base 4.80.0
- _ZN6KGAPI25Drive4File18ImageMediaMetadata7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI25Drive4File18ImageMediaMetadata7PrivateC2ERKS3_@Base 4.80.0
- _ZN6KGAPI25Drive4File18ImageMediaMetadata7PrivateC2Ev@Base 4.80.0
- _ZN6KGAPI25Drive4File18ImageMediaMetadata8Location7PrivateC1ERKS4_@Base 4.80.0
- _ZN6KGAPI25Drive4File18ImageMediaMetadata8Location7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI25Drive4File18ImageMediaMetadata8Location7PrivateC2ERKS4_@Base 4.80.0
- _ZN6KGAPI25Drive4File18ImageMediaMetadata8Location7PrivateC2Ev@Base 4.80.0
  _ZN6KGAPI25Drive4File18ImageMediaMetadata8LocationC1ERKS3_@Base 4.80.0
  _ZN6KGAPI25Drive4File18ImageMediaMetadata8LocationC1Ev@Base 4.80.0
  _ZN6KGAPI25Drive4File18ImageMediaMetadata8LocationC2ERKS3_@Base 4.80.0
@@ -648,10 +549,6 @@ libKF5GAPIDrive.so.5 libkf5gapidrive5 #MINVER#
  _ZN6KGAPI25Drive4File6Labels10setStarredEb@Base 4.80.0
  _ZN6KGAPI25Drive4File6Labels10setTrashedEb@Base 4.80.0
  _ZN6KGAPI25Drive4File6Labels13setRestrictedEb@Base 4.80.0
- _ZN6KGAPI25Drive4File6Labels7PrivateC1ERKS3_@Base 4.80.0
- _ZN6KGAPI25Drive4File6Labels7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI25Drive4File6Labels7PrivateC2ERKS3_@Base 4.80.0
- _ZN6KGAPI25Drive4File6Labels7PrivateC2Ev@Base 4.80.0
  _ZN6KGAPI25Drive4File6Labels9setHiddenEb@Base 4.80.0
  _ZN6KGAPI25Drive4File6Labels9setViewedEb@Base 4.80.0
  _ZN6KGAPI25Drive4File6LabelsC1ERKS2_@Base 4.80.0
@@ -662,18 +559,9 @@ libKF5GAPIDrive.so.5 libkf5gapidrive5 #MINVER#
  _ZN6KGAPI25Drive4File6LabelsD1Ev@Base 4.80.0
  _ZN6KGAPI25Drive4File6LabelsD2Ev@Base 4.80.0
  _ZN6KGAPI25Drive4File6toJSONERK14QSharedPointerIS1_E@Base 4.80.0
- _ZN6KGAPI25Drive4File7Private8fromJSONERK4QMapI7QString8QVariantE@Base 4.80.0
- _ZN6KGAPI25Drive4File7PrivateC1ERKS2_@Base 4.80.0
- _ZN6KGAPI25Drive4File7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI25Drive4File7PrivateC2ERKS2_@Base 4.80.0
- _ZN6KGAPI25Drive4File7PrivateC2Ev@Base 4.80.0
  _ZN6KGAPI25Drive4File8fromJSONERK10QByteArray@Base 4.80.0
  _ZN6KGAPI25Drive4File8fromJSONERK4QMapI7QString8QVariantE@Base 4.80.0
  _ZN6KGAPI25Drive4File8setTitleERK7QString@Base 4.80.0
- _ZN6KGAPI25Drive4File9Thumbnail7PrivateC1ERKS3_@Base 4.80.0
- _ZN6KGAPI25Drive4File9Thumbnail7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI25Drive4File9Thumbnail7PrivateC2ERKS3_@Base 4.80.0
- _ZN6KGAPI25Drive4File9Thumbnail7PrivateC2Ev@Base 4.80.0
  _ZN6KGAPI25Drive4File9ThumbnailC1ERK4QMapI7QString8QVariantE@Base 4.80.0
  _ZN6KGAPI25Drive4File9ThumbnailC1ERKS2_@Base 4.80.0
  _ZN6KGAPI25Drive4File9ThumbnailC2ERK4QMapI7QString8QVariantE@Base 4.80.0
@@ -689,10 +577,6 @@ libKF5GAPIDrive.so.5 libkf5gapidrive5 #MINVER#
  _ZN6KGAPI25Drive4FileD0Ev@Base 4.80.0
  _ZN6KGAPI25Drive4FileD1Ev@Base 4.80.0
  _ZN6KGAPI25Drive4FileD2Ev@Base 4.80.0
- _ZN6KGAPI25Drive4User7PrivateC1ERKS2_@Base 4.80.0
- _ZN6KGAPI25Drive4User7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI25Drive4User7PrivateC2ERKS2_@Base 4.80.0
- _ZN6KGAPI25Drive4User7PrivateC2Ev@Base 4.80.0
  _ZN6KGAPI25Drive4User8fromJSONERK4QMapI7QString8QVariantE@Base 4.80.0
  _ZN6KGAPI25Drive4UserC1ERKS1_@Base 4.80.0
  _ZN6KGAPI25Drive4UserC1Ev@Base 4.80.0
@@ -701,10 +585,6 @@ libKF5GAPIDrive.so.5 libkf5gapidrive5 #MINVER#
  _ZN6KGAPI25Drive4UserD0Ev@Base 4.80.0
  _ZN6KGAPI25Drive4UserD1Ev@Base 4.80.0
  _ZN6KGAPI25Drive4UserD2Ev@Base 4.80.0
- _ZN6KGAPI25Drive5About13MaxUploadSize7PrivateC1ERKS3_@Base 4.80.0
- _ZN6KGAPI25Drive5About13MaxUploadSize7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI25Drive5About13MaxUploadSize7PrivateC2ERKS3_@Base 4.80.0
- _ZN6KGAPI25Drive5About13MaxUploadSize7PrivateC2Ev@Base 4.80.0
  _ZN6KGAPI25Drive5About13MaxUploadSizeC1ERKS2_@Base 4.80.0
  _ZN6KGAPI25Drive5About13MaxUploadSizeC1Ev@Base 4.80.0
  _ZN6KGAPI25Drive5About13MaxUploadSizeC2ERKS2_@Base 4.80.0
@@ -712,14 +592,6 @@ libKF5GAPIDrive.so.5 libkf5gapidrive5 #MINVER#
  _ZN6KGAPI25Drive5About13MaxUploadSizeD0Ev@Base 4.80.0
  _ZN6KGAPI25Drive5About13MaxUploadSizeD1Ev@Base 4.80.0
  _ZN6KGAPI25Drive5About13MaxUploadSizeD2Ev@Base 4.80.0
- _ZN6KGAPI25Drive5About18AdditionalRoleInfo7PrivateC1ERKS3_@Base 4.80.0
- _ZN6KGAPI25Drive5About18AdditionalRoleInfo7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI25Drive5About18AdditionalRoleInfo7PrivateC2ERKS3_@Base 4.80.0
- _ZN6KGAPI25Drive5About18AdditionalRoleInfo7PrivateC2Ev@Base 4.80.0
- _ZN6KGAPI25Drive5About18AdditionalRoleInfo7RoleSet7PrivateC1ERKS4_@Base 4.80.0
- _ZN6KGAPI25Drive5About18AdditionalRoleInfo7RoleSet7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI25Drive5About18AdditionalRoleInfo7RoleSet7PrivateC2ERKS4_@Base 4.80.0
- _ZN6KGAPI25Drive5About18AdditionalRoleInfo7RoleSet7PrivateC2Ev@Base 4.80.0
  _ZN6KGAPI25Drive5About18AdditionalRoleInfo7RoleSetC1ERKS3_@Base 4.80.0
  _ZN6KGAPI25Drive5About18AdditionalRoleInfo7RoleSetC1Ev@Base 4.80.0
  _ZN6KGAPI25Drive5About18AdditionalRoleInfo7RoleSetC2ERKS3_@Base 4.80.0
@@ -734,10 +606,6 @@ libKF5GAPIDrive.so.5 libkf5gapidrive5 #MINVER#
  _ZN6KGAPI25Drive5About18AdditionalRoleInfoD0Ev@Base 4.80.0
  _ZN6KGAPI25Drive5About18AdditionalRoleInfoD1Ev@Base 4.80.0
  _ZN6KGAPI25Drive5About18AdditionalRoleInfoD2Ev@Base 4.80.0
- _ZN6KGAPI25Drive5About6Format7PrivateC1ERKS3_@Base 4.80.0
- _ZN6KGAPI25Drive5About6Format7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI25Drive5About6Format7PrivateC2ERKS3_@Base 4.80.0
- _ZN6KGAPI25Drive5About6Format7PrivateC2Ev@Base 4.80.0
  _ZN6KGAPI25Drive5About6FormatC1ERKS2_@Base 4.80.0
  _ZN6KGAPI25Drive5About6FormatC1Ev@Base 4.80.0
  _ZN6KGAPI25Drive5About6FormatC2ERKS2_@Base 4.80.0
@@ -745,10 +613,6 @@ libKF5GAPIDrive.so.5 libkf5gapidrive5 #MINVER#
  _ZN6KGAPI25Drive5About6FormatD0Ev@Base 4.80.0
  _ZN6KGAPI25Drive5About6FormatD1Ev@Base 4.80.0
  _ZN6KGAPI25Drive5About6FormatD2Ev@Base 4.80.0
- _ZN6KGAPI25Drive5About7Feature7PrivateC1ERKS3_@Base 4.80.0
- _ZN6KGAPI25Drive5About7Feature7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI25Drive5About7Feature7PrivateC2ERKS3_@Base 4.80.0
- _ZN6KGAPI25Drive5About7Feature7PrivateC2Ev@Base 4.80.0
  _ZN6KGAPI25Drive5About7FeatureC1ERKS2_@Base 4.80.0
  _ZN6KGAPI25Drive5About7FeatureC1Ev@Base 4.80.0
  _ZN6KGAPI25Drive5About7FeatureC2ERKS2_@Base 4.80.0
@@ -756,10 +620,6 @@ libKF5GAPIDrive.so.5 libkf5gapidrive5 #MINVER#
  _ZN6KGAPI25Drive5About7FeatureD0Ev@Base 4.80.0
  _ZN6KGAPI25Drive5About7FeatureD1Ev@Base 4.80.0
  _ZN6KGAPI25Drive5About7FeatureD2Ev@Base 4.80.0
- _ZN6KGAPI25Drive5About7PrivateC1ERKS2_@Base 4.80.0
- _ZN6KGAPI25Drive5About7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI25Drive5About7PrivateC2ERKS2_@Base 4.80.0
- _ZN6KGAPI25Drive5About7PrivateC2Ev@Base 4.80.0
  _ZN6KGAPI25Drive5About8fromJSONERK10QByteArray@Base 4.80.0
  _ZN6KGAPI25Drive5AboutC1ERKS1_@Base 4.80.0
  _ZN6KGAPI25Drive5AboutC1Ev@Base 4.80.0
@@ -769,11 +629,6 @@ libKF5GAPIDrive.so.5 libkf5gapidrive5 #MINVER#
  _ZN6KGAPI25Drive5AboutD1Ev@Base 4.80.0
  _ZN6KGAPI25Drive5AboutD2Ev@Base 4.80.0
  _ZN6KGAPI25Drive6Change12fromJSONFeedERK10QByteArrayRNS_8FeedDataE@Base 4.80.0
- _ZN6KGAPI25Drive6Change7Private8fromJSONERK4QMapI7QString8QVariantE@Base 4.80.0
- _ZN6KGAPI25Drive6Change7PrivateC1ERKS2_@Base 4.80.0
- _ZN6KGAPI25Drive6Change7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI25Drive6Change7PrivateC2ERKS2_@Base 4.80.0
- _ZN6KGAPI25Drive6Change7PrivateC2Ev@Base 4.80.0
  _ZN6KGAPI25Drive6Change8fromJSONERK10QByteArray@Base 4.80.0
  _ZN6KGAPI25Drive6ChangeC1ERKS1_@Base 4.80.0
  _ZN6KGAPI25Drive6ChangeC1Ev@Base 4.80.0
@@ -787,11 +642,6 @@ libKF5GAPIDrive.so.5 libkf5gapidrive5 #MINVER#
  _ZN6KGAPI25Drive8Revision14setPublishAutoEb@Base 4.80.0
  _ZN6KGAPI25Drive8Revision25setPublishedOutsideDomainEb@Base 4.80.0
  _ZN6KGAPI25Drive8Revision6toJSONERK14QSharedPointerIS1_E@Base 4.80.0
- _ZN6KGAPI25Drive8Revision7Private8fromJSONERK4QMapI7QString8QVariantE@Base 4.80.0
- _ZN6KGAPI25Drive8Revision7PrivateC1ERKS2_@Base 4.80.0
- _ZN6KGAPI25Drive8Revision7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI25Drive8Revision7PrivateC2ERKS2_@Base 4.80.0
- _ZN6KGAPI25Drive8Revision7PrivateC2Ev@Base 4.80.0
  _ZN6KGAPI25Drive8Revision8fromJSONERK10QByteArray@Base 4.80.0
  _ZN6KGAPI25Drive8Revision9setPinnedEb@Base 4.80.0
  _ZN6KGAPI25Drive8RevisionC1ERKS1_@Base 4.80.0
