@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.80.0 amd64
+# SymbolsHelper-Confirmed: 5.1.0 amd64
 libKF5GAPIBlogger.so.5 libkf5gapiblogger5 #MINVER#
  _ZN6KGAPI214BloggerService12fetchPageUrlERK7QStringS3_@Base 4.80.0
  _ZN6KGAPI214BloggerService12fetchPostUrlERK7QStringS3_@Base 4.80.0
@@ -24,10 +24,6 @@ libKF5GAPIBlogger.so.5 libkf5gapiblogger5 #MINVER#
  _ZN6KGAPI27Blogger12BlogFetchJob16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI27Blogger12BlogFetchJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 4.80.0
  _ZN6KGAPI27Blogger12BlogFetchJob5startEv@Base 4.80.0
- _ZN6KGAPI27Blogger12BlogFetchJob7PrivateC1ERK7QStringNS1_7FetchByE@Base 4.80.0
- _ZN6KGAPI27Blogger12BlogFetchJob7PrivateC2ERK7QStringNS1_7FetchByE@Base 4.80.0
- _ZN6KGAPI27Blogger12BlogFetchJob7PrivateD1Ev@Base 4.80.0
- _ZN6KGAPI27Blogger12BlogFetchJob7PrivateD2Ev@Base 4.80.0
  _ZN6KGAPI27Blogger12BlogFetchJobC1ERK7QStringNS1_7FetchByERK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI27Blogger12BlogFetchJobC2ERK7QStringNS1_7FetchByERK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI27Blogger12BlogFetchJobD0Ev@Base 4.80.0
@@ -40,8 +36,6 @@ libKF5GAPIBlogger.so.5 libkf5gapiblogger5 #MINVER#
  _ZN6KGAPI27Blogger12PageFetchJob16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI27Blogger12PageFetchJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 4.80.0
  _ZN6KGAPI27Blogger12PageFetchJob5startEv@Base 4.80.0
- _ZN6KGAPI27Blogger12PageFetchJob7PrivateC1ERK7QStringS5_@Base 4.80.0
- _ZN6KGAPI27Blogger12PageFetchJob7PrivateC2ERK7QStringS5_@Base 4.80.0
  _ZN6KGAPI27Blogger12PageFetchJobC1ERK7QStringRK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI27Blogger12PageFetchJobC1ERK7QStringS4_RK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI27Blogger12PageFetchJobC2ERK7QStringRK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
@@ -61,9 +55,6 @@ libKF5GAPIBlogger.so.5 libkf5gapiblogger5 #MINVER#
  _ZN6KGAPI27Blogger12PostFetchJob16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI27Blogger12PostFetchJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 4.80.0
  _ZN6KGAPI27Blogger12PostFetchJob5startEv@Base 4.80.0
- _ZN6KGAPI27Blogger12PostFetchJob7Private13createRequestERK4QUrl@Base 4.80.0
- _ZN6KGAPI27Blogger12PostFetchJob7PrivateC1ERK7QStringS5_PS1_@Base 4.80.0
- _ZN6KGAPI27Blogger12PostFetchJob7PrivateC2ERK7QStringS5_PS1_@Base 4.80.0
  _ZN6KGAPI27Blogger12PostFetchJobC1ERK7QStringRK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI27Blogger12PostFetchJobC1ERK7QStringS4_RK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI27Blogger12PostFetchJobC2ERK7QStringRK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
@@ -76,8 +67,6 @@ libKF5GAPIBlogger.so.5 libkf5gapiblogger5 #MINVER#
  _ZN6KGAPI27Blogger13PageCreateJob16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI27Blogger13PageCreateJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 4.80.0
  _ZN6KGAPI27Blogger13PageCreateJob5startEv@Base 4.80.0
- _ZN6KGAPI27Blogger13PageCreateJob7PrivateC1ERK14QSharedPointerINS0_4PageEE@Base 4.80.0
- _ZN6KGAPI27Blogger13PageCreateJob7PrivateC2ERK14QSharedPointerINS0_4PageEE@Base 4.80.0
  _ZN6KGAPI27Blogger13PageCreateJobC1ERK14QSharedPointerINS0_4PageEERKS2_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI27Blogger13PageCreateJobC2ERK14QSharedPointerINS0_4PageEERKS2_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI27Blogger13PageCreateJobD0Ev@Base 4.80.0
@@ -88,8 +77,6 @@ libKF5GAPIBlogger.so.5 libkf5gapiblogger5 #MINVER#
  _ZN6KGAPI27Blogger13PageDeleteJob11qt_metacastEPKc@Base 4.80.0
  _ZN6KGAPI27Blogger13PageDeleteJob16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI27Blogger13PageDeleteJob5startEv@Base 4.80.0
- _ZN6KGAPI27Blogger13PageDeleteJob7PrivateC1ERK7QStringS5_@Base 4.80.0
- _ZN6KGAPI27Blogger13PageDeleteJob7PrivateC2ERK7QStringS5_@Base 4.80.0
  _ZN6KGAPI27Blogger13PageDeleteJobC1ERK14QSharedPointerINS0_4PageEERKS2_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI27Blogger13PageDeleteJobC1ERK7QStringS4_RK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI27Blogger13PageDeleteJobC2ERK14QSharedPointerINS0_4PageEERKS2_INS_7AccountEEP7QObject@Base 4.80.0
@@ -102,8 +89,6 @@ libKF5GAPIBlogger.so.5 libkf5gapiblogger5 #MINVER#
  _ZN6KGAPI27Blogger13PageModifyJob16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI27Blogger13PageModifyJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 4.80.0
  _ZN6KGAPI27Blogger13PageModifyJob5startEv@Base 4.80.0
- _ZN6KGAPI27Blogger13PageModifyJob7PrivateC1ERK14QSharedPointerINS0_4PageEE@Base 4.80.0
- _ZN6KGAPI27Blogger13PageModifyJob7PrivateC2ERK14QSharedPointerINS0_4PageEE@Base 4.80.0
  _ZN6KGAPI27Blogger13PageModifyJobC1ERK14QSharedPointerINS0_4PageEERKS2_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI27Blogger13PageModifyJobC2ERK14QSharedPointerINS0_4PageEERKS2_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI27Blogger13PageModifyJobD0Ev@Base 4.80.0
@@ -114,8 +99,6 @@ libKF5GAPIBlogger.so.5 libkf5gapiblogger5 #MINVER#
  _ZN6KGAPI27Blogger13PostCreateJob16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI27Blogger13PostCreateJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 4.80.0
  _ZN6KGAPI27Blogger13PostCreateJob5startEv@Base 4.80.0
- _ZN6KGAPI27Blogger13PostCreateJob7PrivateC1ERK14QSharedPointerINS0_4PostEEb@Base 4.80.0
- _ZN6KGAPI27Blogger13PostCreateJob7PrivateC2ERK14QSharedPointerINS0_4PostEEb@Base 4.80.0
  _ZN6KGAPI27Blogger13PostCreateJobC1ERK14QSharedPointerINS0_4PostEEbRKS2_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI27Blogger13PostCreateJobC2ERK14QSharedPointerINS0_4PostEEbRKS2_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI27Blogger13PostCreateJobD0Ev@Base 4.80.0
@@ -126,8 +109,6 @@ libKF5GAPIBlogger.so.5 libkf5gapiblogger5 #MINVER#
  _ZN6KGAPI27Blogger13PostDeleteJob11qt_metacastEPKc@Base 4.80.0
  _ZN6KGAPI27Blogger13PostDeleteJob16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI27Blogger13PostDeleteJob5startEv@Base 4.80.0
- _ZN6KGAPI27Blogger13PostDeleteJob7PrivateC1ERK7QStringS5_@Base 4.80.0
- _ZN6KGAPI27Blogger13PostDeleteJob7PrivateC2ERK7QStringS5_@Base 4.80.0
  _ZN6KGAPI27Blogger13PostDeleteJobC1ERK14QSharedPointerINS0_4PostEERKS2_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI27Blogger13PostDeleteJobC1ERK7QStringS4_RK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI27Blogger13PostDeleteJobC2ERK14QSharedPointerINS0_4PostEERKS2_INS_7AccountEEP7QObject@Base 4.80.0
@@ -140,8 +121,6 @@ libKF5GAPIBlogger.so.5 libkf5gapiblogger5 #MINVER#
  _ZN6KGAPI27Blogger13PostModifyJob16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI27Blogger13PostModifyJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 4.80.0
  _ZN6KGAPI27Blogger13PostModifyJob5startEv@Base 4.80.0
- _ZN6KGAPI27Blogger13PostModifyJob7PrivateC1ERK14QSharedPointerINS0_4PostEE@Base 4.80.0
- _ZN6KGAPI27Blogger13PostModifyJob7PrivateC2ERK14QSharedPointerINS0_4PostEE@Base 4.80.0
  _ZN6KGAPI27Blogger13PostModifyJobC1ERK14QSharedPointerINS0_4PostEERKS2_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI27Blogger13PostModifyJobC2ERK14QSharedPointerINS0_4PostEERKS2_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI27Blogger13PostModifyJobD0Ev@Base 4.80.0
@@ -153,9 +132,6 @@ libKF5GAPIBlogger.so.5 libkf5gapiblogger5 #MINVER#
  _ZN6KGAPI27Blogger13PostSearchJob16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI27Blogger13PostSearchJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 4.80.0
  _ZN6KGAPI27Blogger13PostSearchJob5startEv@Base 4.80.0
- _ZN6KGAPI27Blogger13PostSearchJob7Private13createRequestERK4QUrl@Base 4.80.0
- _ZN6KGAPI27Blogger13PostSearchJob7PrivateC1ERK7QStringS5_PS1_@Base 4.80.0
- _ZN6KGAPI27Blogger13PostSearchJob7PrivateC2ERK7QStringS5_PS1_@Base 4.80.0
  _ZN6KGAPI27Blogger13PostSearchJobC1ERK7QStringS4_RK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI27Blogger13PostSearchJobC2ERK7QStringS4_RK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI27Blogger13PostSearchJobD0Ev@Base 4.80.0
@@ -167,8 +143,6 @@ libKF5GAPIBlogger.so.5 libkf5gapiblogger5 #MINVER#
  _ZN6KGAPI27Blogger14PostPublishJob15dispatchRequestEP21QNetworkAccessManagerRK15QNetworkRequestRK10QByteArrayRK7QString@Base 4.80.0
  _ZN6KGAPI27Blogger14PostPublishJob16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI27Blogger14PostPublishJob5startEv@Base 4.80.0
- _ZN6KGAPI27Blogger14PostPublishJob7PrivateC1ERK7QStringS5_NS1_13PublishActionERK9QDateTime@Base 4.80.0
- _ZN6KGAPI27Blogger14PostPublishJob7PrivateC2ERK7QStringS5_NS1_13PublishActionERK9QDateTime@Base 4.80.0
  _ZN6KGAPI27Blogger14PostPublishJobC1ERK14QSharedPointerINS0_4PostEENS1_13PublishActionERKS2_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI27Blogger14PostPublishJobC1ERK14QSharedPointerINS0_4PostEERK9QDateTimeRKS2_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI27Blogger14PostPublishJobC1ERK7QStringS4_NS1_13PublishActionERK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
@@ -189,11 +163,6 @@ libKF5GAPIBlogger.so.5 libkf5gapiblogger5 #MINVER#
  _ZN6KGAPI27Blogger15CommentFetchJob16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI27Blogger15CommentFetchJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 4.80.0
  _ZN6KGAPI27Blogger15CommentFetchJob5startEv@Base 4.80.0
- _ZN6KGAPI27Blogger15CommentFetchJob7Private13createRequestERK4QUrl@Base 4.80.0
- _ZN6KGAPI27Blogger15CommentFetchJob7PrivateC1ERK7QStringS5_S5_PS1_@Base 4.80.0
- _ZN6KGAPI27Blogger15CommentFetchJob7PrivateC2ERK7QStringS5_S5_PS1_@Base 4.80.0
- _ZN6KGAPI27Blogger15CommentFetchJob7PrivateD1Ev@Base 4.80.0
- _ZN6KGAPI27Blogger15CommentFetchJob7PrivateD2Ev@Base 4.80.0
  _ZN6KGAPI27Blogger15CommentFetchJobC1ERK7QStringRK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI27Blogger15CommentFetchJobC1ERK7QStringS4_RK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI27Blogger15CommentFetchJobC1ERK7QStringS4_S4_RK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
@@ -208,8 +177,6 @@ libKF5GAPIBlogger.so.5 libkf5gapiblogger5 #MINVER#
  _ZN6KGAPI27Blogger16CommentDeleteJob11qt_metacastEPKc@Base 4.80.0
  _ZN6KGAPI27Blogger16CommentDeleteJob16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI27Blogger16CommentDeleteJob5startEv@Base 4.80.0
- _ZN6KGAPI27Blogger16CommentDeleteJob7PrivateC1ERK7QStringS5_S5_@Base 4.80.0
- _ZN6KGAPI27Blogger16CommentDeleteJob7PrivateC2ERK7QStringS5_S5_@Base 4.80.0
  _ZN6KGAPI27Blogger16CommentDeleteJobC1ERK14QSharedPointerINS0_7CommentEERKS2_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI27Blogger16CommentDeleteJobC1ERK7QStringS4_S4_RK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI27Blogger16CommentDeleteJobC2ERK14QSharedPointerINS0_7CommentEERKS2_INS_7AccountEEP7QObject@Base 4.80.0
@@ -222,8 +189,6 @@ libKF5GAPIBlogger.so.5 libkf5gapiblogger5 #MINVER#
  _ZN6KGAPI27Blogger17CommentApproveJob16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI27Blogger17CommentApproveJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 4.80.0
  _ZN6KGAPI27Blogger17CommentApproveJob5startEv@Base 4.80.0
- _ZN6KGAPI27Blogger17CommentApproveJob7PrivateC1ERK7QStringS5_S5_NS1_14ApprovalActionE@Base 4.80.0
- _ZN6KGAPI27Blogger17CommentApproveJob7PrivateC2ERK7QStringS5_S5_NS1_14ApprovalActionE@Base 4.80.0
  _ZN6KGAPI27Blogger17CommentApproveJobC1ERK14QSharedPointerINS0_7CommentEENS1_14ApprovalActionERKS2_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI27Blogger17CommentApproveJobC1ERK7QStringS4_S4_NS1_14ApprovalActionERK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI27Blogger17CommentApproveJobC2ERK14QSharedPointerINS0_7CommentEENS1_14ApprovalActionERKS2_INS_7AccountEEP7QObject@Base 4.80.0
@@ -236,8 +201,6 @@ libKF5GAPIBlogger.so.5 libkf5gapiblogger5 #MINVER#
  _ZN6KGAPI27Blogger23CommentDeleteContentJob16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI27Blogger23CommentDeleteContentJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 4.80.0
  _ZN6KGAPI27Blogger23CommentDeleteContentJob5startEv@Base 4.80.0
- _ZN6KGAPI27Blogger23CommentDeleteContentJob7PrivateC1ERK7QStringS5_S5_@Base 4.80.0
- _ZN6KGAPI27Blogger23CommentDeleteContentJob7PrivateC2ERK7QStringS5_S5_@Base 4.80.0
  _ZN6KGAPI27Blogger23CommentDeleteContentJobC1ERK14QSharedPointerINS0_7CommentEERKS2_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI27Blogger23CommentDeleteContentJobC1ERK7QStringS4_S4_RK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI27Blogger23CommentDeleteContentJobC2ERK14QSharedPointerINS0_7CommentEERKS2_INS_7AccountEEP7QObject@Base 4.80.0
@@ -247,9 +210,6 @@ libKF5GAPIBlogger.so.5 libkf5gapiblogger5 #MINVER#
  _ZN6KGAPI27Blogger23CommentDeleteContentJobD2Ev@Base 4.80.0
  _ZN6KGAPI27Blogger4Blog12fromJSONFeedERK10QByteArray@Base 4.80.0
  _ZN6KGAPI27Blogger4Blog3urlEv@Base 4.80.0
- _ZN6KGAPI27Blogger4Blog7Private8fromJSONERK8QVariant@Base 4.80.0
- _ZN6KGAPI27Blogger4Blog7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI27Blogger4Blog7PrivateC2Ev@Base 4.80.0
  _ZN6KGAPI27Blogger4Blog8fromJSONERK10QByteArray@Base 4.80.0
  _ZN6KGAPI27Blogger4BlogC1Ev@Base 4.80.0
  _ZN6KGAPI27Blogger4BlogC2Ev@Base 4.80.0
@@ -263,12 +223,6 @@ libKF5GAPIBlogger.so.5 libkf5gapiblogger5 #MINVER#
  _ZN6KGAPI27Blogger4Page5setIdERK7QString@Base 4.80.0
  _ZN6KGAPI27Blogger4Page6setUrlERK4QUrl@Base 4.80.0
  _ZN6KGAPI27Blogger4Page6toJSONERK14QSharedPointerIS1_E@Base 4.80.0
- _ZN6KGAPI27Blogger4Page7Private6toJSONERK14QSharedPointerIS1_E@Base 4.80.0
- _ZN6KGAPI27Blogger4Page7Private8fromJSONERK8QVariant@Base 4.80.0
- _ZN6KGAPI27Blogger4Page7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI27Blogger4Page7PrivateC2Ev@Base 4.80.0
- _ZN6KGAPI27Blogger4Page7PrivateD1Ev@Base 4.80.0
- _ZN6KGAPI27Blogger4Page7PrivateD2Ev@Base 4.80.0
  _ZN6KGAPI27Blogger4Page8fromJSONERK10QByteArray@Base 4.80.0
  _ZN6KGAPI27Blogger4Page8setTitleERK7QString@Base 4.80.0
  _ZN6KGAPI27Blogger4Page9setBlogIdERK7QString@Base 4.80.0
@@ -291,10 +245,6 @@ libKF5GAPIBlogger.so.5 libkf5gapiblogger5 #MINVER#
  _ZN6KGAPI27Blogger4Post6blogIdEv@Base 4.80.0
  _ZN6KGAPI27Blogger4Post6setUrlERK4QUrl@Base 4.80.0
  _ZN6KGAPI27Blogger4Post6toJSONERK14QSharedPointerIS1_E@Base 4.80.0
- _ZN6KGAPI27Blogger4Post7Private6toJSONERK14QSharedPointerIS1_E@Base 4.80.0
- _ZN6KGAPI27Blogger4Post7Private8fromJSONERK8QVariant@Base 4.80.0
- _ZN6KGAPI27Blogger4Post7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI27Blogger4Post7PrivateC2Ev@Base 4.80.0
  _ZN6KGAPI27Blogger4Post8fromJSONERK10QByteArray@Base 4.80.0
  _ZN6KGAPI27Blogger4Post8setTitleERK7QString@Base 4.80.0
  _ZN6KGAPI27Blogger4Post9setBlogIdERK7QString@Base 4.80.0
@@ -315,9 +265,6 @@ libKF5GAPIBlogger.so.5 libkf5gapiblogger5 #MINVER#
  _ZN6KGAPI27Blogger7Comment13setAuthorNameERK7QString@Base 4.80.0
  _ZN6KGAPI27Blogger7Comment17setAuthorImageUrlERK4QUrl@Base 4.80.0
  _ZN6KGAPI27Blogger7Comment5setIdERK7QString@Base 4.80.0
- _ZN6KGAPI27Blogger7Comment7Private8fromJSONERK8QVariant@Base 4.80.0
- _ZN6KGAPI27Blogger7Comment7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI27Blogger7Comment7PrivateC2Ev@Base 4.80.0
  _ZN6KGAPI27Blogger7Comment8fromJSONERK10QByteArray@Base 4.80.0
  _ZN6KGAPI27Blogger7Comment9setBlogIdERK7QString@Base 4.80.0
  _ZN6KGAPI27Blogger7Comment9setPostIdERK7QString@Base 4.80.0

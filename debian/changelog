@@ -1,3 +1,11 @@
+libkgapi (5.1.0-0) UNRELEASED; urgency=medium
+
+  [ Sandro Knauß ]
+  * New upstream release (5.1.0)
+  * Update symbols file.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 27 Jan 2016 14:47:46 +0100
+
 libkgapi (5.0.0-1) experimental; urgency=medium
 
   * New upstream release (5.0.0).

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.80.0 amd64
+# SymbolsHelper-Confirmed: 5.1.0 amd64
 libKF5GAPICore.so.5 libkf5gapicore5 #MINVER#
  _ZN5Utils19stringToContentTypeERK7QString@Base 4.80.0
  _ZN5Utils6ts2StrEy@Base 4.80.0
@@ -14,22 +14,22 @@ libKF5GAPICore.so.5 libkf5gapicore5 #MINVER#
  _ZN6KGAPI210AuthWidget16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI210AuthWidget18setShowProgressBarEb@Base 4.80.0
  _ZN6KGAPI210AuthWidget5errorENS_5ErrorERK7QString@Base 4.80.0
- _ZN6KGAPI210AuthWidget7Private10onSslErrorEP13QNetworkReplyRK5QListI9QSslErrorE@Base 4.80.0
- _ZN6KGAPI210AuthWidget7Private11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.80.0
- _ZN6KGAPI210AuthWidget7Private11qt_metacastEPKc@Base 4.80.0
- _ZN6KGAPI210AuthWidget7Private11setProgressENS0_8ProgressE@Base 4.80.0
- _ZN6KGAPI210AuthWidget7Private14tokensReceivedEPNS_3JobE@Base 4.80.0
- _ZN6KGAPI210AuthWidget7Private15webviewFinishedEb@Base 4.80.0
- _ZN6KGAPI210AuthWidget7Private16staticMetaObjectE@Base 4.80.0
- _ZN6KGAPI210AuthWidget7Private17webviewUrlChangedERK4QUrl@Base 4.80.0
- _ZN6KGAPI210AuthWidget7Private19accountInfoReceivedEPNS_3JobE@Base 4.80.0
- _ZN6KGAPI210AuthWidget7Private7setupUiEv@Base 4.80.0
- _ZN6KGAPI210AuthWidget7Private9emitErrorENS_5ErrorERK7QString@Base 4.80.0
- _ZN6KGAPI210AuthWidget7PrivateC1EPS0_@Base 4.80.0
- _ZN6KGAPI210AuthWidget7PrivateC2EPS0_@Base 4.80.0
- _ZN6KGAPI210AuthWidget7PrivateD0Ev@Base 4.80.0
- _ZN6KGAPI210AuthWidget7PrivateD1Ev@Base 4.80.0
- _ZN6KGAPI210AuthWidget7PrivateD2Ev@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI210AuthWidget7Private10onSslErrorEP13QNetworkReplyRK5QListI9QSslErrorE@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI210AuthWidget7Private11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI210AuthWidget7Private11qt_metacastEPKc@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI210AuthWidget7Private11setProgressENS0_8ProgressE@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI210AuthWidget7Private14tokensReceivedEPNS_3JobE@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI210AuthWidget7Private15webviewFinishedEb@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI210AuthWidget7Private16staticMetaObjectE@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI210AuthWidget7Private17webviewUrlChangedERK4QUrl@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI210AuthWidget7Private19accountInfoReceivedEPNS_3JobE@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI210AuthWidget7Private7setupUiEv@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI210AuthWidget7Private9emitErrorENS_5ErrorERK7QString@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI210AuthWidget7PrivateC1EPS0_@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI210AuthWidget7PrivateC2EPS0_@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI210AuthWidget7PrivateD0Ev@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI210AuthWidget7PrivateD1Ev@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI210AuthWidget7PrivateD2Ev@Base 4.80.0
  _ZN6KGAPI210AuthWidget8progressENS0_8ProgressE@Base 4.80.0
  _ZN6KGAPI210AuthWidgetC1EP7QWidget@Base 4.80.0
  _ZN6KGAPI210AuthWidgetC2EP7QWidget@Base 4.80.0
@@ -43,12 +43,12 @@ libKF5GAPICore.so.5 libkf5gapicore5 #MINVER#
  _ZN6KGAPI211AccountInfo13setFamilyNameERK7QString@Base 4.80.0
  _ZN6KGAPI211AccountInfo16setVerifiedEmailEb@Base 4.80.0
  _ZN6KGAPI211AccountInfo5setIdERK7QString@Base 4.80.0
- _ZN6KGAPI211AccountInfo7PrivateC1ERKS1_@Base 4.80.0
- _ZN6KGAPI211AccountInfo7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI211AccountInfo7PrivateC2ERKS1_@Base 4.80.0
- _ZN6KGAPI211AccountInfo7PrivateC2Ev@Base 4.80.0
- _ZN6KGAPI211AccountInfo7PrivateD1Ev@Base 4.80.0
- _ZN6KGAPI211AccountInfo7PrivateD2Ev@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI211AccountInfo7PrivateC1ERKS1_@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI211AccountInfo7PrivateC1Ev@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI211AccountInfo7PrivateC2ERKS1_@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI211AccountInfo7PrivateC2Ev@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI211AccountInfo7PrivateD1Ev@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI211AccountInfo7PrivateD2Ev@Base 4.80.0
  _ZN6KGAPI211AccountInfo7setLinkERK7QString@Base 4.80.0
  _ZN6KGAPI211AccountInfo7setNameERK7QString@Base 4.80.0
  _ZN6KGAPI211AccountInfo8fromJSONERK10QByteArray@Base 4.80.0
@@ -94,14 +94,14 @@ libKF5GAPICore.so.5 libkf5gapicore5 #MINVER#
  _ZN6KGAPI23Job14enqueueRequestERK15QNetworkRequestRK10QByteArrayRK7QString@Base 4.80.0
  _ZN6KGAPI23Job14setErrorStringERK7QString@Base 4.80.0
  _ZN6KGAPI23Job16staticMetaObjectE@Base 4.80.0
- _ZN6KGAPI23Job7Private10_k_doStartEv@Base 4.80.0
- _ZN6KGAPI23Job7Private16_k_replyReceivedEP13QNetworkReply@Base 4.80.0
- _ZN6KGAPI23Job7Private17_k_doEmitFinishedEv@Base 4.80.0
- _ZN6KGAPI23Job7Private17parseErrorMessageERK10QByteArray@Base 4.80.0
- _ZN6KGAPI23Job7Private18_k_dispatchTimeoutEv@Base 4.80.0
- _ZN6KGAPI23Job7Private4initEv@Base 4.80.0
- _ZN6KGAPI23Job7PrivateC1EPS0_@Base 4.80.0
- _ZN6KGAPI23Job7PrivateC2EPS0_@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI23Job7Private10_k_doStartEv@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI23Job7Private16_k_replyReceivedEP13QNetworkReply@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI23Job7Private17_k_doEmitFinishedEv@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI23Job7Private17parseErrorMessageERK10QByteArray@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI23Job7Private18_k_dispatchTimeoutEv@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI23Job7Private4initEv@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI23Job7PrivateC1EPS0_@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI23Job7PrivateC2EPS0_@Base 4.80.0
  _ZN6KGAPI23Job7restartEv@Base 4.80.0
  _ZN6KGAPI23Job8finishedEPS0_@Base 4.80.0
  _ZN6KGAPI23Job8progressEPS0_ii@Base 4.80.0
@@ -113,10 +113,10 @@ libKF5GAPICore.so.5 libkf5gapicore5 #MINVER#
  _ZN6KGAPI23JobD0Ev@Base 4.80.0
  _ZN6KGAPI23JobD1Ev@Base 4.80.0
  _ZN6KGAPI23JobD2Ev@Base 4.80.0
- _ZN6KGAPI26Object7PrivateC1ERKS1_@Base 4.80.0
- _ZN6KGAPI26Object7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI26Object7PrivateC2ERKS1_@Base 4.80.0
- _ZN6KGAPI26Object7PrivateC2Ev@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI26Object7PrivateC1ERKS1_@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI26Object7PrivateC1Ev@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI26Object7PrivateC2ERKS1_@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI26Object7PrivateC2Ev@Base 4.80.0
  _ZN6KGAPI26Object7setEtagERK7QString@Base 4.80.0
  _ZN6KGAPI26ObjectC1ERKS0_@Base 4.80.0
  _ZN6KGAPI26ObjectC1Ev@Base 4.80.0
@@ -137,10 +137,10 @@ libKF5GAPICore.so.5 libkf5gapicore5 #MINVER#
  _ZN6KGAPI27Account17setExpireDateTimeERK9QDateTime@Base 4.80.0
  _ZN6KGAPI27Account19accountInfoScopeUrlEv@Base 4.80.0
  _ZN6KGAPI27Account24accountInfoEmailScopeUrlEv@Base 4.80.0
- _ZN6KGAPI27Account7PrivateC1ERKS1_@Base 4.80.0
- _ZN6KGAPI27Account7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI27Account7PrivateC2ERKS1_@Base 4.80.0
- _ZN6KGAPI27Account7PrivateC2Ev@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI27Account7PrivateC1ERKS1_@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI27Account7PrivateC1Ev@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI27Account7PrivateC2ERKS1_@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI27Account7PrivateC2Ev@Base 4.80.0
  _ZN6KGAPI27Account8addScopeERK4QUrl@Base 4.80.0
  _ZN6KGAPI27Account9setScopesERK5QListI4QUrlE@Base 4.80.0
  _ZN6KGAPI27AccountC1ERK7QStringS3_S3_RK5QListI4QUrlE@Base 4.80.0
@@ -160,13 +160,13 @@ libKF5GAPICore.so.5 libkf5gapicore5 #MINVER#
  _ZN6KGAPI27AuthJob15dispatchRequestEP21QNetworkAccessManagerRK15QNetworkRequestRK10QByteArrayRK7QString@Base 4.80.0
  _ZN6KGAPI27AuthJob16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI27AuthJob5startEv@Base 4.80.0
- _ZN6KGAPI27AuthJob7Private13refreshTokensEv@Base 4.80.0
- _ZN6KGAPI27AuthJob7Private18_k_destructDelayedEv@Base 4.80.0
- _ZN6KGAPI27AuthJob7Private18fullAuthenticationEv@Base 4.80.0
- _ZN6KGAPI27AuthJob7Private27_k_fullAuthenticationFailedENS_5ErrorERK7QString@Base 4.80.0
- _ZN6KGAPI27AuthJob7Private29_k_fullAuthenticationFinishedERK14QSharedPointerINS_7AccountEE@Base 4.80.0
- _ZN6KGAPI27AuthJob7PrivateC1EPS0_@Base 4.80.0
- _ZN6KGAPI27AuthJob7PrivateC2EPS0_@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI27AuthJob7Private13refreshTokensEv@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI27AuthJob7Private18_k_destructDelayedEv@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI27AuthJob7Private18fullAuthenticationEv@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI27AuthJob7Private27_k_fullAuthenticationFailedENS_5ErrorERK7QString@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI27AuthJob7Private29_k_fullAuthenticationFinishedERK14QSharedPointerINS_7AccountEE@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI27AuthJob7PrivateC1EPS0_@Base 4.80.0
+#MISSING: 5.1.0# _ZN6KGAPI27AuthJob7PrivateC2EPS0_@Base 4.80.0
  _ZN6KGAPI27AuthJobC1ERK14QSharedPointerINS_7AccountEERK7QStringS8_P7QObject@Base 4.80.0
  _ZN6KGAPI27AuthJobC1ERK14QSharedPointerINS_7AccountEERK7QStringS8_P7QWidget@Base 4.80.0
  _ZN6KGAPI27AuthJobC2ERK14QSharedPointerINS_7AccountEERK7QStringS8_P7QObject@Base 4.80.0
@@ -232,7 +232,7 @@ libKF5GAPICore.so.5 libkf5gapicore5 #MINVER#
  _ZNK6KGAPI210AuthWidget10metaObjectEv@Base 4.80.0
  _ZNK6KGAPI210AuthWidget11getProgressEv@Base 4.80.0
  _ZNK6KGAPI210AuthWidget18getShowProgressBarEv@Base 4.80.0
- _ZNK6KGAPI210AuthWidget7Private10metaObjectEv@Base 4.80.0
+#MISSING: 5.1.0# _ZNK6KGAPI210AuthWidget7Private10metaObjectEv@Base 4.80.0
  _ZNK6KGAPI211AccountInfo10familyNameEv@Base 4.80.0
  _ZNK6KGAPI211AccountInfo13verifiedEmailEv@Base 4.80.0
  _ZNK6KGAPI211AccountInfo2idEv@Base 4.80.0
@@ -270,7 +270,7 @@ libKF5GAPICore.so.5 libkf5gapicore5 #MINVER#
  _ZNK6KGAPI29CreateJob5itemsEv@Base 4.80.0
  _ZNK6KGAPI29DeleteJob10metaObjectEv@Base 4.80.0
  _ZNK6KGAPI29ModifyJob10metaObjectEv@Base 4.80.0
- _ZTIN6KGAPI210AuthWidget7PrivateE@Base 4.80.0
+#MISSING: 5.1.0# _ZTIN6KGAPI210AuthWidget7PrivateE@Base 4.80.0
  _ZTIN6KGAPI210AuthWidgetE@Base 4.80.0
  _ZTIN6KGAPI211AccountInfoE@Base 4.80.0
  _ZTIN6KGAPI217NewTokensFetchJobE@Base 4.80.0
@@ -283,7 +283,7 @@ libKF5GAPICore.so.5 libkf5gapicore5 #MINVER#
  _ZTIN6KGAPI29CreateJobE@Base 4.80.0
  _ZTIN6KGAPI29DeleteJobE@Base 4.80.0
  _ZTIN6KGAPI29ModifyJobE@Base 4.80.0
- _ZTSN6KGAPI210AuthWidget7PrivateE@Base 4.80.0
+#MISSING: 5.1.0# _ZTSN6KGAPI210AuthWidget7PrivateE@Base 4.80.0
  _ZTSN6KGAPI210AuthWidgetE@Base 4.80.0
  _ZTSN6KGAPI211AccountInfoE@Base 4.80.0
  _ZTSN6KGAPI217NewTokensFetchJobE@Base 4.80.0
@@ -296,7 +296,7 @@ libKF5GAPICore.so.5 libkf5gapicore5 #MINVER#
  _ZTSN6KGAPI29CreateJobE@Base 4.80.0
  _ZTSN6KGAPI29DeleteJobE@Base 4.80.0
  _ZTSN6KGAPI29ModifyJobE@Base 4.80.0
- _ZTVN6KGAPI210AuthWidget7PrivateE@Base 4.80.0
+#MISSING: 5.1.0# _ZTVN6KGAPI210AuthWidget7PrivateE@Base 4.80.0
  _ZTVN6KGAPI210AuthWidgetE@Base 4.80.0
  _ZTVN6KGAPI211AccountInfoE@Base 4.80.0
  _ZTVN6KGAPI217NewTokensFetchJobE@Base 4.80.0

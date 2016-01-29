@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.80.0 amd64
+# SymbolsHelper-Confirmed: 5.1.0 amd64
 libKF5GAPICalendar.so.5 libkf5gapicalendar5 #MINVER#
  _ZN6KGAPI212EventMoveJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.80.0
  _ZN6KGAPI212EventMoveJob11qt_metacastEPKc@Base 4.80.0
@@ -6,9 +6,6 @@ libKF5GAPICalendar.so.5 libkf5gapicalendar5 #MINVER#
  _ZN6KGAPI212EventMoveJob16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI212EventMoveJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 4.80.0
  _ZN6KGAPI212EventMoveJob5startEv@Base 4.80.0
- _ZN6KGAPI212EventMoveJob7Private16processNextEventEv@Base 4.80.0
- _ZN6KGAPI212EventMoveJob7PrivateC1EPS0_@Base 4.80.0
- _ZN6KGAPI212EventMoveJob7PrivateC2EPS0_@Base 4.80.0
  _ZN6KGAPI212EventMoveJobC1ERK11QStringListRK7QStringS6_RK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI212EventMoveJobC1ERK14QSharedPointerINS_5EventEERK7QStringS8_RKS1_INS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI212EventMoveJobC1ERK5QListI14QSharedPointerINS_5EventEEERK7QStringSA_RKS2_INS_7AccountEEP7QObject@Base 4.80.0
@@ -31,9 +28,6 @@ libKF5GAPICalendar.so.5 libkf5gapicalendar5 #MINVER#
  _ZN6KGAPI213EventFetchJob19setFetchOnlyUpdatedEy@Base 4.80.0
  _ZN6KGAPI213EventFetchJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 4.80.0
  _ZN6KGAPI213EventFetchJob5startEv@Base 4.80.0
- _ZN6KGAPI213EventFetchJob7Private13createRequestERK4QUrl@Base 4.80.0
- _ZN6KGAPI213EventFetchJob7PrivateC1EPS0_@Base 4.80.0
- _ZN6KGAPI213EventFetchJob7PrivateC2EPS0_@Base 4.80.0
  _ZN6KGAPI213EventFetchJob9setFilterERK7QString@Base 4.80.0
  _ZN6KGAPI213EventFetchJobC1ERK7QStringRK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI213EventFetchJobC1ERK7QStringS3_RK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
@@ -94,6 +88,7 @@ libKF5GAPICalendar.so.5 libkf5gapicalendar5 #MINVER#
  _ZN6KGAPI215CalendarService14removeEventUrlERK7QStringS3_@Base 4.80.0
  _ZN6KGAPI215CalendarService14updateEventUrlERK7QStringS3_@Base 4.80.0
  _ZN6KGAPI215CalendarService16fetchCalendarUrlERK7QString@Base 4.80.0
+ _ZN6KGAPI215CalendarService16freeBusyQueryUrlEv@Base 5.1.0
  _ZN6KGAPI215CalendarService17createCalendarUrlEv@Base 4.80.0
  _ZN6KGAPI215CalendarService17fetchCalendarsUrlEv@Base 4.80.0
  _ZN6KGAPI215CalendarService17removeCalendarUrlERK7QString@Base 4.80.0
@@ -105,9 +100,6 @@ libKF5GAPICalendar.so.5 libkf5gapicalendar5 #MINVER#
  _ZN6KGAPI216CalendarFetchJob16staticMetaObjectE@Base 4.80.0
  _ZN6KGAPI216CalendarFetchJob20handleReplyWithItemsEPK13QNetworkReplyRK10QByteArray@Base 4.80.0
  _ZN6KGAPI216CalendarFetchJob5startEv@Base 4.80.0
- _ZN6KGAPI216CalendarFetchJob7Private13createRequestERK4QUrl@Base 4.80.0
- _ZN6KGAPI216CalendarFetchJob7PrivateC1EPS0_@Base 4.80.0
- _ZN6KGAPI216CalendarFetchJob7PrivateC2EPS0_@Base 4.80.0
  _ZN6KGAPI216CalendarFetchJobC1ERK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI216CalendarFetchJobC1ERK7QStringRK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
  _ZN6KGAPI216CalendarFetchJobC2ERK14QSharedPointerINS_7AccountEEP7QObject@Base 4.80.0
@@ -115,6 +107,17 @@ libKF5GAPICalendar.so.5 libkf5gapicalendar5 #MINVER#
  _ZN6KGAPI216CalendarFetchJobD0Ev@Base 4.80.0
  _ZN6KGAPI216CalendarFetchJobD1Ev@Base 4.80.0
  _ZN6KGAPI216CalendarFetchJobD2Ev@Base 4.80.0
+ _ZN6KGAPI216FreeBusyQueryJob11handleReplyEPK13QNetworkReplyRK10QByteArray@Base 5.1.0
+ _ZN6KGAPI216FreeBusyQueryJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.0
+ _ZN6KGAPI216FreeBusyQueryJob11qt_metacastEPKc@Base 5.1.0
+ _ZN6KGAPI216FreeBusyQueryJob15dispatchRequestEP21QNetworkAccessManagerRK15QNetworkRequestRK10QByteArrayRK7QString@Base 5.1.0
+ _ZN6KGAPI216FreeBusyQueryJob16staticMetaObjectE@Base 5.1.0
+ _ZN6KGAPI216FreeBusyQueryJob5startEv@Base 5.1.0
+ _ZN6KGAPI216FreeBusyQueryJobC1ERK7QStringRK9QDateTimeS6_RK14QSharedPointerINS_7AccountEEP7QObject@Base 5.1.0
+ _ZN6KGAPI216FreeBusyQueryJobC2ERK7QStringRK9QDateTimeS6_RK14QSharedPointerINS_7AccountEEP7QObject@Base 5.1.0
+ _ZN6KGAPI216FreeBusyQueryJobD0Ev@Base 5.1.0
+ _ZN6KGAPI216FreeBusyQueryJobD1Ev@Base 5.1.0
+ _ZN6KGAPI216FreeBusyQueryJobD2Ev@Base 5.1.0
  _ZN6KGAPI217CalendarCreateJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.80.0
  _ZN6KGAPI217CalendarCreateJob11qt_metacastEPKc@Base 4.80.0
  _ZN6KGAPI217CalendarCreateJob16staticMetaObjectE@Base 4.80.0
@@ -157,10 +160,6 @@ libKF5GAPICalendar.so.5 libkf5gapicalendar5 #MINVER#
  _ZN6KGAPI217CalendarModifyJobD2Ev@Base 4.80.0
  _ZN6KGAPI25Event10setDeletedEb@Base 4.80.0
  _ZN6KGAPI25Event22setUseDefaultRemindersEb@Base 4.80.0
- _ZN6KGAPI25Event7PrivateC1ERKS1_@Base 4.80.0
- _ZN6KGAPI25Event7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI25Event7PrivateC2ERKS1_@Base 4.80.0
- _ZN6KGAPI25Event7PrivateC2Ev@Base 4.80.0
  _ZN6KGAPI25EventC1ERKN8KCalCore5EventE@Base 4.80.0
  _ZN6KGAPI25EventC1ERKS0_@Base 4.80.0
  _ZN6KGAPI25EventC1Ev@Base 4.80.0
@@ -179,10 +178,6 @@ libKF5GAPICalendar.so.5 libkf5gapicalendar5 #MINVER#
  _ZN6KGAPI28Calendar18setForegroundColorERK6QColor@Base 4.80.0
  _ZN6KGAPI28Calendar19setDefaultRemindersERK5QListI14QSharedPointerINS_8ReminderEEE@Base 4.80.0
  _ZN6KGAPI28Calendar6setUidERK7QString@Base 4.80.0
- _ZN6KGAPI28Calendar7PrivateC1ERKS1_@Base 4.80.0
- _ZN6KGAPI28Calendar7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI28Calendar7PrivateC2ERKS1_@Base 4.80.0
- _ZN6KGAPI28Calendar7PrivateC2Ev@Base 4.80.0
  _ZN6KGAPI28Calendar8setTitleERK7QString@Base 4.80.0
  _ZN6KGAPI28CalendarC1ERKS0_@Base 4.80.0
  _ZN6KGAPI28CalendarC1Ev@Base 4.80.0
@@ -192,10 +187,6 @@ libKF5GAPICalendar.so.5 libkf5gapicalendar5 #MINVER#
  _ZN6KGAPI28CalendarD1Ev@Base 4.80.0
  _ZN6KGAPI28CalendarD2Ev@Base 4.80.0
  _ZN6KGAPI28Reminder14setStartOffsetERKN8KCalCore8DurationE@Base 4.80.0
- _ZN6KGAPI28Reminder7PrivateC1ERKS1_@Base 4.80.0
- _ZN6KGAPI28Reminder7PrivateC1Ev@Base 4.80.0
- _ZN6KGAPI28Reminder7PrivateC2ERKS1_@Base 4.80.0
- _ZN6KGAPI28Reminder7PrivateC2Ev@Base 4.80.0
  _ZN6KGAPI28Reminder7setTypeERKN8KCalCore5Alarm4TypeE@Base 4.80.0
  _ZN6KGAPI28ReminderC1ERKN8KCalCore5Alarm4TypeERKNS1_8DurationE@Base 4.80.0
  _ZN6KGAPI28ReminderC1ERKS0_@Base 4.80.0
@@ -215,6 +206,11 @@ libKF5GAPICalendar.so.5 libkf5gapicalendar5 #MINVER#
  _ZNK6KGAPI214EventDeleteJob10metaObjectEv@Base 4.80.0
  _ZNK6KGAPI214EventModifyJob10metaObjectEv@Base 4.80.0
  _ZNK6KGAPI216CalendarFetchJob10metaObjectEv@Base 4.80.0
+ _ZNK6KGAPI216FreeBusyQueryJob10metaObjectEv@Base 5.1.0
+ _ZNK6KGAPI216FreeBusyQueryJob2idEv@Base 5.1.0
+ _ZNK6KGAPI216FreeBusyQueryJob4busyEv@Base 5.1.0
+ _ZNK6KGAPI216FreeBusyQueryJob7timeMaxEv@Base 5.1.0
+ _ZNK6KGAPI216FreeBusyQueryJob7timeMinEv@Base 5.1.0
  _ZNK6KGAPI217CalendarCreateJob10metaObjectEv@Base 4.80.0
  _ZNK6KGAPI217CalendarDeleteJob10metaObjectEv@Base 4.80.0
  _ZNK6KGAPI217CalendarModifyJob10metaObjectEv@Base 4.80.0
@@ -238,6 +234,7 @@ libKF5GAPICalendar.so.5 libkf5gapicalendar5 #MINVER#
  _ZTIN6KGAPI214EventDeleteJobE@Base 4.80.0
  _ZTIN6KGAPI214EventModifyJobE@Base 4.80.0
  _ZTIN6KGAPI216CalendarFetchJobE@Base 4.80.0
+ _ZTIN6KGAPI216FreeBusyQueryJobE@Base 5.1.0
  _ZTIN6KGAPI217CalendarCreateJobE@Base 4.80.0
  _ZTIN6KGAPI217CalendarDeleteJobE@Base 4.80.0
  _ZTIN6KGAPI217CalendarModifyJobE@Base 4.80.0
@@ -250,6 +247,7 @@ libKF5GAPICalendar.so.5 libkf5gapicalendar5 #MINVER#
  _ZTSN6KGAPI214EventDeleteJobE@Base 4.80.0
  _ZTSN6KGAPI214EventModifyJobE@Base 4.80.0
  _ZTSN6KGAPI216CalendarFetchJobE@Base 4.80.0
+ _ZTSN6KGAPI216FreeBusyQueryJobE@Base 5.1.0
  _ZTSN6KGAPI217CalendarCreateJobE@Base 4.80.0
  _ZTSN6KGAPI217CalendarDeleteJobE@Base 4.80.0
  _ZTSN6KGAPI217CalendarModifyJobE@Base 4.80.0
@@ -262,6 +260,7 @@ libKF5GAPICalendar.so.5 libkf5gapicalendar5 #MINVER#
  _ZTVN6KGAPI214EventDeleteJobE@Base 4.80.0
  _ZTVN6KGAPI214EventModifyJobE@Base 4.80.0
  _ZTVN6KGAPI216CalendarFetchJobE@Base 4.80.0
+ _ZTVN6KGAPI216FreeBusyQueryJobE@Base 5.1.0
  _ZTVN6KGAPI217CalendarCreateJobE@Base 4.80.0
  _ZTVN6KGAPI217CalendarDeleteJobE@Base 4.80.0
  _ZTVN6KGAPI217CalendarModifyJobE@Base 4.80.0
